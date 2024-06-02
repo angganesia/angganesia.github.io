@@ -1,0 +1,35 @@
+name: Bondan Murdani Soleh
+dp: https://avatars.githubusercontent.com/u/42795436?v=4
+navigasi: " <p>
+  <a href='https://papabondan.github.io/about'>About</a> | 
+  <a href='https://papabondan.github.io/contact'>Contact</a> | 
+  <a href='https://papabondan.github.io/sitemaps'>Sitemap</a>
+  </p> <br/>"
+description: "
+  <p>
+    Karyawan PT Sygma Daya Insani.
+  </p>
+  <br/>
+  <p>
+    Rajin belajar dan bekerja serta cinta keluarga 
+  </P>
+   <br/>
+  <p>
+    Klik untuk akun github saya <a href='https://github.com/papabondan' target='_blank'> Github</a>
+  </p>
+ 
+"
+form: moqrjrbp
+contact-title: Contact
+email: murdani.bondan.bm@gmail.com
+contact:
+  - title: linkedin
+    url: https://www.linkedin.com/in/bondan-murdani-soleh-35b02b131/
+  - title: github
+    url: https://github.com/papabondan
+  - title: twitter
+    url: https://twitter.com/bondanhadoh
+  - title: dev
+    url: https://dev.to/
+  - title: email
+    url: mailto:murdani.bondan.bm@gmail.com

@@ -1,0 +1,40 @@
+title: Gold Maker
+markdown: kramdown
+url: ""
+baseurl: "/"
+
+# for atom feed
+author:
+  name: Angga Pratama
+  email: angganesia@gmail.com
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-google-search-console-verification-file
+  
+paginate: 4
+paginate_path: "/page:num/"
+
+ganalytics: #G-MHM0H992ND
+google_search_console:
+       verification_file_code: #54b942591f95001
+google_site_verification: #MlRRgSGk4N__3IfNNOPBntHv5Go9dl7hOcreAKPQHlo
+enable_google_verification: false #true
+  
+
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: /:title/
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
