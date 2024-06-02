@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Sitemap
-categories: [catatan, jekyll, moonrise, toram online]
+categories: "[catatan, jekyll]
+[Moonrise, Toram Online]
+"
 ---
 
 
