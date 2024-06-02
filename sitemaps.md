@@ -1,17 +1,8 @@
 ---
 layout: page
-title: Sitemaps
+title: Sitemap
 categories: [Catatan, jekyll, Moonrise, Toram Online]
 ---
-
-
-
-
-
-
-
-
-
 
 
 
