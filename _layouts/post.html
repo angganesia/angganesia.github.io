@@ -5,10 +5,7 @@
 <body>
   <main>
     {% include header.html %}
-    <div class="gototop">
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="content">{% include gototop.html %}</div>
     <section class="article">
       <div class="article-header">
         <h2 class="article-title">{{page.title}}</h2>
