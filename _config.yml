@@ -22,10 +22,10 @@ paginate_path: "/page:num/"
 ganalytics: G-TJSQ4D8SZG #G-MHM0H992ND
 google_search_console:
        verification_file_code: #54b942591f95001
-google_site_verification: #MlRRgSGk4N__3IfNNOPBntHv5Go9dl7hOcreAKPQHlo
+google_site_verification: EqDSYzZON_pAUCee2IQPuw6Nm0kSrILUD75lEOdMyS0
 enable_google_verification: true
   
-
+  
 collections_dir: all_collections
 collections:
   posts:
