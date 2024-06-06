@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  Raid Guild Weekly
-date:   2024-06-01 01:01:35 +0300
-image:  /images/moonrise/2024-06-01/IMG-20240602-WA0047.jpg
+date:   2024-06-01 01:01:35 +0700
 tags:   Toram-Online Moonrise
 ---
 
