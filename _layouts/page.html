@@ -1,44 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{site.title}} | {{page.title}}</title>
-  {% if page.layout == "page" %}
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/post.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css" />
-  {% else %}
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/blog.css" />
-  {%endif%}
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css" />
-  <script src="{{site.baseurl}}/assets/js/categories.js"></script>
-  {% if page.layout == "page" %}
-  <script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>
-  {% endif %}
+---
+layout: default
+---
+<div class="container">
+	<div class="page-title-box">
+		<div class="row">
+			<div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
+				<h1 class="page-title">{{ page.title | escape }}</h1>
+			</div>
+		</div>
+	</div>
 
-  </head>
-  <body>
-    <main>
-      {% include header.html %}
-   
-      <section class="article">
-        <div class="article-header">
-          <h2 class="article-title">{{page.title}}</h2>
-          <small class="date">{{page.date | date_to_string}}</small>
-          <div class="categories">
-            {% for c in page.categories %}
-            <a href="#!" class="category">{{c}}</a>
-            {% endfor %}
-          </div>
-        </div>
-        
-        <div class="content">{{content}}</div>
-        
-        
-      </section>
-      {% include footer.html %}
-    </main>
-    {% include category-modal.html%}
-  </body>
-</html>
+	{% if page.image %}
+	<div class="page__head">
+		<div class="page-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
+	</div>
+	{% endif %}
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<!-- begin page -->
+		<article class="page col col-8 col-t-10 col-m-12">
+			<div class="page__content">
+				{{ content }}
+			</div>
+		</article>
+		<!-- end page -->
+	</div>
+</div>

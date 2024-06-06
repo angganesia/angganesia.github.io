@@ -1,20 +1,23 @@
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  {% seo %}
-  <title>{{site.title}} | {{page.title}}</title>
-  {% if page.layout == "post" %}
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/post.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css" />
-  {% else %}
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/blog.css" />
-  {%endif%}
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css" />
-  <script src="{{site.baseurl}}/assets/js/categories.js"></script>
-  {% if page.layout == "post" %}
-  <script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>
-  {% endif %}
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/gototop.css" />
-  <script src="{{site.baseurl}}/assets/js/gototop.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
+  <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}'>
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <!-- Ionicons -->
+  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <style>
+  {% capture include_to_scssify %}
+    {% include main.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+  </style>
 </head>

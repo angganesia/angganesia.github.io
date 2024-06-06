@@ -1,41 +1,35 @@
-title: Gold Maker
+baseurl: "/zolan" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Build settings
 markdown: kramdown
-url: ""
-baseurl: "/"
-
-# for atom feed
-author:
-  name: Angga Pratama
-  email: angganesia@gmail.com
-
+permalink: pretty
 plugins:
-  - jemoji
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
   - jekyll-paginate
-  - jekyll-google-search-console-verification-file
-  
-paginate: 4
-paginate_path: "/page:num/"
+  - jekyll-sitemap
+  - jekyll/tagging
 
-ganalytics: G-TJSQ4D8SZG #G-MHM0H992ND
-google_search_console:
-       verification_file_code: EqDSYzZON_pAUCee2IQPuw6Nm0kSrILUD75lEOdMyS0 #54b942591f95001
-google_site_verification: EqDSYzZON_pAUCee2IQPuw6Nm0kSrILUD75lEOdMyS0
-enable_google_verification: true
-  
-  
-collections_dir: all_collections
-collections:
-  posts:
-    output: true
+paginate: 5
+paginate_path: "/page/:num"
 
+
+# Pages Path
 defaults:
   - scope:
-      path: "_posts"
+      path: '_pages'
     values:
-      layout: "post"
-      sitemap: true
-      permalink: /:title/
-exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
