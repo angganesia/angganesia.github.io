@@ -29,9 +29,11 @@ Ditab Events ini kita bisa melihat daftar list perintah yang akan menentukan set
 
 Ditab EventsSettings kita bisa melihat name, conditions, state.
 
-> Name : memberi nama pada events
-> Conditions : events akan berjalan terus menerus jika status **All** dan berjalan sekali jika status **One**
-> State : events akan aktif jika status **Enable** dan mati jika **Disable**
+> Name : memberi nama pada events.
+>
+> Conditions : events akan berjalan terus menerus jika status **All** dan berjalan sekali jika status **One**.
+>
+> State : events akan aktif jika status **Enable** dan mati jika **Disable**.
 
 ##### Events - Conditions
 
@@ -48,7 +50,11 @@ Ditab EventsConditions berisi gambar dari kondisi yang akan kita lakukan.
 Ditab EventsActions berisi perintah yang akan kita lakukan.
 
 > Click : melakukan perintah klik tergantung berapa lama kita menentukan _press duration_, semakin lama _press duration_ semakin lama pula durasi kliknya.
-> Swipe : melakukan perintah swipe
+>
+> Swipe : melakukan perintah swipe.
+>
 > Wait : memberi jeda waktu tunggu.
+>
 > Intent : membuka aplikasi lain.
+>
 > Change event state : merubah status state pada event tertentu menjadi enable atau disable.
