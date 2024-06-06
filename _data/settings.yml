@@ -30,7 +30,7 @@ disqus-identifier: GM # add your shortname for Disqus Comment. For example mr-br
 
 #-------------------------------
 # Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
 instagram-profile: angga_p27 # Add instagram username
 
 
