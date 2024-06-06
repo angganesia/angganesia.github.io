@@ -19,11 +19,11 @@ plugins:
 paginate: 4
 paginate_path: "/page:num/"
 
-ganalytics: #G-MHM0H992ND
+ganalytics: G-TJSQ4D8SZG #G-MHM0H992ND
 google_search_console:
        verification_file_code: #54b942591f95001
 google_site_verification: #MlRRgSGk4N__3IfNNOPBntHv5Go9dl7hOcreAKPQHlo
-enable_google_verification: false #true
+enable_google_verification: true
   
 
 collections_dir: all_collections
