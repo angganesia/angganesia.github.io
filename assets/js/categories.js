@@ -30,20 +30,3 @@ window.onload = function() {
     document.querySelector("#category-modal").classList.toggle("open");
   })
 };
-
-
-/* =======================
-// Scroll Top Button
-======================= */
-$(".top").click(function() {
-  $("html, body")
-    .stop()
-    .animate({ scrollTop: 0 }, "slow", "swing");
-});
-$(window).scroll(function() {
-  if ($(this).scrollTop() > $(window).height()) {
-    $(".top").addClass("is-active");
-  } else {
-    $(".top").removeClass("is-active");
-  }
-});
