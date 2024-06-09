@@ -28,8 +28,7 @@ enable_google_verification: true
 
 
 defaults:
-  - 
-  scope:
+  - scope:
       path: "_posts"
     values:
       layout: "post"
