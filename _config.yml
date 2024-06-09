@@ -46,5 +46,5 @@ defaults:
   scope:
       path: "_pages"
     values:
-      permalink: /:categories/:title/
+      permalink: /tespage/:title/
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
