@@ -36,7 +36,7 @@ header {
 header .site-title {
   font-size: 4rem;
   font-weight: bolder;
-  line-height: 110%;
+  line-height: 10%;
   color: var(--white-1);
 }
 main {
