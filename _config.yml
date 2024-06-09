@@ -42,9 +42,4 @@ defaults:
     values:
       layout: "post"
       permalink: /:categories/:title/
-  -
-  scope:
-      path: "_pages"
-    values:
-      permalink: /tespage/:title/
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
