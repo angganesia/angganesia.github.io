@@ -1,7 +1,7 @@
 title: GoldMaker
 markdown: kramdown
 url: ""
-baseurl: ""
+baseurl: "/"
 
 # for atom feed
 author:
@@ -32,8 +32,6 @@ enable_google_verification: true
 collections:
   posts:
     output: true
-    
-permalink: pretty
 
 defaults:
   - 
