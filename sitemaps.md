@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sitemap
-categories:
+categories: ["c"]
 ---
 
 ### [catatan](categories:catatan)
