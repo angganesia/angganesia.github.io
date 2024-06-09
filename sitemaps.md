@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sitemap
-categories: {{% post.categories %}}
+categories: [ {{% post.categories %}} ]
 ---
 
 
