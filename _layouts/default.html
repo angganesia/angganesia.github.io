@@ -1,7 +1,16 @@
 <!doctype html>
 <html>
-  {% include head.html %}
-  <body>
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
     {{ content }}
-  </body>
+  </main>
+  <!-- end content -->
+
+</body>
+
 </html>
