@@ -27,16 +27,16 @@ body {
   color: var(--white-2);
   background-color: var(--gray-6);
   font-family: "JetBrains Mono", monospace;
-  line-height: 2rem;
+  line-height: 0.5rem;
   background-color: var(--gray-5);
 }
 header {
-  padding: 2rem 0 4rem 0;
+  padding: 1rem 0 1rem 0;
 }
 header .site-title {
   font-size: 4rem;
   font-weight: bolder;
-  line-height: 110%;
+  line-height: 10%;
   color: var(--white-1);
 }
 main {
