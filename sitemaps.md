@@ -4,4 +4,4 @@ title: Sitemap
 categories: [catatan]
 ---
 
-{% include page.category %}
+{% page.categories %}
