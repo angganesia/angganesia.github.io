@@ -8,9 +8,6 @@ author:
   name: GoldMaker
   email: angganesia@gmail.com
 
-jekyll-archives:
-  enabled:
-    - categories
     
 plugins:
   - jemoji
@@ -29,9 +26,6 @@ google_search_console:
 google_site_verification: EqDSYzZON_pAUCee2IQPuw6Nm0kSrILUD75lEOdMyS0
 enable_google_verification: true
 
-collections:
-  posts:
-    output: true
 
 defaults:
   - 
