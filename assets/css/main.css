@@ -31,7 +31,7 @@ body {
   background-color: var(--gray-5);
 }
 header {
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 4rem 0;
 }
 header .site-title {
   font-size: 4rem;
