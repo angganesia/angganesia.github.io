@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Sitemap
-categories: [catatan]
+categories: [catatan,
+jekyll]
 ---
 
 {% page.categories %}
