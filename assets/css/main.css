@@ -22,9 +22,7 @@
 * img {
   max-width: 100%;
 }
-html {
-  scroll-behavior: smooth;
-}
+html ,
 body {
   color: var(--white-2);
   background-color: var(--gray-6);
