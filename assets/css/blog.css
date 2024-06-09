@@ -31,12 +31,11 @@ body {
   background-color: var(--gray-5);
 }
 header {
-  padding: 2rem 0 4rem 0;
+  padding: 2rem 0 2rem 0;
 }
 header .site-title {
   font-size: 4rem;
   font-weight: bolder;
-  margin-top: 1rem;
   line-height: 10%;
   color: var(--white-1);
 }
