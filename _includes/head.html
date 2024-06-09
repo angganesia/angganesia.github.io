@@ -6,9 +6,10 @@
   <title>{{site.title}} | {{page.title}}</title>
 
   <style>
-  @import '1-modules/common';
-  @import '1-modules/main';
-  @import '1-modules/scroll_button_up';
+  {% capture include_to_scssify %}
+    {% include main.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
   </style>
   
   
