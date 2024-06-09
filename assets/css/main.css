@@ -22,7 +22,7 @@
 * img {
   max-width: 100%;
 }
-html ,
+html,
 body {
   color: var(--white-2);
   background-color: var(--gray-6);
@@ -31,10 +31,9 @@ body {
   background-color: var(--gray-5);
 }
 header {
-  padding: 0.5rem 0 1rem 0;
+  padding: 2rem 0 4rem 0;
 }
 header .site-title {
-  padding-top: 5%;
   font-size: 4rem;
   font-weight: bolder;
   line-height: 110%;
@@ -43,7 +42,7 @@ header .site-title {
 main {
   margin: 0 auto;
   max-width: 650px;
-  padding: 1rem 0;
+  padding: 3rem 0;
 }
 
 /* header */
@@ -82,16 +81,6 @@ main {
 }
 #social-wrapper img:hover {
   transform: scale(1.2);
-}
-
-/* back to top */
-#top a {
-padding: 1rem;
-background-color: red;
-color: black;
-position: fixed;
-right: 1rem;
-bottom: 1rem;
 }
 
 /* article section */
