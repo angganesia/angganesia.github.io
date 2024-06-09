@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sitemap
-categories: ["catatan"]
+categories: [catatan]
 ---
 
-### [catatan]({% categories:catatan %})
+{% include page.category %}
