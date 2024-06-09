@@ -1,12 +1,12 @@
-title: Papa Bondan
+title: GoldMaker
 markdown: kramdown
 url: ""
 baseurl: "/"
 
 # for atom feed
 author:
-  name: Bondan Murdani Soleh
-  email: murdani.bondan.bm@gmail.com
+  name: GoldMaker
+  email: angganesia@gmail.com
 
 plugins:
   - jemoji
@@ -19,10 +19,10 @@ plugins:
 paginate: 4
 paginate_path: "/page:num/"
 
-ganalytics: G-MHM0H992ND
+ganalytics: G-TJSQ4D8SZG
 google_search_console:
        verification_file_code: 54b942591f95001
-google_site_verification: MlRRgSGk4N__3IfNNOPBntHv5Go9dl7hOcreAKPQHlo
+google_site_verification: EqDSYzZON_pAUCee2IQPuw6Nm0kSrILUD75lEOdMyS0
 enable_google_verification: true
   
 
