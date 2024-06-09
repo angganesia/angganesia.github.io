@@ -27,7 +27,7 @@ body {
   color: var(--white-2);
   background-color: var(--gray-6);
   font-family: "JetBrains Mono", monospace;
-  line-height: 0.5rem;
+  line-height: 2rem;
   background-color: var(--gray-5);
 }
 header {
