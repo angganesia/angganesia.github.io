@@ -25,11 +25,6 @@ google_search_console:
 google_site_verification: EqDSYzZON_pAUCee2IQPuw6Nm0kSrILUD75lEOdMyS0
 enable_google_verification: true
 
-  
-collections_dir: all_collections
-collections:
-  posts:
-    output: true
     
 defaults:
   - scope:
