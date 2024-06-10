@@ -9,8 +9,8 @@ title: Home
       <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
     </h2>
     <small class="date">{{post.date | date_to_string}}</small>
-    <div class="categories">
-      {% for c in post.categories %}
+    <div class="tag">
+      {% for c in post.tag %}
       <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
       {% endfor %}
     </div>
