@@ -4,7 +4,7 @@ navigasi: " <p>
   <a href='/about'>About</a> | 
   <a href='/contact'>Contact</a> | 
   <a href='/store'>Store</a> |
-  <a href='/pages/sitemaps'>Sitemap</a>
+  <a href='/:categories/sitemaps'>Sitemap</a>
   </p> <br/>"
 description: "
   <p>

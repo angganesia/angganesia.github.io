@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sitemap
+title: sitemap
 categories: [catatan]
 ---
 
