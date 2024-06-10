@@ -1,16 +1,17 @@
 ---
 layout: default
 title: Home
+
 ---
 <section class="articles">
   {% for post in paginator.posts %}
   <article class="article">
-    <h2 class="article-title">
+    <h2 class="article-categories">
       <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
     </h2>
     <small class="date">{{post.date | date_to_string}}</small>
-    <div class="tag">
-      {% for c in post.tag %}
+    <div class="categories">
+      {% for c in post.categories %}
       <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
       {% endfor %}
     </div>
