@@ -8,7 +8,7 @@ author:
   name: GoldMaker
   email: angganesia@gmail.com
 
-    
+permalink: pretty    
 plugins:
   - jemoji
   - jekyll-seo-tag
@@ -37,5 +37,9 @@ defaults:
       path: "_pages"
     values:
       layout: "page"
-      permalink: /:categories/:title/
+      permalink: /:basename:output_ext
+      
+include:
+  - _pages
+  
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
