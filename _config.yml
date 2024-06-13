@@ -37,7 +37,7 @@ defaults:
       path: "_pages"
     values:
       layout: "page"
-      permalink: /:basename:output_ext
+      permalink: /:categories/:title/
 
 include:
   - _pages
