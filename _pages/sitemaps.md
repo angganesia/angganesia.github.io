@@ -5,9 +5,7 @@ permalink: /sitemap/
 categories: [catatan]
 ---
 
-{% include category-modal.html %}
-
-# tes 1
+# tes xxx
 #### header 4
 1. tes
     1. tes 1
