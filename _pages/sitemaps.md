@@ -1,7 +1,6 @@
 ---
-layout: page
 title: sitemap
-permalink: /sitemap/
+permalink: /sitemap
 categories: [catatan]
 ---
 
