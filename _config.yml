@@ -29,7 +29,7 @@ enable_google_verification: true
 
 defaults:
   - scope:
-      path: ""
+      path: "index.html"
     values:
       layout: "default"
   - scope:
