@@ -23,6 +23,6 @@ categories: [catatan]
 {% include pagination.html %}
 
 1. tes
-  1. tes 1
-  1. tes 2
-  1. tes 3
+    1. tes 1
+    1. tes 2
+    1. tes 3
