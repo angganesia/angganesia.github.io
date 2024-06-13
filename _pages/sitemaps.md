@@ -5,11 +5,7 @@ permalink: /sitemap/
 categories: [catatan]
 ---
 
-<div class="categories">
-  {% for c in post.categories.catatan %}
-  <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
-  {% endfor %}
-</div>
+[catatan]({{post.categories.catatan}})
 
 #### header 4
 1. tes
