@@ -1,6 +1,7 @@
 ---
 title: sitemap
 categories: [catatan]
+permalink: /:categories/:title/
 ---
 
 # tes xx
