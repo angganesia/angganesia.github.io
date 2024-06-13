@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: page
 title: sitemap
 permalink: /sitemap/
 categories: [catatan]
 ---
 
 <section class="articles">
-  {% for post in paginator.posts %}
+  {% for post in site.categories.CATEGORY %}
   <article class="article">
     <h2 class="article-title">
       <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
