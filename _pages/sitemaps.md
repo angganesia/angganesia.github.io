@@ -4,7 +4,7 @@ categories: [catatan]
 permalink: /sitemap/
 ---
 
-# {{site.categories}}
+# {% site.categories.jekyll %}
 #### header 4
 1. tes
     1. tes 1
