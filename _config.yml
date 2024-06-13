@@ -43,9 +43,6 @@ defaults:
       layout: "page"
       permalink: /:basename:output_ext
       
-jekyll-archives:
-  enabled:
-    - categories
     
 include:
   - _pages
