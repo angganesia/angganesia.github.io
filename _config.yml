@@ -29,10 +29,6 @@ enable_google_verification: true
 
 defaults:
   - scope:
-      path: "index.html"
-    values:
-      layout: "default"
-  - scope:
       path: "_posts"
     values:
       layout: "post"
@@ -43,8 +39,4 @@ defaults:
       layout: "page"
       permalink: /:basename:output_ext
       
-    
-include:
-  - _pages
-  
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
