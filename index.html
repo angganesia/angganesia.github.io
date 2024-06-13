@@ -11,7 +11,7 @@ title: Home
     </h2>
     <small class="date">{{post.date | date_to_string}}</small>
     <div class="categories">
-      {% for c in site.categories.jekyll %}
+      {% for c in post.categories.jekyll %}
       <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
       {% endfor %}
     </div>
