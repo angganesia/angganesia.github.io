@@ -29,6 +29,10 @@ enable_google_verification: true
 
 defaults:
   - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
       path: "_posts"
     values:
       layout: "post"
@@ -39,6 +43,10 @@ defaults:
       layout: "page"
       permalink: /:basename:output_ext
       
+jekyll-archives:
+  enabled:
+    - categories
+    
 include:
   - _pages
   
