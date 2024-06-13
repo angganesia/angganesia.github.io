@@ -24,5 +24,5 @@ categories: [catatan]
 
 1. tes
   1. tes 1
-  2. tes 2
-  3. tes 3
+  1. tes 2
+  1. tes 3
