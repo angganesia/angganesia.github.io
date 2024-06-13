@@ -5,7 +5,7 @@ permalink: /sitemap/
 categories: [catatan]
 ---
 
-[catatan]({{site.categories.catatan}})
+[catatan]({% site.categories.catatan %})
 
 #### header 4
 1. tes
