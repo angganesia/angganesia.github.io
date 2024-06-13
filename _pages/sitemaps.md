@@ -6,11 +6,12 @@ categories: [catatan]
 ---
 
 <div class="categories">
-  {% for c in post.categories %}
+  {% for c in post.categories.catatan %}
   <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
   {% endfor %}
 </div>
 
+# tes
 #### header 4
 1. tes
     1. tes 1
