@@ -1,5 +1,6 @@
 ---
 title: Kalkulator - Toram Online
+layout: me
 categories: [Toram Online, catatan]
 permalink: /totes/
 ---
