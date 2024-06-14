@@ -1,21 +1,30 @@
 ---
-layout: default
-title: Home
+title: Find Your Spirit Animal
+hero: Find your spirit animal
+subtitle: The animal friendly clothing company
 ---
 
-<section class="articles">
-  {% for post in paginator.posts %}
-  <article class="article">
-    <h2 class="article-title">
-      <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
-    </h2>
-    <small class="date">{{post.date | date_to_string}}</small>
-    <div class="categories">
-      {% for c in post.categories %}
-      <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
-      {% endfor %}
-    </div>
-  </article>
-  {% endfor %}
-</section>
-{% include pagination.html %}
+<div class="content" id="products">
+	<section>
+		<div class="container">
+			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
+			<ul class="product-list">
+				{% for product in site.products %}
+					<li>
+						{% include product-styles.html product=product %}
+						<div class="product-details">
+							<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
+							<div class="product-description">
+								{{ product.description_markdown | truncate: 45 | markdownify }}
+							</div>
+							<p>${{ product.price }}</p>
+						</div>
+					</li>
+				{% endfor %}
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</section>
+</div>

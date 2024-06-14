@@ -1,45 +1,79 @@
-title: GoldMaker
-markdown: kramdown
-url: ""
-baseurl: "/"
+# ----
+# Site
 
-# for atom feed
+title: Fur
+url: "http://turquoise-rook.cloudvent.net/"
+baseurl:
+google_analytics_key:
+google_maps_javascript_api_key:
+snipcart_key: "NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5ODg1ODkw"
+snipcart_currency: "usd"
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Fur t-shirt store
 author:
-  name: GoldMaker
-  email: angganesia@gmail.com
+  name: fur
+  email: fur@example.com
+  twitter: fur # twitter username without the @ symbol
+  phone: "+1 23456789"
+social:
+  name: Fur Template
+  links:
+    - https://github.com/CloudCannon/fur-jekyll-template
 
-permalink: pretty    
-plugins:
-  - jemoji
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-google-search-console-verification-file
-  
-paginate: 4
-paginate_path: "/page:num/"
+# -----
+# Build
+timezone: Etc/UTC
 
-ganalytics: G-TJSQ4D8SZG
-google_search_console:
-       verification_file_code: 54b942591f95001
-google_site_verification: EqDSYzZON_pAUCee2IQPuw6Nm0kSrILUD75lEOdMyS0
-enable_google_verification: true
+collections:
+  staff_members:
+    output: false
+  products:
+    output: true
 
+permalink: pretty
 
 defaults:
-  - scope:
-      path: "_posts"
+  -
+    scope:
+      path: ""
+      type: "products"
     values:
-      layout: "post"
-      permalink: /:categories/:title/
-  - scope:
-      path: "_pages"
+      layout: "product"
+  -
+    scope:
+      path: ""
     values:
       layout: "page"
-      permalink: /:basename:output_ex
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "default"
 
-include:
-  - _pages
-  
-exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
+jekyll-archives:
+  enabled:
+    - categories
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+social_icons:
+  - Email
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - RSS

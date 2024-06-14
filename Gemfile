@@ -1,9 +1,8 @@
-# frozen_string_literal: true
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jemoji"
-gem "jekyll-seo-tag"
-gem "jekyll-sitemap"
-gem "jekyll-feed"
-gem "jekyll-paginate"
-gem "jekyll-google-search-console-verification-file"
+gem 'jekyll', '4.2.1'
+
+group :jekyll_plugins do
+  gem 'jekyll-seo-tag', '2.6.1'
+  gem 'jekyll-sitemap', '1.3.1'
+end
