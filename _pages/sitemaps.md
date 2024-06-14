@@ -3,10 +3,11 @@ title: sitemap
 permalink: /sitemap/
 ---
 
-###### Toram Onlie
+###### Kategory
 <div class="categories">
   <a href="#!" class="category">catatan</a>
   <a href="#!" class="category">jekyll</a>
+  <a href="#!" class="category">Toram online</a>
 </div>
 
 ###### Toram Online
