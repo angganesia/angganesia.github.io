@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html>
 
@@ -15,83 +17,82 @@
   <link rel="stylesheet" href="/assets/css/main.css" />
 
   <link rel="stylesheet" href="/assets/css/common.css" />
-  <style>
-    input {
-      width: 25%;
-      padding: 1px 5px;
-    }
-
-    select {
-      width: 25%;
-      padding: 1px 5px;
-    }
-  </style>
+<style>
+  input {
+    width: 25%;
+    padding: 1px 5px;
+  }
+  select {
+    width: 25%;
+    padding: 1px 5px;
+  }
+</style>
 </head>
 
 <body>
   <main>
     {% include header.html %}
-
+    
     {% include nav.html %}
-    <form>
+  <form>
 
 
 
-      <h4>Bahan 1</h4>
-      <input type="number" id="bahan1" placeholder="Jumlah" name="bahan1">
-      <input type="number" id="bahan1stk" value="1" placeholder="30/90/etc">
-      <input type="number" id="bahan1harga" placeholder="Harga perStk">
+    <h4>Bahan 1</h4>
+    <input type="number" id="bahan1" placeholder="Jumlah" name="bahan1">
+    <input type="number" id="bahan1stk" value="1" placeholder="30/90/etc">
+    <input type="number" id="bahan1harga" placeholder="Harga perStk">
 
-      <br>
-      <h4>Bahan 2</h4>
-      <input type="number" id="bahan2" placeholder="Jumlah bahan 2">
-      <input type="number" id="bahan2stk" value="1" placeholder="30/90/etc">
-      <input type="number" id="bahan2harga" placeholder="Harga perStk">
+    <br>
+    <h4>Bahan 2</h4>
+    <input type="number" id="bahan2" placeholder="Jumlah bahan 2">
+    <input type="number" id="bahan2stk" value="1" placeholder="30/90/etc">
+    <input type="number" id="bahan2harga" placeholder="Harga perStk">
 
-      <br>
-      <h4>Bahan 3</h4>
-      <input type="number" id="bahan3" placeholder="Jumlah bahan 3">
-      <input type="number" id="bahan3stk" value="1" placeholder="30/90/etc">
-      <input type="number" id="bahan3harga" placeholder="Harga perStk">
+    <br>
+    <h4>Bahan 3</h4>
+    <input type="number" id="bahan3" placeholder="Jumlah bahan 3">
+    <input type="number" id="bahan3stk" value="1" placeholder="30/90/etc">
+    <input type="number" id="bahan3harga" placeholder="Harga perStk">
 
-      <br>
-      <h4>Bahan 4</h4>
-      <input type="number" id="bahan4" placeholder="Jumlah bahan 4">
-      <input type="number" id="bahan4stk" value="1" placeholder="30/90/etc">
-      <input type="number" id="bahan4harga" placeholder="Harga perStk">
+    <br>
+    <h4>Bahan 4</h4>
+    <input type="number" id="bahan4" placeholder="Jumlah bahan 4">
+    <input type="number" id="bahan4stk" value="1" placeholder="30/90/etc">
+    <input type="number" id="bahan4harga" placeholder="Harga perStk">
 
-      <br>
-      <h4>Bahan 5</h4>
-      <input type="number" id="bahan5" placeholder="Jumlah bahan 5">
-      <input type="number" id="bahan5stk" value="1" placeholder="30/90/etc">
-      <input type="number" id="bahan5harga" placeholder="Harga perStk">
+    <br>
+    <h4>Bahan 5</h4>
+    <input type="number" id="bahan5" placeholder="Jumlah bahan 5">
+    <input type="number" id="bahan5stk" value="1" placeholder="30/90/etc">
+    <input type="number" id="bahan5harga" placeholder="Harga perStk">
 
-      <br>
-      <h4>Max Item Creat</h4>
-      <input type="number" id="maxcreatitem" placeholder="Jumlah Max sekali buat">
+    <br>
+    <h4>Max Item Creat</h4>
+    <input type="number" id="maxcreatitem" placeholder="Jumlah Max sekali buat">
 
-      <br>
-      <h4>Berapa stk yang ingin di buat ?</h4>
-      <input type="number" id="needstk" placeholder="Berapa Stk yang ingin dibuat">
+    <br>
+    <h4>Berapa stk yang ingin di buat ?</h4>
+    <input type="number" id="needstk" placeholder="Berapa Stk yang ingin dibuat">
 
-      <br>
-      <h4>Status VIP</h4>
-      <select name="vip" id="vip">
-        <option value="0.09">VIP</option>
-        <option value="0.1" selected>NON - VIP</option>
-      </select>
+    <br>
+    <h4>Status VIP</h4>
+    <select name="vip" id="vip">
+      <option value="0.09">VIP</option>
+      <option value="0.1" selected>NON - VIP</option>
+    </select>
 
-      <br>
-      <h4>Harga Jual</h4>
-      <input type="number" id="hargajual" placeholder="Harga Jual CB">
-      <br><br>
-      <div class="categories">
-        <button class="category" type="button" id="hitung">Hitung</button>
-      </div>
-    </form>
+    <br>
+    <h4>Harga Jual</h4>
+    <input type="number" id="hargajual" placeholder="Harga Jual CB">
+    <br><br>
+    <div class="categories">
+      <button class="category" type="button" id="hitung">Hitung</button>
+    </div>
+  </form>
 
 
-  </main>
+</main>
 </body>
 
 
@@ -161,16 +162,16 @@
 
     var netProfit = totalSellTax - totalHarga;
 
-    alert(
-      "Bahan 1 = " + tbahan1 + " / " + Math.ceil(tbahan1stk) + "stk / Harga @" + tbahan1harga.toLocaleString('id-ID', options) + "\n" +
-      "Bahan 2 = " + tbahan2 + " / " + Math.ceil(tbahan2stk) + "stk / Harga @" + tbahan2harga.toLocaleString('id-ID', options) + "\n" +
-      "Bahan 3 = " + tbahan3 + " / " + Math.ceil(tbahan3stk) + "stk / Harga @" + tbahan3harga.toLocaleString('id-ID', options) + "\n" +
-      "Bahan 4 = " + tbahan4 + " / " + Math.ceil(tbahan4stk) + "stk / Harga @" + tbahan4harga.toLocaleString('id-ID', options) + "\n" +
-      "Bahan 5 = " + tbahan5 + " / " + Math.ceil(tbahan5stk) + "stk / Harga @" + tbahan5harga.toLocaleString('id-ID', options) + "\n\n" +
-      "TOTAL = " + totalHarga.toLocaleString('id-ID', options) + "\n" +
-      "TOTAL SELL - TAX CB = " + totalSellTax.toLocaleString('id-ID', options) + "\n" +
-      "NET PROFIT = " + netProfit.toLocaleString('id-id', options)
-    );
+      alert(
+        "Bahan 1 = " + tbahan1 + " / " + Math.ceil(tbahan1stk) + "stk / Harga @" + tbahan1harga.toLocaleString('id-ID', options) + "\n" +
+        "Bahan 2 = " + tbahan2 + " / " + Math.ceil(tbahan2stk) + "stk / Harga @" + tbahan2harga.toLocaleString('id-ID', options) + "\n" +
+        "Bahan 3 = " + tbahan3 + " / " + Math.ceil(tbahan3stk) + "stk / Harga @" + tbahan3harga.toLocaleString('id-ID', options) + "\n" +
+        "Bahan 4 = " + tbahan4 + " / " + Math.ceil(tbahan4stk) + "stk / Harga @" + tbahan4harga.toLocaleString('id-ID', options) + "\n" +
+        "Bahan 5 = " + tbahan5 + " / " + Math.ceil(tbahan5stk) + "stk / Harga @" + tbahan5harga.toLocaleString('id-ID', options) + "\n\n" +
+        "TOTAL = " + totalHarga.toLocaleString('id-ID', options) + "\n" +
+        "TOTAL SELL - TAX CB = " + totalSellTax.toLocaleString('id-ID', options) + "\n" +
+        "NET PROFIT = " + netProfit.toLocaleString('id-id', options)
+       );
   });
 </script>
 
