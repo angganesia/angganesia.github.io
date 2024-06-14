@@ -15,7 +15,6 @@ permalink: /sitemap/
 
 <div class="categories">
   <a href="#!" class="category">catatan</a>
-</div>
-<div class="categories">
+  <br>
   <a href="#!" class="category">jekyll</a>
 </div>
