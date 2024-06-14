@@ -119,9 +119,9 @@ layout: nul
     var bahan4stk = document.getElementById('bahan4stk').value;
     var bahan4harga = document.getElementById('bahan4harga').value;
 
-    var bahan5 = document.getElementById('bahan5').value;
-    var bahan5stk = document.getElementById('bahan5stk').value;
-    var bahan5harga = document.getElementById('bahan5harga').value;
+    //var bahan5 = document.getElementById('bahan5').value;
+    //var bahan5stk = document.getElementById('bahan5stk').value;
+    //var bahan5harga = document.getElementById('bahan5harga').value;
 
     var maxcreatitem = document.getElementById('maxcreatitem').value;
     var needstk = document.getElementById('needstk').value;
@@ -145,11 +145,11 @@ layout: nul
     var tbahan4stk = Number(tbahan4) / Number(bahan4stk);
     var tbahan4harga = (Number(bahan4harga) / Number(bahan4stk)) * Number(tbahan4);
 
-    var tbahan5 = Number(bahan5) * Number(maxcreatitem) * Number(needstk);
-    var tbahan5stk = Number(tbahan5) / Number(bahan5stk);
-    var tbahan5harga = (Number(bahan5harga) / Number(bahan5stk)) * Number(tbahan5);
+    //var tbahan5 = Number(bahan5) * Number(maxcreatitem) * Number(needstk);
+    ///var tbahan5stk = Number(tbahan5) / Number(bahan5stk);
+    //var tbahan5harga = (Number(bahan5harga) / Number(bahan5stk)) * Number(tbahan5);
 
-    var totalHarga = Number(tbahan1harga) + Number(tbahan2harga) + Number(tbahan3harga) + Number(tbahan4harga) + Number(tbahan5harga);
+    var totalHarga = Number(tbahan1harga) + Number(tbahan2harga) + Number(tbahan3harga) + Number(tbahan4harga) ;//+ Number(tbahan5harga);
 
     var totalSellTax = Math.ceil((Number(hargajual) - (Number(hargajual) * Number(vip)))) * needstk;
 
@@ -159,9 +159,8 @@ layout: nul
       "Bahan 1 = " + tbahan1 + " / " + Math.ceil(tbahan1stk) + "stk / Harga @" + tbahan1harga.toLocaleString('id-ID', options) + "\n" +
       "Bahan 2 = " + tbahan2 + " / " + Math.ceil(tbahan2stk) + "stk / Harga @" + tbahan2harga.toLocaleString('id-ID', options) + "\n" +
       "Bahan 3 = " + tbahan3 + " / " + Math.ceil(tbahan3stk) + "stk / Harga @" + tbahan3harga.toLocaleString('id-ID', options) + "\n" +
-      "Bahan 4 = " + tbahan4 + " / " + Math.ceil(tbahan4stk) + "stk / Harga @" + tbahan4harga.toLocaleString('id-ID', options) + "\n" +
-      ///"Bahan 5 = " + tbahan5 + " / " + Math.ceil(tbahan5stk) + "stk / Harga @" + tbahan5harga.toLocaleString('id-ID', options) 
-      + "\n\n" +
+      "Bahan 4 = " + tbahan4 + " / " + Math.ceil(tbahan4stk) + "stk / Harga @" + tbahan4harga.toLocaleString('id-ID', options) + "\n\n" +
+      //"Bahan 5 = " + tbahan5 + " / " + Math.ceil(tbahan5stk) + "stk / Harga @" + tbahan5harga.toLocaleString('id-ID', options) + "\n\n" +
       "TOTAL = " + totalHarga.toLocaleString('id-ID', options) + "\n" +
       "TOTAL SELL - TAX CB = " + totalSellTax.toLocaleString('id-ID', options) + "\n" +
       "NET PROFIT = " + netProfit.toLocaleString('id-id', options)
