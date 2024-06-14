@@ -51,8 +51,9 @@ permalink: /totes/
       <div class="categories">
         <button class="category" type="button" id="hitung">Hitung</button>
       </div>
-    </form>
-    <script>
+</form>
+    
+<script>
       // Specifying options for formatting
       const options = {
         style: 'decimal', // Other options: 'currency', 'percent', etc.
@@ -126,4 +127,4 @@ permalink: /totes/
           "NET PROFIT = " + netProfit.toLocaleString('id-id', options)
         );
       });
-    </script>
+</script>
