@@ -10,3 +10,7 @@
   link: /contact/
   new_window: false
   highlight: false
+- name: Tes
+  link: /cloudcannon:collections/_staff_members/
+  new_window: false
+  highlight: false
