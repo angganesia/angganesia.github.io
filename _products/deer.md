@@ -19,7 +19,7 @@ sizes:
 styles:
   - name: Black
     color: '#000000'
-    image: /images/products/deer/black.jpg
+    image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9KLTtbJjMAjuaVIAduk2gW-MMSzpUWGQu8nruHOJTwzN2BA4I22tF-pS2&s=10
   - name: Blue
     color: '#39589e'
     image: /images/products/deer/blue.jpg
