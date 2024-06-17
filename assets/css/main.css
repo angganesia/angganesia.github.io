@@ -41,7 +41,7 @@ header {
   width: 100%;
   background: var(--gray-3);
   border-radius: 0 0 20% 20%;
-  z-index: 9999;
+  z-index: 100;
 }
 
 header .site-title {
@@ -86,7 +86,7 @@ main {
   bottom: 0;
   max-width: 100%;
   background: var(--gray-3);
-  z-index: 9999;
+  z-index: 100;
 }
 
 #text-wrapper {
