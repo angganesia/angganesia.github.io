@@ -58,7 +58,7 @@
   </nav>
 
   <!-- Content -->
-  <div class="container py-3 px-3">
+  <div class="container py-5 px-3">
 
     <h1 class="name-site">{{site.title}}</h1>
     <h5 class="mb-5">Home</h5>
@@ -72,7 +72,7 @@
         <small class="date card-text">{{post.date | date_to_string}}</small>
         <div class="categories text-wrap badge text-bg-dark" style="width: 6rem;">
           {% for c in post.categories %}
-            <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
+          <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
           {% endfor %}
         </div>
       </article>
@@ -94,7 +94,7 @@
           {{ paginator.page }} of {{ paginator.total_pages }}</a>
       </li>
       {% if paginator.next_page %}
-      <li class="page-item link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover"><a href="{{ paginator.next_page_path }}" class="next page-link">Next</a></li>
+      <li class="page-item"><a href="{{ paginator.next_page_path }}" class="next page-link link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover">Next</a></li>
       {% else %}
       <li class="page-item disabled">
         <a class="page-link">Next</a>
