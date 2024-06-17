@@ -60,21 +60,19 @@
   <!-- Content -->
   <div class="container py-3 px-3">
 
-    <div role="button" href="{{site.baseurl}}/">
-      <h1 class="name-site">{{site.title}}</h1>
-    </div>
+    <h1 class="name-site">{{site.title}}</h1>
     <h5 class="mb-5">Home</h5>
 
     <div class="articles text-start text-dark container mb-3">
       {% for post in paginator.posts %}
       <article class="article col card card-body mb-3">
         <h2 class="article-title card-title">
-          <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
+          <a style="--bs-link-color: black" href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
         </h2>
         <small class="date card-text">{{post.date | date_to_string}}</small>
         <div class="categories badge text-bg-dark text-wrap" style="width: auto;">
           {% for c in post.categories %}
-          <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
+          <a style="--bs-link-color: light" href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
           {% endfor %}
         </div>
       </article>
