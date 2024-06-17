@@ -53,12 +53,12 @@ main {
   padding: 1rem 0;
 }
 
-footer {
+/*footer {
   text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
-}
+}*/
 
 /* header */
 
@@ -74,7 +74,11 @@ footer {
 }
 
 #bio-wrapper {
-  margin-left: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: var(--gray-3);
 }
 
 #text-wrapper {
