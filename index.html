@@ -82,8 +82,8 @@
     <!-- Pagination links -->
     <nav class="pagination justify-content-center">
       {% if paginator.previous_page %}
-      <li>
-        <a class="page-link page-item" href="{{ paginator.previous_page_path }}">Previous</a>
+      <li class="page-item">
+        <a class="page-link" href="{{ paginator.previous_page_path }}">Previous</a>
       </li>
       {% else %}
       <li class="page-item disabled">
@@ -94,7 +94,7 @@
           {{ paginator.page }} of {{ paginator.total_pages }}</a>
       </li>
       {% if paginator.next_page %}
-      <li class="page-item"><a href="{{ paginator.next_page_path }}" class="next page-item page-link">Next</a></li>
+      <li class="page-item"><a href="{{ paginator.next_page_path }}" class="next page-link">Next</a></li>
       {% else %}
       <li class="page-item disabled">
         <a class="page-link">Next</a>
