@@ -82,17 +82,17 @@
     <!-- Pagination links -->
     <nav class="pagination pagination justify-content-center">
       {% if paginator.previous_page %}
-      <a class="page-link previous" href="{{ paginator.previous_page_path }}">
+      <a class="page-link page-item previous" href="{{ paginator.previous_page_path }}">
         &laquo;
       </a>
       {% else %}
-      <span class="previous">&laquo;</span>
+      <span class="previous page-item page-link">&laquo;</span>
       {% endif %}
       <span class="page_number page-item page-link">
         {{ paginator.page }} of {{ paginator.total_pages }}
       </span>
       {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">&raquo;</a>
+      <a href="{{ paginator.next_page_path }}" class="next page-item page-link">&raquo;</a>
       {% else %}
       <span class="next page-item page-link">&raquo;</span>
       {% endif %}
