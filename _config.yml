@@ -46,7 +46,5 @@ collections_dir: all_collections
 collections:
   posts:
     output: true
-  pages:
-    output: true
   
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
