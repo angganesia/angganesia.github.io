@@ -78,13 +78,12 @@ main {
 
 #bio-wrapper {
   border-radius: 20% 20% 0 0;
-  margin: auto;
   padding: 1rem;
   overflow: hidden;
   text-align: center;
   position: fixed;
   bottom: 0;
-  max-width: 100%;
+  width: 100%;
   background: var(--gray-3);
   z-index: 100;
 }
