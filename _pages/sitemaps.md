@@ -7,7 +7,7 @@ permalink: /sitemap/
 <div class="categories">
   <a href="#!" class="category">catatan</a>
   <a href="#!" class="category">jekyll</a>
-  <a href="#!" class="category">toram online</a>
+  <a href="#!" class="category">ToramOnline</a>
 </div>
 
 ###### Toram Online
