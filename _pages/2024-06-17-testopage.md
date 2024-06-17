@@ -1,7 +1,7 @@
 ---
 layout: me
-title: Toram Online
-permalink: /ToramOnline/
+title: Toram Online Page
+permalink: /ToramOnlinePage/
 categories: [ToramOnline]
 ---
 <form>
