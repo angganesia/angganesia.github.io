@@ -16,13 +16,13 @@ title: Home
         <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
       </h2>
       <small class="date card-text">{{post.date | date_to_string}}</small>
-      {% for c in post.categories %}
       <div class="row align-items-start">
+        {% for c in post.categories %}
         <div class="categories col badge text-bg-dark">
           <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </article>
     {% endfor %}
   </div>
