@@ -17,7 +17,7 @@ plugins:
   - jekyll-paginate
   - jekyll-google-search-console-verification-file
   
-paginate: 4
+paginate: 5
 paginate_path: "/page:num/"
 
 ganalytics: G-TJSQ4D8SZG
