@@ -8,6 +8,7 @@ author:
   name: GoldMaker
   email: angganesia@gmail.com
 
+permalink: pretty    
 plugins:
   - jemoji
   - jekyll-seo-tag
@@ -24,12 +25,7 @@ google_search_console:
        verification_file_code: 54b942591f95001
 google_site_verification: EqDSYzZON_pAUCee2IQPuw6Nm0kSrILUD75lEOdMyS0
 enable_google_verification: true
-  
 
-collections_dir: all_collections
-collections:
-  posts:
-    output: true
 
 defaults:
   - scope:
@@ -37,4 +33,13 @@ defaults:
     values:
       layout: "post"
       permalink: /:categories/:title/
+  - scope:
+      path: "_pages"
+    values:
+      layout: "page"
+      permalink: /:basename:output_ex
+
+include:
+  - _pages
+  
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
