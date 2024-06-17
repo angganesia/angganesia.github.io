@@ -72,25 +72,6 @@ permalink: /
   </div>
 </div>
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}" class="previous">
-    Previous
-  </a>
-  {% else %}
-  <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-  <span class="next ">Next</span>
-  {% endif %}
-</div>
-
 <nav aria-label="pagination">
   <ul class="pagination justify-content-center">
     <li class="page-item">
@@ -101,14 +82,19 @@ permalink: /
       {% else %}
     </li>
     {% endif %}
-    <li class="page-item">
-      Page: {{ paginator.page }} of {{ paginator.total_pages }}</li>
+    {% if paginator.page_trail %}
+    {% for trail in paginator.page_trail %}
+    <li {% if page.url == trail.path %}class="selected" {% endif %}>
+      <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+    </li>
+    {% endfor %}
+    {% endif %}
     {% if paginator.next_page %}
     <a class="page-link" href="{{ paginator.next_page_path }}" aria-label="Next">
     </a>
-      {% else %}
-      <span aria-hidden="true">&raquo;</span>
-      {% endif %}
+    {% else %}
+    <span aria-hidden="true">&raquo;</span>
+    {% endif %}
     </li>
   </ul>
 </nav>
