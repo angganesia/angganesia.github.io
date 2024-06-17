@@ -39,6 +39,8 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  background: var(--gray-3);
+  border-radius: 0 0 20% 20%;
 }
 
 header .site-title {
@@ -49,7 +51,7 @@ header .site-title {
 
 main {
   margin: 0 auto;
-  max-width: 650px;
+  /*max-width: 650px; */
   padding: 1rem 0;
 }
 
@@ -74,6 +76,7 @@ main {
 }
 
 #bio-wrapper {
+  border-radius: 20% 20% 0 0;
   margin: auto;
   padding: 1rem;
   overflow: hidden;
