@@ -129,21 +129,45 @@
       </div>
     </div>
 
-    <nav aria-label="Page navigation example">
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">
+        Previous
+      </a>
+      {% else %}
+      <span class="previous">Previous</span>
+      {% endif %}
+      <span class="page_number ">
+        Page: {{ paginator.page }} of {{ paginator.total_pages }}
+      </span>
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% else %}
+      <span class="next ">Next</span>
+      {% endif %}
+    </div>
+
+    <nav aria-label="pagination">
       <ul class="pagination justify-content-center">
+        {% if paginator.previous_page %}
         <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
+          <a class="page-link" href="{{ paginator.previous_page_path }}" aria-label="Previous">
+            {% else %}
             <span aria-hidden="true">&laquo;</span>
           </a>
         </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        {% endif %}
+        <li class="page-item"><a class="page-link" href="#">{{ paginator.page }} of {{ paginator.total_pages }}</a>
+        </li>
+        {% if paginator.next_page %}
         <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
+          <a class="page-link" href="{{ paginator.next_page_path }}" aria-label="Next">
             <span aria-hidden="true">&raquo;</span>
           </a>
+          {% else %}
         </li>
+        {% endif %}
       </ul>
     </nav>
 
