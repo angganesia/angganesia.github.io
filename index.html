@@ -18,7 +18,7 @@ title: Home
       <small class="date card-text">{{post.date | date_to_string}}</small>
       <div class="row align-items-start">
         {% for c in post.categories %}
-        <div class="m-3 categories col badge text-bg-dark">
+        <div class="m-1 categories col-auto badge text-bg-dark">
           <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
         </div>
         {% endfor %}
