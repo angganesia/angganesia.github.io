@@ -63,9 +63,9 @@
     <h1 class="name-site">{{site.title}}</h1>
     <h5 class="mb-5">Home</h5>
 
-    <div class="articles text-dark container mb-4">
+    <div class="articles text-dark container mb-3">
       {% for post in paginator.posts %}
-      <article class="article col card card-body">
+      <article class="article col card card-body mb-3">
         <h2 class="article-title card-title">
           <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
         </h2>
@@ -89,7 +89,7 @@
       <span class="previous">&laquo;</span>
       {% endif %}
       <span class="page_number page-item page-link">
-        Page: {{ paginator.page }} of {{ paginator.total_pages }}
+        {{ paginator.page }} of {{ paginator.total_pages }}
       </span>
       {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path }}" class="next">&raquo;</a>
