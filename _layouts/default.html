@@ -75,28 +75,31 @@ title: Home
     </div>
     <div class="offcanvas-body small">
       <input class="form-control form-control-lg" type="text" id="js-search-input" placeholder="search...">
-        <ul id="js-results-container"></ul>
+      <ul id="js-results-container"></ul>
     </div>
   </div>
 
   <!-- Content -->
   {{content}}
 
-  <!-- JavaScript -->
-  {% include javascripts.html %}
-  
+  <!-- JavaScript 
+  {% include javascripts.html %}-->
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/js/simple-jekyll-search.min.js"></script>
-  
-  <script>
+
+  <script type="text/javascript">
     SimpleJekyllSearch({
-      searchInput: document.getElementById("js-search-input"),
-      resultsContainer: document.getElementById("js-results-container"),
-      json: "{{site.baseurl}}/search.json",
-      searchResultTemplate: '<li class="search-results__item"><a class="search-results__link" href="{url}">{title}</a><br> <span class="search-results__date">{date}</span></li>',
-      noResultsText: '<li class="no-results">No results found</li>'
-    });
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '{{ site.baseurl }}/search.json',
+      searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+      noResultsText: 'No results found',
+      limit: 10,
+      fuzzy: false,
+      exclude: ['Welcome']
+    })
   </script>
 </body>
 
