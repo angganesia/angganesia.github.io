@@ -74,10 +74,13 @@ main {
 }
 
 #bio-wrapper {
+  margin: auto;
+  padding: 1rem;
+  overflow: hidden;
   text-align: center;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  max-width: 100%;
   background: var(--gray-3);
 }
 
