@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  <main>
+    {% include header.html %}
+
+    {% include nav.html %}
+
+    {{content}}
+
+  </main>
+
+  {% include category-modal.html %}
+
+  <script src="{{site.baseurl}}/assets/js/categories.js"></script>
+</body>
+
+</html>
