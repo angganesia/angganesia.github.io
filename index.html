@@ -5,71 +5,23 @@ permalink: /
 ---
 
 <div class="container mb-4">
+  {% for post in paginator.posts %}
   <div class="row mb-4">
     <div class="col">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <span class="badge text-bg-dark">Light</span>
-          <span class="badge text-bg-dark">Light</span>
-          <span class="badge text-bg-dark">Light</span>
+          <h5 class="card-title" href="{{site.baseurl}}{{post.url}}"> {{post.title}} </h5>
+          <p class="card-text">{{post.date | date_to_string}}</p>
+          <span class="categories badge text-bg-dark">
+            {% for c in post.categories %}
+            <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
+            {% endfor %}
+          </span>
         </div>
       </div>
     </div>
   </div>
-  <div class="row mb-4">
-    <div class="col">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <span class="badge text-bg-light">Light</span>
-          <span class="badge text-bg-light">Light</span>
-          <span class="badge text-bg-light">Light</span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row mb-4">
-    <div class="col">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <span class="badge text-bg-light">Light</span>
-          <span class="badge text-bg-light">Light</span>
-          <span class="badge text-bg-light">Light</span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row mb-4">
-    <div class="col">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <span class="badge text-bg-light">Light</span>
-          <span class="badge text-bg-light">Light</span>
-          <span class="badge text-bg-light">Light</span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row mb-4">
-    <div class="col">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <span class="badge text-bg-dark">Light</span>
-          <span class="badge text-bg-dark">Light</span>
-          <span class="badge text-bg-dark">Light</span>
-        </div>
-      </div>
-    </div>
-  </div>
+  {% endfor %}
 </div>
 
 <nav aria-label="pagination">
