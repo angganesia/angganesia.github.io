@@ -16,8 +16,8 @@ title: Home
         <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
       </h2>
       <small class="date card-text">{{post.date | date_to_string}}</small>
+      {% for c in post.categories %}
       <div class="categories text-wrap badge text-bg-dark" style="width: 6rem;">
-        {% for c in post.categories %}
         <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
         {% endfor %}
       </div>
