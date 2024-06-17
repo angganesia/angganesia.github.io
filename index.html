@@ -80,21 +80,25 @@
     </div>
 
     <!-- Pagination links -->
-    <nav class="pagination pagination justify-content-center">
+    <nav class="pagination justify-content-center">
       {% if paginator.previous_page %}
-      <a class="page-link page-item previous" href="{{ paginator.previous_page_path }}">
-        &laquo;
-      </a>
+      <li>
+        <a class="page-item" href="{{ paginator.previous_page_path }}">Previous</a>
+      </li>
       {% else %}
-      <span class="previous page-item page-link">&laquo;</span>
+      <li class="page-item disabled">
+        <a class="page-link">Previous</a>
+      </li>
       {% endif %}
-      <span class="page_number page-item page-link">
-        {{ paginator.page }} of {{ paginator.total_pages }}
-      </span>
+      <li class="page-item"><a class="page-link" href="#">
+          {{ paginator.page }} of {{ paginator.total_pages }}</a>
+      </li>
       {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next page-item page-link">&raquo;</a>
+      <li class="page-item"><a href="{{ paginator.next_page_path }}" class="next page-item page-link">Next</a></li>
       {% else %}
-      <span class="next page-item page-link">&raquo;</span>
+      <li class="page-item disabled">
+        <a class="page-link">Next</a>
+      </li>
       {% endif %}
     </nav>
 
