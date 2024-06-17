@@ -1,9 +1,9 @@
-<footer class="bg-dark fixed-bottom text-center">
+<footer>
   <p>&copy; 2022 - {{ 'now' | date: "%Y" }} | {{site.title}} - Thanks to <a href="https://github.com/papabondan" style="color: cyan">papabondan</a></p>
 
   <div id="social-wrapper">
     {% for i in site.data.author.contact %}
-    <a class="m-2" href="{{i.url}}" target="_blank">
+    <a href="{{i.url}}" target="_blank">
       <img src="{{site.baseurl}}/assets/icons/{{i.title}}.png" alt="" />
     </a>
     {% endfor %}
