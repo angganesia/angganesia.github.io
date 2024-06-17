@@ -42,4 +42,9 @@ defaults:
 include:
   - _pages
   
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
+  
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
