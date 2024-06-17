@@ -61,114 +61,39 @@
     <h1 class="name-site">GoldMaker</h1>
     <h5 class="mb-5">Home</h5>
 
-    <div class="container mb-4">
-      <div class="row mb-4">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <span class="badge text-bg-dark">Light</span>
-              <span class="badge text-bg-dark">Light</span>
-              <span class="badge text-bg-dark">Light</span>
-            </div>
-          </div>
+    <div class="articles text-dark container mb-4">
+      {% for post in paginator.posts %}
+      <article class="article col card card-body">
+        <h2 class="article-title card-title">
+          <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
+        </h2>
+        <small class="date card-text">{{post.date | date_to_string}}</small>
+        <div class="categories badge text-bg-dark">
+          {% for c in post.categories %}
+          <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
+          {% endfor %}
         </div>
-      </div>
-      <div class="row mb-4">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <span class="badge text-bg-light">Light</span>
-              <span class="badge text-bg-light">Light</span>
-              <span class="badge text-bg-light">Light</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mb-4">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <span class="badge text-bg-light">Light</span>
-              <span class="badge text-bg-light">Light</span>
-              <span class="badge text-bg-light">Light</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mb-4">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <span class="badge text-bg-light">Light</span>
-              <span class="badge text-bg-light">Light</span>
-              <span class="badge text-bg-light">Light</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mb-4">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <span class="badge text-bg-dark">Light</span>
-              <span class="badge text-bg-dark">Light</span>
-              <span class="badge text-bg-dark">Light</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      </article>
+      {% endfor %}
     </div>
 
     <!-- Pagination links -->
-    <div class="pagination">
+    <nav class="pagination pagination justify-content-center">
       {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">
-        Previous
+      <a class="page-link previous" href="{{ paginator.previous_page_path }}">
+        &laquo;
       </a>
       {% else %}
-      <span class="previous">Previous</span>
+      <span class="previous">&laquo;</span>
       {% endif %}
-      <span class="page_number ">
+      <span class="page_number page-item page-link">
         Page: {{ paginator.page }} of {{ paginator.total_pages }}
       </span>
       {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      <a href="{{ paginator.next_page_path }}" class="next">&raquo;</a>
       {% else %}
-      <span class="next ">Next</span>
+      <span class="next page-item page-link">&raquo;</span>
       {% endif %}
-    </div>
-
-    <nav aria-label="pagination">
-      <ul class="pagination justify-content-center">
-        {% if paginator.previous_page %}
-        <li class="page-item">
-          <a class="page-link" href="{{ paginator.previous_page_path }}" aria-label="Previous">
-            {% else %}
-            <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-        {% endif %}
-        <li class="page-item"><a class="page-link" href="#">{{ paginator.page }} of {{ paginator.total_pages }}</a>
-        </li>
-        {% if paginator.next_page %}
-        <li class="page-item">
-          <a class="page-link" href="{{ paginator.next_page_path }}" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-          </a>
-          {% else %}
-        </li>
-        {% endif %}
-      </ul>
     </nav>
 
   </div>
