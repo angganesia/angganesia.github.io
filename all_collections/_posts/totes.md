@@ -1,7 +1,7 @@
 ---
 title: Kalkulator - Toram Online
 layout: me
-categories: [Toram Online, catatan]
+categories: [toram online, catatan]
 ---
 <style>
     input {
