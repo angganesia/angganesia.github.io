@@ -67,12 +67,12 @@
       {% for post in paginator.posts %}
       <article class="article col card card-body mb-3">
         <h2 class="article-title card-title">
-          <a style="--bs-link-color: black" href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
+          <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
         </h2>
         <small class="date card-text">{{post.date | date_to_string}}</small>
-        <div class="categories badge text-bg-dark text-wrap" style="width: auto;">
+        <div class="categories text-wrap badge text-bg-dark" style="width: 6rem;">
           {% for c in post.categories %}
-          <a style="--bs-link-color: light" href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
+            <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
           {% endfor %}
         </div>
       </article>
@@ -83,18 +83,18 @@
     <nav class="pagination justify-content-center">
       {% if paginator.previous_page %}
       <li class="page-item">
-        <a class="page-link" href="{{ paginator.previous_page_path }}">Previous</a>
+        <a class="page-link link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="{{ paginator.previous_page_path }}">Previous</a>
       </li>
       {% else %}
       <li class="page-item disabled">
         <a class="page-link">Previous</a>
       </li>
       {% endif %}
-      <li class="page-item"><a class="page-link" href="#">
+      <li class="page-item"><a class="page-link link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover">
           {{ paginator.page }} of {{ paginator.total_pages }}</a>
       </li>
       {% if paginator.next_page %}
-      <li class="page-item"><a href="{{ paginator.next_page_path }}" class="next page-link">Next</a></li>
+      <li class="page-item link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover"><a href="{{ paginator.next_page_path }}" class="next page-link">Next</a></li>
       {% else %}
       <li class="page-item disabled">
         <a class="page-link">Next</a>
