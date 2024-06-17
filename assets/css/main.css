@@ -36,6 +36,9 @@ body {
 
 header {
   padding: 1rem 0 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 header .site-title {
@@ -48,6 +51,13 @@ main {
   margin: 0 auto;
   max-width: 650px;
   padding: 1rem 0;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /* header */
@@ -218,8 +228,4 @@ nav {
     .articles .article .article-title,
     .articles .article .article-title a {
       font-size: 1rem;
-    }
-
-    .footer {
-      text-align: center;
     }
