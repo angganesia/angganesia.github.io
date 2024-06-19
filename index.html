@@ -19,7 +19,9 @@ title: Home
 <div class="articles text-start text-dark container mb-3">
   {% for post in paginator.posts %}
   <article class="article col card card-body mb-3">
-    <h2 class="article-title card-title">{{page.title}}</h2>
+    <h2 class="article-title card-title">
+      <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
+    </h2>
     <small class="date card-text">{{post.date | date_to_string}}</small>
     <div class="row align-items-start">
       {% for c in post.categories %}
