@@ -2,19 +2,19 @@
 layout: default
 ---
 
-      <section class="article">
-        <div class="article-header">
-          <h2 class="article-title">{{page.title}}</h2>
-          <small class="date">{{page.date | date_to_string}}</small>
-          <div class="categories">
-            {% for c in page.categories %}
-            <a href="#!" class="category">{{c}}</a>
-            {% endfor %}
-          </div>
-        </div>
-        <div class="content">{% include toc.html html=content %}</div>
-        <div class="content">{{content}}</div>
-        <div class="content">{% include disqus_comments.html %}</div>
-        
-      </section>
-      
+<section class="container article">
+  <div class="container article-header">
+    <h2 class="article-title">{{page.title}}</h2>
+    <small class="date card-text">{{post.date | date_to_string}}</small>
+    <div class="row align-items-start">
+      {% for c in post.categories %}
+      <div class="m-1 categories col-auto badge text-bg-dark">
+        <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="container content">{% include toc.html html=content %}</div>
+    <div class="container content">{{content}}</div>
+    <div class="container content">{% include disqus_comments.html %}</div>
+
+</section>
