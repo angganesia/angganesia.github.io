@@ -26,7 +26,7 @@ title: Home
     <div class="row align-items-start">
       {% for c in post.categories %}
       <div class="m-1 categories col-auto badge text-bg-dark">
-        <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
+        <a class="category link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="{{site.baseurl}}{{post.url}}" data-base-url="{{site.baseurl}}">{{c}}</a>
       </div>
       {% endfor %}
     </div>
