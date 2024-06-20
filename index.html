@@ -5,13 +5,13 @@ title: Home
 
 <!-- Content -->
 
-<div class="articles text-start text-dark container mb-3">
+<div class="text-start text-dark container mb-3">
   {% for post in paginator.posts %}
-  <article class="article col card card-body mb-3">
-    <h2 class="article-title card-title">
+  <div class="col card card-body mb-3">
+    <h2 class="card-title">
       <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
     </h2>
-    <small class="date card-text">{{post.date | date_to_string}}</small>
+    <small class="card-text">{{post.date | date_to_string}}</small>
     <div class="row align-items-start">
       {% for c in post.categories %}
       <div class="m-1 categories col-auto badge text-bg-dark">
@@ -19,7 +19,7 @@ title: Home
       </div>
       {% endfor %}
     </div>
-  </article>
+  </div>
   {% endfor %}
 </div>
 
