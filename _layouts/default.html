@@ -15,6 +15,18 @@
 </head>
 
 <body class="container text-bg-dark pb-5">
+  
+  <header class="article-header">
+    <h2 class="article-title">{{page.title}}</h2>
+    <small class="date">{{page.date | date_to_string}}</small>
+    <div class="row align-items-start">
+      {% for c in page.categories %}
+      <div class="m-1 categories col-auto badge text-bg-light">
+        <a class="category link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover">{{c}}</a>
+      </div>
+      {% endfor %}
+    </div>
+  </header>
 
   <!-- navbar -->
   <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom">
