@@ -9,3 +9,8 @@
   -moz-window-dragging: none;
   -webkit-tap-highlight-color: transparent;
 }
+
+html,
+body {
+  font-family: "JetBrains Mono", monospace;
+}
