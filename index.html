@@ -4,17 +4,6 @@ title: Home
 ---
 
 <!-- Content -->
-<section class="container article">
-  <div class="container article-header">
-    <h2 class="article-title">{{page.title}}</h2>
-    <small class="container date">{{page.date | date_to_string}}</small>
-    <div class="container categories">
-      {% for c in page.categories %}
-      <a href="#!" class="container category">{{c}}</a>
-      {% endfor %}
-    </div>
-  </div>
-</section>
 
 <div class="articles text-start text-dark container mb-3">
   {% for post in paginator.posts %}
