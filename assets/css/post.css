@@ -23,17 +23,17 @@
   max-width: 100%;
 }
 html,
-body {
+body {/*
   color: var(--white-2);
-  background-color: var(--gray-6);
-  font-family: "JetBrains Mono", monospace;
+  background-color: var(--gray-6);*/
+  font-family: "JetBrains Mono", monospace;/*
   line-height: 2rem;
-  background-color: var(--gray-5);
+  background-color: var(--gray-5);*/
 }
 .content a {
   color: cyan;
   border-bottom: 1px solid cyan;
-}
+}/*
 header {
   padding: 1rem 0 1rem 0;
 }
@@ -50,7 +50,7 @@ main {
 nav {
    font-size: 1rem;
    font-color: var(--white-1);
-}
+}*/
 .article {
   margin-bottom: 3rem;
 }

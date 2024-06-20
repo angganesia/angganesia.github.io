@@ -26,14 +26,14 @@
 }
 
 html,
-body {
+body {/*
   color: var(--white-2);
-  background-color: var(--gray-6);
-  font-family: "JetBrains Mono", monospace;
+  background-color: var(--gray-6);*/
+  font-family: "JetBrains Mono", monospace;/*
   line-height: 2rem;
-  background-color: var(--gray-5);
+  background-color: var(--gray-5);*/
 }
-
+/*
 header {
   padding: 1rem 0 1rem 0;
   position: fixed;
@@ -52,9 +52,9 @@ header .site-title {
 
 main {
   margin: 0 auto;
-  /*max-width: 650px; */
+  max-width: 650px;
   padding: 1rem 0;
-}
+}*/
 
 /*footer {
   text-align: center;
