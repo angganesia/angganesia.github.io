@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="/assets/css/post.css">
   <link rel="stylesheet" href="/assets/css/syntax.css">
   {% endif %}
+  {% if page.layout == "page" %}
+  <link rel="stylesheet" href="/assets/css/post.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  {% endif %}
 </head>
 
 <body>
@@ -101,11 +105,16 @@
         {% endfor %}
       </div>
     </header>
-    {{ content }}
+    <div class="mt-5">
+      {{content}}
+    </div>
   </div>
 
   <!-- JavaScript -->
   {% if page.layout == "post" %}
+  <script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>
+  {% endif %}
+  {% if page.layout == "page" %}
   <script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>
   {% endif %}
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
