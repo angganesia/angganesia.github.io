@@ -4,25 +4,7 @@ categories: [Toram online]
 permalink: /to/
 layout: page
 ---
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  {% seo %}
-  <title>{{site.title}} | {{page.title}}</title>
-
-  <link rel="stylesheet" href="/assets/css/post.css" />
-  <link rel="stylesheet" href="/assets/css/syntax.css" />
-
-
-  <link rel="stylesheet" href="/assets/css/main.css" />
-
-  <link rel="stylesheet" href="/assets/css/common.css" />
-  <style>
+<style>
     input {
       width: 25%;
       padding: 1px 5px;
@@ -33,51 +15,36 @@ layout: page
       padding: 1px 5px;
     }
   </style>
-</head>
-
-<body>
-  <main>
-    {% include header.html %}
-
-    {% include nav.html %}
-    <form>
+  <form>
       <h4>Bahan 1</h4>
       <input type="number" id="bahan1" placeholder="Jumlah" name="bahan1">
       <input type="number" id="bahan1stk" value="1" placeholder="30/90/etc">
       <input type="number" id="bahan1harga" placeholder="Harga perStk">
-
       <h4>Bahan 2</h4>
       <input type="number" id="bahan2" placeholder="Jumlah">
       <input type="number" id="bahan2stk" value="1" placeholder="30/90/etc">
       <input type="number" id="bahan2harga" placeholder="Harga perStk">
-
       <h4>Bahan 3</h4>
       <input type="number" id="bahan3" placeholder="Jumlah">
       <input type="number" id="bahan3stk" value="1" placeholder="30/90/etc">
       <input type="number" id="bahan3harga" placeholder="Harga perStk">
-
       <h4>Bahan 4</h4>
       <input type="number" id="bahan4" placeholder="Jumlah">
       <input type="number" id="bahan4stk" value="1" placeholder="30/90/etc">
       <input type="number" id="bahan4harga" placeholder="Harga perStk">
-
-      <!--<h4>Bahan 5</h4>
+      <h4>Bahan 5</h4>
       <input type="number" id="bahan5" placeholder="Jumlah">
       <input type="number" id="bahan5stk" value="1" placeholder="30/90/etc">
-      <input type="number" id="bahan5harga" placeholder="Harga perStk">-->
-
+      <input type="number" id="bahan5harga" placeholder="Harga perStk">
       <h4>Max Item Creat</h4>
       <input type="number" id="maxcreatitem" placeholder="1/10/etc">
-
       <h4>Berapa stk yang ingin di buat ?</h4>
       <input type="number" id="needstk" placeholder="Jumlah">
-
       <h4>Status VIP</h4>
       <select name="vip" id="vip">
         <option value="0.09">VIP</option>
         <option value="0.1" selected>NON - VIP</option>
       </select>
-
       <h4>Harga Jual</h4>
       <input type="number" id="hargajual" placeholder="Harga Jual CB">
       <br><br>
@@ -85,11 +52,6 @@ layout: page
         <button class="category" type="button" id="hitung">Hitung</button>
       </div>
     </form>
-
-
-    <script defer src="/assets/js/lbox.js"></script>
-    <script src="/assets/js/categories.js"></script>
-
     <script>
       // Specifying options for formatting
       const options = {
@@ -117,9 +79,9 @@ layout: page
         var bahan4stk = document.getElementById('bahan4stk').value;
         var bahan4harga = document.getElementById('bahan4harga').value;
 
-        //var bahan5 = document.getElementById('bahan5').value;
-        //var bahan5stk = document.getElementById('bahan5stk').value;
-        //var bahan5harga = document.getElementById('bahan5harga').value;
+        var bahan5 = document.getElementById('bahan5').value;
+        var bahan5stk = document.getElementById('bahan5stk').value;
+        var bahan5harga = document.getElementById('bahan5harga').value;
 
         var maxcreatitem = document.getElementById('maxcreatitem').value;
         var needstk = document.getElementById('needstk').value;
@@ -143,11 +105,11 @@ layout: page
         var tbahan4stk = Number(tbahan4) / Number(bahan4stk);
         var tbahan4harga = (Number(bahan4harga) / Number(bahan4stk)) * Number(tbahan4);
 
-        //var tbahan5 = Number(bahan5) * Number(maxcreatitem) * Number(needstk);
-        ///var tbahan5stk = Number(tbahan5) / Number(bahan5stk);
-        //var tbahan5harga = (Number(bahan5harga) / Number(bahan5stk)) * Number(tbahan5);
+        var tbahan5 = Number(bahan5) * Number(maxcreatitem) * Number(needstk);
+        var tbahan5stk = Number(tbahan5) / Number(bahan5stk);
+        var tbahan5harga = (Number(bahan5harga) / Number(bahan5stk)) * Number(tbahan5);
 
-        var totalHarga = Number(tbahan1harga) + Number(tbahan2harga) + Number(tbahan3harga) + Number(tbahan4harga); //+ Number(tbahan5harga);
+        var totalHarga = Number(tbahan1harga) + Number(tbahan2harga) + Number(tbahan3harga) + Number(tbahan4harga) + Number(tbahan5harga);
 
         var totalSellTax = Math.ceil((Number(hargajual) - (Number(hargajual) * Number(vip)))) * needstk;
 
@@ -158,14 +120,10 @@ layout: page
           "Bahan 2 = " + tbahan2 + " / " + Math.ceil(tbahan2stk) + "stk / Harga @" + tbahan2harga.toLocaleString('id-ID', options) + "\n" +
           "Bahan 3 = " + tbahan3 + " / " + Math.ceil(tbahan3stk) + "stk / Harga @" + tbahan3harga.toLocaleString('id-ID', options) + "\n" +
           "Bahan 4 = " + tbahan4 + " / " + Math.ceil(tbahan4stk) + "stk / Harga @" + tbahan4harga.toLocaleString('id-ID', options) + "\n\n" +
-          //"Bahan 5 = " + tbahan5 + " / " + Math.ceil(tbahan5stk) + "stk / Harga @" + tbahan5harga.toLocaleString('id-ID', options) + "\n\n" +
+          "Bahan 5 = " + tbahan5 + " / " + Math.ceil(tbahan5stk) + "stk / Harga @" + tbahan5harga.toLocaleString('id-ID', options) + "\n\n" +
           "TOTAL = " + totalHarga.toLocaleString('id-ID', options) + "\n" +
           "TOTAL SELL - TAX CB = " + totalSellTax.toLocaleString('id-ID', options) + "\n" +
           "NET PROFIT = " + netProfit.toLocaleString('id-id', options)
         );
       });
     </script>
-  </main>
-</body>
-
-</html>
