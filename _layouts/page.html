@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
-<div class="mt-5">
-  {{content}}
-</div>
+
+<section class="article">
+  <div class="content">{% include toc.html html=content %}</div>
+  <div class="content">{{content}}</div>
+
+</section>
