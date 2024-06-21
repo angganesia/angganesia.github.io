@@ -48,7 +48,7 @@ layout: page
       <h4>Harga Jual</h4>
       <input type="number" id="hargajual" placeholder="Harga Jual CB">
       <br><br>
-      <div class="categories">
+      <div class="btn btn-light">
         <button class="category" type="button" id="hitung">Hitung</button>
       </div>
 </form>
