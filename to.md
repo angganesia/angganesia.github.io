@@ -1,6 +1,6 @@
 ---
 title: Kalkulator Toram Online
 categories: [Toram online]
-permalink: /to/
-layout: tocalculator
+permalink: /toc
+layout: toc
 ---
