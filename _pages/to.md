@@ -51,8 +51,8 @@ layout: page
       <div class="categories">
         <button class="category" type="button" id="hitung">Hitung</button>
       </div>
-    </form>
-    <script>
+</form>
+<script>
       // Specifying options for formatting
       const options = {
         style: 'decimal', // Other options: 'currency', 'percent', etc.
@@ -126,4 +126,4 @@ layout: page
           "NET PROFIT = " + netProfit.toLocaleString('id-id', options)
         );
       });
-    </script>
+</script>
