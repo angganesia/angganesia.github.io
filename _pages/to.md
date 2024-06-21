@@ -2,5 +2,5 @@
 title: Kalkulator Toram Online
 categories: [Toram online]
 permalink: /to/
-layout: TOCalculator
+layout: tocalculator
 ---
