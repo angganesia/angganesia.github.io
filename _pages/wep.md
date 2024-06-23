@@ -5,7 +5,7 @@ categories: [Toram Online]
 permalink: /toram-fill-wepon
 ---
 
-<form id="inputForm" action="/id/BukiProper" method="post">
+<form id="inputForm" action="https://tanaka0.work/id/BouguProper" method="post">
 	<input id="properBui" name="properBui" type="hidden" value="Weapon"/>
 	Chara LV
 	<select id="paramLevel" name="paramLevel">
@@ -2130,7 +2130,7 @@ permalink: /toram-fill-wepon
 </div>
 <br/>
 <div>
-	<form id="simulator" action="/id/ProperSimulator" method="post">
+	<form id="simulator" action="https://tanaka0.work/id/ProperSimulator" method="post">
 		<input id="properBui" name="properBui" type="hidden" value=""/>
 		<input id="paramLevel" name="paramLevel" items="{200=200, 210=210, 220=220, 230=230, 240=240, 250=250, 260=260, 270=270, 280=280, 290=290, 300=300, 310=310, 320=320, 330=330, 340=340, 350=350}" type="hidden" value="0"/>
 		<input id="properList0.properName" name="properList[0].properName" type="hidden" value=""/>
