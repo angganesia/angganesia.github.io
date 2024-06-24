@@ -24,7 +24,7 @@ function includeHTML() {
       return;
     }
   }
-}
+};
 includeHTML();
 
 //JekyllSearch
@@ -37,5 +37,5 @@ var sjs = SimpleJekyllSearch({
   limit: 10,
   fuzzy: false,
   exclude: ['Welcome']
-})
-sjs.search("Helo")
+});
+sjs.search("Helo");
