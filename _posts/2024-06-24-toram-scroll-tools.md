@@ -1,7 +1,7 @@
 ---
 title: Ninja Scroll Tools
 categories: [Toram online]
-layout: post
+layout: page
 ---
 <div class="container mt-3">
     <div class="container">
@@ -79,3 +79,4 @@ layout: post
     </div>
 <p>Credit <a href="https://github.com/toramtools">toramtools</a></p>
   </div>
+<script src="/assets/js/scroll.js"></script>

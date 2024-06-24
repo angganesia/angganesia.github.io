@@ -1,7 +1,7 @@
 ---
 title: Kalkulator Toram Online
 categories: [Toram online]
-layout: post
+layout: page
 ---
 
 <form class="container">
