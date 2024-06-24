@@ -75,8 +75,8 @@ layout: page
             as random.
           </div>
         </div>
-      </section>
-    </div>
+       </section>  
+</div>
 <p>Credit <a href="https://github.com/toramtools">toramtools</a></p>
   </div>
 <script src="/assets/js/scroll.js"></script>
