@@ -33,13 +33,5 @@ defaults:
     values:
       layout: "post"
       permalink: /:categories/:title/
-  - scope:
-      path: "_pages"
-    values:
-      layout: "page"
-      permalink: /:basename:output_ex
-
-include:
-  - _pages
   
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
