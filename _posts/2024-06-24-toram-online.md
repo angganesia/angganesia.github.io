@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Toram Online
 categories: [Toram Online]
 permalink: /toram-online
