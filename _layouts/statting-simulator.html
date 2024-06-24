@@ -4,21 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{site.title}} | {{page.title}}</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <title>Toram Online - Statting Simulator</title>
+  <link rel="stylesheet" href="/assets/bootstrap-5-3-3/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/main.css">
-  {% if page.layout == "post" %}
-  <link rel="stylesheet" href="/assets/css/post.css">
-  <link rel="stylesheet" href="/assets/css/syntax.css">
-  {% endif %}
-  {% if page.layout == "page" %}
-  <link rel="stylesheet" href="/assets/css/post.css">
-  <link rel="stylesheet" href="/assets/css/syntax.css">
-  {% endif %}
 </head>
 
-<body>
-
+<body onload="document.getElementById('recipe_pot').value = DEFAULT_WEAPON_RECIPE_POT; App.loadSettings(); App.loadFromStorage();">
   <!-- navbar -->
   <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom dp-0">
     <ul class="navbar-nav nav-justified w-100">
@@ -75,89 +66,102 @@
       </li>
     </ul>
   </nav>
-
-  <!-- searching -->
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="search" aria-labelledby="offcanvasBottomLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasBottomLabel">Searching...</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body small">
-      <div id="search-input-container" class="flex-grow-0 align-self-stretch align-self-md-start">
-        <input class="form-control form-control-lg" type="text" id="search-input" placeholder="search...">
-        <ul class="mt-3" id="results-container"></ul>
-      </div>
-    </div>
-  </div>
-
-
   <!-- Content -->
   <div class="container pt-4 pb-5 mb-5">
     <!-- header -->
     <header class="container article-header">
-      <h2 class="article-title">{{page.title}}</h2>
-      <small class="date">{{page.date | date_to_string}}</small>
+      <h2 class="article-title">Toram Online Statting Simulator</h2>
       <div class="container row align-items-start">
-        {% for c in page.categories %}
         <div class="container m-1 categories col-auto badge text-bg-light">
-          <a class="category link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover">{{c}}</a>
+          <a class="category link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover">Toram Online</a>
         </div>
-        {% endfor %}
       </div>
     </header>
-    <div class="mt-5">
-      {{content}}
+
+
+    <div class="container">
+      <div class="mt-3 border rounded-4 border-5 border-light p-3">
+        <div class="col-12 row">
+          <div class="col-6 mt-3">
+            <label>Equipment</label>
+            <select class="form-select" id="weap_arm" onchange="if (this.value === 'w') document.getElementById('recipe_pot').value = DEFAULT_WEAPON_RECIPE_POT; else document.getElementById('recipe_pot').value = DEFAULT_ARMOR_RECIPE_POT;">
+              <option value='w'>Weapon</option>
+              <option value='a'>Armor</option>
+            </select>
+          </div>
+          <div class="col-6 mt-3">
+            <label>Recipe Potential</label>
+            <input class="form-control" type="number" value="15" id='recipe_pot'></input>
+          </div>
+          <div class="col-6 mt-3">
+            <label>Stats Pot</label>
+            <input class="form-control" type="number" value="89" id='starting_pot'></input>
+          </div>
+          <div class="col-6 mt-3">
+            <label>Proficiency</label>
+            <input class="form-control" type="number" id="proficiency" min="0" value="0">
+          </div>
+          <div class="col-6 mt-3">
+            <label>TEC</label>
+            <input class="form-control" type="number" value=255 id='tec' min="0" max="255">
+          </div>
+          <div class="col-6 mt-5">
+            <label>Mat Reduction</label>
+            <input class="form-checkbox" type="checkbox" id="mat_reduction" checked="true">
+          </div>
+          <div class="col-6 mt-3 d-grid gap-2">
+            <button class="btn btn-light" onclick="App.spawn()">Go!</button>
+          </div>
+          <div class="col-6 mt-3 d-grid gap-2">
+            <button class="btn btn-light" onclick="show_help()">Hotkeys</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-3 border rounded-4 border-5 border-light p-3" id="workbench" hidden>
+          <div class="row col-12">
+            <div class="workbench">
+              <div id="stat-details"></div>
+              <div id='workspace'></div>
+            </div>
+          </div>
+          <div class="row col-12">
+            <div class="row workbench" id='material_display'>
+            </div>
+          </div>
+
+
+          <div class="workbench" id="formula_display">
+          </div>
+
+      </div>
+      <div class="border rounded-4 border-5 border-light mt-3 p-3 pb-4">
+        <div class="col-12 ">
+          <div class="row" hidden id="navigation_bar">
+          </div>
+        </div>
+      </div>
+      <div class="border rounded-4 border-5 border-light pb-3 text-center">
+        <div class="container row col-12">
+          <div class="mt-3 col-4">
+            <button class="btn btn-light" onclick="App.reset()">Reset</button>
+          </div>
+          <div class="col-4 mt-3">
+            <button class="btn btn-light" onclick="App.promptRename()" id="rename_button">Rename</button>
+          </div>
+          <div class="col-4 mt-3">
+            <button class="btn btn-light" onclick="App.duplicateCurrent()" id="duplicate_button">Duplicate</button>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <button tabindex="-1" class="btn btn-light" onclick="topFunction()" id="scrollup" title="Go to top">Top</button>
   </div>
 
-  <!-- JavaScript -->
-  {% if page.layout == "post" %}
-  <script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>
-  {% endif %}
-  {% if page.layout == "page" %}
-  <script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>
-  {% endif %}
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/assets/js/simple-jekyll-search.min.js"></script>
-
-  <script type="text/javascript">
-    var sjs = SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '{{ site.baseurl }}/search.json',
-      searchResultTemplate: '<li><a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover mb-4 fs-5" href="{url}" title="{desc}">{title}</a></li>',
-      noResultsText: 'No results found',
-      limit: 10,
-      fuzzy: false,
-      exclude: ['Welcome']
-    })
-    sjs.search("Helo")
-  </script>
-  <script>
-    // Get the button:
-    let mybutton = document.getElementById("scrollup");
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() { scrollFunction() };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-  </script>
-
 </body>
+
+<script src="/assets/bootstrap-5-3-3/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/material.js"></script>
+<script src="/assets/js/t4stat.js"></script>
 
 </html>
