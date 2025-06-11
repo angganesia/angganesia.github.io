@@ -1,0 +1,328 @@
+{
+  "buffs": [
+    {
+      "type": "MAX HP",
+      "codes": [
+        { "code": 1107777, "level": 10 },
+        { "code": 1010032, "level": 10 },
+        { "code": 6199999, "level": 10 },
+        { "code": 5199999, "level": 10 },
+        { "code": 1010084, "level": 10 },
+        { "code": 4262222, "level": 10 },
+        { "code": 1010356, "level": 10 },
+        { "code": 6010062, "level": 10 },
+        { "code": 1250015, "level": 10 },
+        { "code": 3090618, "level": 10 }
+      ]
+    },
+    {
+      "type": "MAX MP",
+      "codes": [
+        { "code": 6052000, "level": 10 },
+        { "code": 1020808, "level": 10 },
+        { "code": 1027777, "level": 10 },
+        { "code": 1010216, "level": 10 },
+        { "code": 2011234, "level": 10 },
+        { "code": 7012828, "level": 10 },
+        { "code": 2020101, "level": 10 },
+        { "code": 3204544, "level": 10 },
+        { "code": 3017676, "level": 10 },
+        { "code": 4011793, "level": 10 },
+        { "code": 1032222, "level": 10 }
+      ]
+    },
+    {
+      "type": "AMPR",
+      "codes": [
+        { "code": 5236969, "level": 10 },
+        { "code": 2010068, "level": 10 },
+        { "code": 7088807, "level": 10 },
+        { "code": 2011234, "level": 10 },
+        { "code": 1010017, "level": 10 },
+        { "code": 3226325, "level": 10 },
+        { "code": 1019696, "level": 10 },
+        { "code": 1010006, "level": 10 },
+        { "code": 3063101, "level": 10 },
+        { "code": 1011010, "level": 10 },
+        { "code": 5010031, "level": 10 },
+        { "code": 2011111, "level": 10 },
+        { "code": 4040404, "level": 10 },
+        { "code": 1047777, "level": 10 },
+        { "code": 1074649, "level": 10 }
+      ]
+    },
+    {
+      "type": "CRITICAL RATE",
+      "codes": [
+        { "code": 1037777, "level": 10 },
+        { "code": 6065000, "level": 10 },
+        { "code": 7162029, "level": 10 },
+        { "code": 1100000, "level": 10 },
+        { "code": 1181140, "level": 10 },
+        { "code": 7012828, "level": 10 },
+        { "code": 6022292, "level": 10 },
+        { "code": 1200069, "level": 10 },
+        { "code": 2022020, "level": 10 },
+        { "code": 3010777, "level": 10 },
+        { "code": 3030159, "level": 10 },
+        { "code": 3149696, "level": 10 },
+        { "code": 4010000, "level": 10 },
+        { "code": 6021230, "level": 10 },
+        { "code": 3180777, "level": 10 }
+      ]
+    },
+    {
+      "type": "WEAPON ATK (WATK)",
+      "codes": [
+        { "code": 1011122, "level": 10 },
+        { "code": 1010810, "level": 10 },
+        { "code": 1067777, "level": 10 },
+        { "code": 6010024, "level": 10 },
+        { "code": 1011126, "level": 10 },
+        { "code": 2020404, "level": 10 },
+        { "code": 2010136, "level": 10 },
+        { "code": 1180020, "level": 10 },
+        { "code": 3010777, "level": 10 },
+        { "code": 3180777, "level": 10 },
+        { "code": 4240242, "level": 10 },
+        { "code": 5110834, "level": 10 },
+        { "code": 3070028, "level": 9 },
+        { "code": 7162029, "level": 9 }
+      ]
+    },
+    {
+      "type": "STR",
+      "codes": [
+        { "code": 1010055, "level": 10 },
+        { "code": 1010968, "level": 10 },
+        { "code": 1110033, "level": 10 },
+        { "code": 7070777, "level": 10 },
+        { "code": 4016699, "level": 10 },
+        { "code": 2020303, "level": 10 },
+        { "code": 3010095, "level": 10 },
+        { "code": 4010024, "level": 10 },
+        { "code": 5261919, "level": 10 },
+        { "code": 1011069, "level": 10 },
+        { "code": 3010018, "level": 10 },
+        { "code": 2022222, "level": 10 },
+        { "code": 6011415, "level": 9 }
+      ]
+    },
+    {
+      "type": "DEX",
+      "codes": [
+        { "code": 1010058, "level": 10 },
+        { "code": 5010092, "level": 10 },
+        { "code": 2020222, "level": 10 },
+        { "code": 3111999, "level": 10 },
+        { "code": 3220777, "level": 10 },
+        { "code": 1010261, "level": 10 },
+        { "code": 7010014, "level": 9 }
+      ]
+    },
+    {
+      "type": "INT",
+      "codes": [
+        { "code": 2020707, "level": 10 },
+        { "code": 6010701, "level": 10 },
+        { "code": 7130001, "level": 10 },
+        { "code": 5190001, "level": 10 },
+        { "code": 1010498, "level": 10 },
+        { "code": 1032222, "level": 10 },
+        { "code": 1047777, "level": 10 },
+        { "code": 1014230, "level": 10 }
+      ]
+    },
+    {
+      "type": "AGI",
+      "codes": [
+        { "code": 7162029, "level": 10 },
+        { "code": 1110033, "level": 10 },
+        { "code": 1220777, "level": 10 },
+        { "code": 2020037, "level": 10 },
+        { "code": 2020909, "level": 10 },
+        { "code": 4010228, "level": 9 },
+        { "code": 1010498, "level": 8 }
+      ]
+    },
+    {
+      "type": "VIT",
+      "codes": [{ "code": 5130123, "level": 10 }]
+    },
+    {
+      "type": "ACCURACY",
+      "codes": [
+        { "code": 4261111, "level": 10 },
+        { "code": 2010308, "level": 10 },
+        { "code": 1010013, "level": 9 },
+        { "code": 7010077, "level": 9 },
+        { "code": 3188000, "level": 8 }
+      ]
+    },
+    {
+      "type": "MEGICAL RESIST",
+      "codes": [
+        { "code": 1111575, "level": 10 },
+        { "code": 2020505, "level": 10 },
+        { "code": 5200052, "level": 10 },
+        { "code": 8010016, "level": 10 },
+        { "code": 7010016, "level": 10 },
+        { "code": 4080087, "level": 9 }
+      ]
+    },
+    {
+      "type": "PHYSICAL RESIST",
+      "codes": [
+        { "code": 6010701, "level": 10 },
+        { "code": 1100000, "level": 10 },
+        { "code": 1020001, "level": 10 },
+        { "code": 1010081, "level": 10 },
+        { "code": 2020111, "level": 10 },
+        { "code": 7010014, "level": 10 },
+        { "code": 4010051, "level": 10 },
+        { "code": 2200117, "level": 10 },
+        { "code": 6011415, "level": 9 }
+      ]
+    },
+    {
+      "type": "FRACTIONAL BARRIER",
+      "codes": [
+        { "code": 4010024, "level": 10 },
+        { "code": 53010043, "level": 10 },
+        { "code": 6150029, "level": 10 },
+        { "code": 3010003, "level": 9 },
+        { "code": 1222002, "level": 8 },
+        { "code": 6181999, "level": 8 },
+        { "code": 6010062, "level": 8 }
+      ]
+    },
+    {
+      "type": "MAGICAL BARRIER",
+      "codes": [{ "code": 2020505, "level": 9 }]
+    },
+    {
+      "type": "PHYSICAL BARRIER",
+      "codes": [{ "code": 2020111, "level": 10 }]
+    },
+    {
+      "type": "+ AGGRO",
+      "codes": [
+        { "code": 2010136, "level": 10 },
+        { "code": 53010043, "level": 10 },
+        { "code": 7171717, "level": 10 },
+        { "code": 2020606, "level": 10 },
+        { "code": 1010207, "level": 10 },
+        { "code": 3204544, "level": 10 },
+        { "code": 3158668, "level": 10 },
+        { "code": 6262000, "level": 9 }
+      ]
+    },
+    {
+      "type": "- AGGRO",
+      "codes": [
+        { "code": 1010261, "level": 10 },
+        { "code": 1010002, "level": 10 },
+        { "code": 1010147, "level": 10 },
+        { "code": 3010018, "level": 10 },
+        { "code": 7140777, "level": 8 },
+        { "code": 3061206, "level": 8 },
+        { "code": 3134610, "level": 9 }
+      ]
+    },
+    {
+      "type": "DTE EARTH",
+      "codes": [
+        { "code": 2020202, "level": 10 },
+        { "code": 3210103, "level": 10 },
+        { "code": 1011001, "level": 9 },
+        { "code": 4233333, "level": 9 },
+        { "code": 7100666, "level": 9 },
+        { "code": 1010002, "level": 8 },
+        { "code": 5236969, "level": 8 },
+        { "code": 2020606, "level": 9 },
+        { "code": 2020404, "level": 9 },
+        { "code": 6150029, "level": 9 }
+      ]
+    },
+    {
+      "type": "DTE WIND",
+      "codes": [
+        { "code": 3030303, "level": 10 },
+        { "code": 3210101, "level": 9 },
+        { "code": 3062111, "level": 8 },
+        { "code": 1010055, "level": 7 },
+        { "code": 4099876, "level": 7 },
+        { "code": 1010055, "level": 7 }
+      ]
+    },
+    {
+      "type": "DTE WATER",
+      "codes": [
+        { "code": 1110111, "level": 10 },
+        { "code": 7150030, "level": 10 },
+        { "code": 3210100, "level": 10 },
+        { "code": 7011001, "level": 9 },
+        { "code": 3010018, "level": 8 },
+        { "code": 3062111, "level": 8 },
+        { "code": 6150029, "level": 10 }
+      ]
+    },
+    {
+      "type": "DTE FIRE",
+      "codes": [
+        { "code": 3210106, "level": 10 },
+        { "code": 1121212, "level": 9 },
+        { "code": 7088807, "level": 9 },
+        { "code": 3210106, "level": 9 },
+        { "code": 7011001, "level": 8 },
+        { "code": 2010091, "level": 6 }
+      ]
+    },
+    {
+      "type": "DTE LIGHT",
+      "codes": [
+        { "code": 3210105, "level": 10 },
+        { "code": 1020345, "level": 9 },
+        { "code": 4046666, "level": 8 },
+        { "code": 4016699, "level": 8 }
+      ]
+    },
+    {
+      "type": "DTE DARK",
+      "codes": [
+        { "code": 5010092, "level": 10 },
+        { "code": 1190020, "level": 10 },
+        { "code": 6116116, "level": 10 },
+        { "code": 3210105, "level": 9 },
+        { "code": 1020345, "level": 9 },
+        { "code": 3210106, "level": 9 },
+        { "code": 5010092, "level": 9 },
+        { "code": 6010003, "level": 8 },
+        { "code": 1010006, "level": 7 },
+        { "code": 1016646, "level": 7 },
+        { "code": 1091111, "level": 7 },
+        { "code": 3030069, "level": 7 },
+        { "code": 2020707, "level": 9 },
+        { "code": 1020001, "level": 6 }
+      ]
+    },
+    {
+      "type": "DTE NEUTRAL",
+      "codes": [
+        { "code": 1018530, "level": 9 },
+        { "code": 1199999, "level": 9 },
+        { "code": 1019696, "level": 8 },
+        { "code": 3099876, "level": 7 },
+        { "code": 1011902, "level": 7 },
+        { "code": 6061294, "level": 7 }
+      ]
+    },
+    {
+      "type": "DROP RATE",
+      "codes": [
+        { "code": 4196969, "level": 6 },
+        { "code": 1010084, "level": 6 }
+      ]
+    }
+  ]
+}

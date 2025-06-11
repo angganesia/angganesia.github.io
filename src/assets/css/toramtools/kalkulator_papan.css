@@ -1,0 +1,83 @@
+.box {
+  display: grid;
+  align-items: center;
+  width: 100%;
+  border: 1.5px solid white;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.result {
+  width: 100%;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  width: 100%;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.input:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.input::placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  width: 100%;
+  transition: box-shadow 0.3s ease-in-out;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+}
+
+.select:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
