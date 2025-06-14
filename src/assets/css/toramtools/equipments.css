@@ -1,0 +1,155 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #f1c40f;
+  --background-color: #f9f9f9;
+  --text-color: #333;
+}
+
+.dark-mode {
+  --primary-color: #2c3e50;
+  --secondary-color: #8e44ad;
+  --background-color: #333;
+  --text-color: #f9f9f9;
+}
+
+.searchKodeItems {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  width: 100%;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.searchKodeItems:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.searchKodeItems::placeholder {
+  color: var(--background-color);
+}
+
+.noteKodeItems {
+  background-color: rgba(255, 50, 50, 0.5);
+  color: var(--text-color);
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.noteKodeItems a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.itemBox {
+  width: 100%;
+  border-color: var(--text-color);
+  border: 1.5px solid var(--text-color);
+  /*border: 1.5px solid red;*/
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.itemBox p {
+  color: var(--text-color);
+}
+
+.itemBox h3 {
+  color: var(--text-color);
+}
+
+.itemLi {
+  list-style: none;
+  color: var(--text-color);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--text-color);
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+}
+
+.pagination button:hover {
+  background-color: var(--background-color);
+}
+
+.pagination button.active:hover {
+  background-color: var(--secondary-color);
+}
+
+.typeBox {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.typeButton {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.typeButton:hover {
+  background-color: var(--secondary-color);
+}
+
+.typeButton:active {
+  transform: scale(0.9);
+}
+
+.typeButton:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.grid-obtained-from {
+  font-size: 0.7em;
+  color: var(--text-color);
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-weight: bold;
+  background-color: var(--text-color);
+  padding: 10px;
+  border-bottom: 1px solid var(--text-color);
+  color: var(--background-color);
+  border-radius: 5px;
+}
+
+.grid-row {
+  display: grid;
+  color: var(--text-color);
+  grid-template-columns: repeat(3, 1fr);
+  padding: 15px;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.grid-row:nth-child(even) {
+  /*background-color: #f9f9f9;*/
+}

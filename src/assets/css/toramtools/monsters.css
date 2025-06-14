@@ -1,0 +1,70 @@
+.searchKodeItems {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  width: 100%;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.searchKodeItems:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.searchKodeItems::placeholder {
+  color: #ccc;
+}
+
+.noteKodeItems {
+  background-color: rgba(255, 50, 50, 0.5);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.noteKodeItems a {
+  text-decoration: none;
+  color: black;
+}
+
+.itemBox {
+  width: 100%;
+  border: 1.5px solid white;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.itemLi {
+  list-style: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination button.active:hover {
+  background-color: #0069d9;
+}
