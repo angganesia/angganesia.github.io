@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import kodeBuff from "@datas/toramonline/kodebuff.json";
 import TombolMenu from "@components/TombolMenu";
 
-
 export default function KodeBuff() {
   const [search, setSearch] = useState("");
   const [copied, setCopied] = useState(null);
@@ -33,28 +32,38 @@ export default function KodeBuff() {
       <p className="noteInfo">
         Jika menemukan kode yang sering kosong, salah kode atau masukan kode yang belum ada, silahkan chat ke <a href="https://wa.me/6289676091927?text=*%23KODEBUFF*%0A%0A">sini</a>
       </p>
-      {filteredBuff.map((buff, index) => (
-        <div key={index}>
-          <h2>{buff.type}</h2>
-          <ul>
-            {buff.codes
-              .sort((a, b) => b.level - a.level)
-              .map((code, codeIndex) => (
-                <li
-                  className="kodebufflist"
-                  key={codeIndex}>
-                  <span
-                    style={{ cursor: "pointer" }}
-                    onClick={() => handleCopy(code.code)}>
-                    Level {code.level} - {code.code} {copied === code.code && <span style={{ color: "green" }}> (Copied!)</span>}
-                  </span>
-                </li>
-              ))}
-          </ul>
-        </div>
-      ))}
+      <div className="kodebufflist">
+        <table>
+          <tbody>
+            {filteredBuff.map((buff, index) => (
+              <div
+                className="mt"
+                key={index}>
+                <th
+                  className="text-center"
+                  colspan="2">
+                  {buff.type}
+                </th>
+                {buff.codes
+                  .sort((a, b) => b.level - a.level)
+                  .map((code, codeIndex) => (
+                    <tr key={codeIndex}>
+                      <th className="">Level {code.level}</th>
+                      <td
+                        style={{ cursor: "pointer" }}
+                        onClick={() => handleCopy(code.code)}>
+                        {code.code}
+                      </td>
+                    </tr>
+                  ))}
+              </div>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    
       <TombolMenu
-        to="toramtools"
+        to="/toramtools"
         text="Back Toram Online Tools"
       />
     </>

@@ -2,6 +2,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import Navbar from "@components/Navbar";
+import Footer from "@components/Footer";
 import "@css/style.css";
 import Home from "@pages/home.jsx";
 import ToramHome from "@pages/toramtools";
@@ -29,27 +30,35 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    const storedDarkMode = localStorage.getItem('darkMode');
-    if (storedDarkMode === 'true') {
+    const storedDarkMode = localStorage.getItem("darkMode");
+    if (storedDarkMode === "true") {
       setDarkMode(true);
-      document.body.classList.add('dark-mode');
+      document.body.classList.add("dark-mode");
     }
   }, []);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
-    document.body.classList.toggle('dark-mode');
-    localStorage.setItem('darkMode', !darkMode);
+    document.body.classList.toggle("dark-mode");
+    localStorage.setItem("darkMode", !darkMode);
   };
 
   return (
     <HashRouter>
-      <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <Navbar
+        darkMode={darkMode}
+        toggleDarkMode={toggleDarkMode}
+      />
       <Routes>
         {routes.map((route, index) => (
-          <Route key={index} path={route.path} element={route.element} />
+          <Route
+            key={index}
+            path={route.path}
+            element={route.element}
+          />
         ))}
       </Routes>
+      <Footer />
     </HashRouter>
   );
 }

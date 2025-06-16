@@ -27,7 +27,9 @@ body {
   position: relative;
   background-color: var(--background-color);
   color: var(--text-color);
-  transition: background-color 0.3s, color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
   background-image: url(/src/assets/img/bg2.jpg);
   background-size: cover;
   background-position: center;
@@ -50,6 +52,7 @@ section main {
   max-width: 600px;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
 }
 
 section main img {
@@ -63,7 +66,9 @@ section main h2 {
   font-weight: 600;
   text-align: center;
   color: var(--text-color);
-  text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow:
+    0 0 1px transparent,
+    0 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 .menuHome {
@@ -91,16 +96,28 @@ section main h2 {
   font-size: 1.2em;
 }
 
+section footer {
+  margin-top: 100px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.4);
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 section footer p {
   color: var(--text-color);
-  font-size: 0.7em;
-  padding: 20px;
-  text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow:
+    0 0 1px transparent,
+    0 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 section footer p a {
-  color: var(--text-color);
   font-weight: 600;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -333,12 +350,9 @@ section footer p a {
 }
 
 .kodebufflist {
-  list-style: none;
-  color: var(--background-color);
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
-  margin: 5px;
-  padding: 5px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination {
@@ -379,6 +393,7 @@ section footer p a {
 }
 
 .collapse-button {
+  position: relative;
   width: 100%;
   padding: 10px;
   border-radius: 5px;
@@ -389,14 +404,74 @@ section footer p a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
+.collapse-button::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.collapse-button.open::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
 .collapse-content {
   padding: 10px;
   border-radius: 5px;
   margin-top: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  border: 1px solid var(--text-color);
 }
 
 .collapse-content.show {
   display: flex;
+}
+
+table {
+  border-collapse: separate;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid var(--text-color);
+  padding: 8px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+td {
+  color: var(--background-color);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.center-th {
+  text-align: center !important;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.mt {
+  margin-top: 20px;
 }

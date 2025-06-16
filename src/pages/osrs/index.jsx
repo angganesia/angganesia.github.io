@@ -5,7 +5,7 @@ export default function OsrsHome() {
     <>
       <h2>Maintance</h2>
       <TombolMenu
-        to=""
+        to="/"
         text="Back Home"
       />
       {/*<h2>Old School RuneScape Tools</h2>

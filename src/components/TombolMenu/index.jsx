@@ -1,9 +1,15 @@
-export default function TombolMenu({ to, text }) {
+import { Link } from "react-router-dom";
+
+export default function TombolMenu({ to, text, onClick }) {
   return (
-    <a className="menuHome" href={"#" + to}>
-      {/* <a className="menuHome" href={import.meta.env.BASE_URL + to }>*/}
-      <i class="fa fa-gamepad" aria-hidden="true"></i>
+    <Link
+      to={to}
+      onClick={onClick}
+      className="menuHome">
+      <i
+        className="fa fa-gamepad"
+        aria-hidden="true"></i>
       {text}
-    </a>
+    </Link>
   );
 }

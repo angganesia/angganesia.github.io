@@ -5,11 +5,11 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
   const menuNavbar = [
     {
       title: "Toram Online Tools",
-      link: "#toramtools",
+      link: "toramtools",
     },
     {
       title: "Old School RuneScape Tools",
-      link: "#osrs",
+      link: "osrs",
     },
   ];
 
@@ -58,7 +58,7 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
         <div className="space"></div>
         {menuNavbar.map((i, index) => (
           <li key={index}>
-            <TombolMenu to={i.link} text={i.title} />
+            <TombolMenu to={i.link} text={i.title} onClick={handleClose} />
           </li>
         ))}
       </ul>

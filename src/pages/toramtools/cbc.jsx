@@ -99,7 +99,7 @@ export default function Cbc() {
         </div>
       )}
       <TombolMenu
-        to="toramtools"
+        to="/toramtools"
         text="Back Toram Online Tools"
       />
     </>
