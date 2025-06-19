@@ -58,7 +58,14 @@ export default function MqCal() {
               className="input"
               type="number"
               value={youLevel}
-              onChange={handleLevelChange(setYouLevel)}
+              onChange={(e) => {
+                const value = e.target.value;
+                if (value >= 300) {
+                  setYouLevel(300);
+                } else {
+                  setYouLevel(e.target.value);
+                }
+              }}
             />
           </label>
 
@@ -68,7 +75,14 @@ export default function MqCal() {
               className="input"
               type="number"
               value={youProgress}
-              onChange={handleProgressChange}
+              onChange={(e) => {
+                const value = e.target.value;
+                if (value >= 100) {
+                  setYouProgress(100);
+                } else {
+                  setYouProgress(e.target.value);
+                }
+              }}
             />
           </label>
 
@@ -78,7 +92,14 @@ export default function MqCal() {
               className="input"
               type="number"
               value={targetLevel}
-              onChange={handleLevelChange(setTargetLevel)}
+              onChange={(e) => {
+                const value = e.target.value
+                if (value >= 300) {
+                  setTargetLevel(300)
+                } else {
+                  setTargetLevel(e.target.value)
+                }
+              }}
             />
           </label>
         </div>
