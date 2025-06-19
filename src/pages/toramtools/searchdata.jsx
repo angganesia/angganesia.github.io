@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import normalMobs from "@datas/toramonline/normal_monster.json";
 import bosMobs from "@datas/toramonline/bos_monster.json";
-import miniBosMobs from "@datas/toramonline/miniBos_monster.json";
 import equipmentsData from "@datas/toramonline/equipments.json";
+import miniBosMobs from "@datas/toramonline/miniBos_monster.json";
+import normalMobs from "@datas/toramonline/normal_monster.json";
+import registletsData from "@datas/toramonline/registlets.json";
+import usableItemsData from "@datas/toramonline/usable_items.json";
+import xtallsData from "@datas/toramonline/xtalls.json";
+import renderCollapseContent from "@libs/renderCollapseContent";
 import TombolMenu from "@components/TombolMenu";
 import CollapseMenu from "@components/CollapseMenu";
 import Pagination from "@components/Pagination";
@@ -16,7 +20,6 @@ export default function searchData() {
   const [currentPage, setCurrentPage] = useState(1);
   const [type, setType] = useState("all");
   const [element, setElement] = useState("");
-  const [bossType, setBossType] = useState("");
   const [equipmentType, setEquipmentType] = useState("");
   const [stat, setStat] = useState("");
   const [valueOperator, setValueOperator] = useState("");
@@ -32,187 +35,52 @@ export default function searchData() {
   };
 
   const allDataBase = [
-    ...normalMobs.map((i) => ({ ...i, types: "Normal" })),
-    ...miniBosMobs.map((i) => ({ ...i, types: "Mini Boss" })),
     ...bosMobs.map((i) => ({ ...i, types: "Boss" })),
-    ...equipmentsData.map((i) => ({ ...i, types: "Equipments" }))
+    ...equipmentsData.map((i) => ({ ...i, types: "Equipments" })),
+    ...miniBosMobs.map((i) => ({ ...i, types: "Mini Boss" })),
+    ...normalMobs.map((i) => ({ ...i, types: "Normal" })),
+    ...registletsData.map((i) => ({ ...i, types: "Registlet" })),
+    ...usableItemsData.map((i) => ({ ...i, types: "Usable Items" })),
+    ...xtallsData.map((i) => ({ ...i, types: "Xtall" }))
   ];
 
   const types = ["all", ...new Set(allDataBase.map((item) => item.types))];
+
   const equipmentsType = [...new Set(equipmentsData.map((item) => item.type))];
 
   const bossTypes = [...new Set(bosMobs.map((item) => item.type))];
 
   const elements = [...new Set([...normalMobs, ...miniBosMobs, ...bosMobs].map((item) => item.element))];
+
   const stats = [...new Set(equipmentsData.flatMap((item) => item.stats.map((stat) => stat.stat)))];
 
-  const renderCollapseContent = (item) => {
-    if (item.types === "Equipments") {
-      return (
-        <table>
-          <tbody>
-            <tr>
-              <th colspan="2">Sell</th>
-              <td>{item.sell}</td>
-            </tr>
-            <tr>
-              <th colspan="2">Process</th>
-              <td>{item.process}</td>
-            </tr>
-            <th
-              className="center-th"
-              colspan="3">
-              Status
-            </th>
-            {item.stats.map((stat, index) => (
-              <>
-                {stat.statOnly && (
-                  <tr key={`${index}-header`}>
-                    <th colspan="3">{stat.statOnly}</th>
-                  </tr>
-                )}
-                {stat.stat && stat.value && (
-                  <tr key={index}>
-                    <th colspan="2">{stat.stat}</th>
-                    <td>{stat.value}</td>
-                  </tr>
-                )}
-              </>
-            ))}
-            {item.obtained_from.length > 0 && (
-              <>
-                <th>Source</th>
-                <th>Dye</th>
-                <th>Map</th>
-                {item.obtained_from.map((from, index) => (
-                  <>
-                    <tr key={index}>
-                      <td>{from.source}</td>
-                      <td>{from.dye}</td>
-                      <td>{from.map}</td>
-                    </tr>
-                  </>
-                ))}
-              </>
-            )}
-            {item.recipe.materials.length > 0 && (
-              <>
-                <th
-                  className="center-th"
-                  colspan="3">
-                  Recipe
-                </th>
-                <tr>
-                  <th colspan="2">Fee</th>
-                  <td>{item.recipe.fee}</td>
-                </tr>
-                <tr>
-                  <th colspan="2">Level</th>
-                  <td>{item.recipe.level}</td>
-                </tr>
-                <tr>
-                  <th colspan="2">Difficulty</th>
-                  <td>{item.recipe.difficulty}</td>
-                </tr>
-                <th
-                  className="center-th"
-                  colspan="3">
-                  Materials
-                </th>
-                {item.recipe.materials.map((material, materialIndex) => (
-                  <tr
-                    className="center-th"
-                    key={materialIndex}>
-                    <td colspan="3">{material}</td>
-                  </tr>
-                ))}
-              </>
-            )}
-          </tbody>
-        </table>
-      );
-    } else {
-      return (
-        <table>
-          <tbody>
-            <tr>
-              <th>Level</th>
-              <td>{item.level}</td>
-            </tr>
-            <tr>
-              <th>HP</th>
-              <td>{isNaN(parseInt(item.hp)) ? 0 : parseInt(item.hp).toLocaleString()}</td>
-            </tr>
-            <tr>
-              <th>EXP</th>
-              <td>{isNaN(parseInt(item.exp)) ? 0 : parseInt(item.exp).toLocaleString()}</td>
-            </tr>
-            <tr>
-              <th>Tamable</th>
-              <td>{item.tamable}</td>
-            </tr>
-            {item.spawn_at === "-" ? (
-              ""
-            ) : (
-              <>
-                <th
-                  className="center-th"
-                  colspan="2">
-                  Spawn at
-                </th>
-                <tr>
-                  <td colspan="2">{item.spawn_at}</td>
-                </tr>
-              </>
-            )}
-            {item.drops.length > 0 && (
-              <>
-                <th
-                  className="center-th"
-                  colspan="2">
-                  Drops
-                </th>
-                {item.drops.map((drop, index) => (
-                  <tr
-                    className="center-th"
-                    key={index}>
-                    <td colspan="2">{drop}</td>
-                  </tr>
-                ))}
-              </>
-            )}
-          </tbody>
-        </table>
-      );
+  const filteredItems = allDataBase.filter((item) => {
+    const matchSearch = item.name.toLowerCase().includes(search.toLowerCase());
+    const matchType = type === "all" || item.types.toLowerCase().includes(type.toLowerCase());
+    const matchElement = element === "" || item.element === element;
+
+    let matchEquipmentType = true;
+    if (type === "equipments" && equipmentType !== "") {
+      matchEquipmentType = item.type === equipmentType;
     }
-  };
 
-  const filteredItems = allDataBase
-    .filter((item) => {
-      const matchSearch = item.name.toLowerCase().includes(search.toLowerCase());
-      const matchType = type === "all" || item.types.toLowerCase().includes(type.toLowerCase());
-      const matchElement = element === "" || item.element === element;
+    let matchStat = true;
+    if (type === "equipments" && stat !== "" && valueOperator !== "" && value !== "") {
+      matchStat = item.stats && item.stats.some((s) => s.stat === stat && eval(`${s.value} ${valueOperator} ${value}`));
+    }
 
-      let matchEquipmentType = true;
-      if (type === "equipments" && equipmentType !== "") {
-        matchEquipmentType = item.type === equipmentType;
-      }
-
-      let matchStat = true;
-      if (type === "equipments" && stat !== "" && valueOperator !== "" && value !== "") {
-        matchStat = item.stats && item.stats.some((s) => s.stat === stat && eval(`${s.value} ${valueOperator} ${value}`));
-      }
-
-      if (type === "normal" || type === "boss" || type === "mini boss") {
-        return matchSearch && matchType && matchElement;
-      } else if (type === "equipments") {
-        return matchSearch && matchType && matchEquipmentType && matchStat;
-      } else {
-        return matchSearch && matchType;
-      }
-    })
+    if (type === "normal" || type === "boss" || type === "mini boss") {
+      return matchSearch && matchType && matchElement;
+    } else if (type === "equipments") {
+      return matchSearch && matchType && matchEquipmentType && matchStat;
+    } else {
+      return matchSearch && matchType;
+    }
+  });
+  {
+    /*
     .sort((a, b) => {
-      if (stat !== "") {
+      if (stat === "") {
         const getBase = (item) => {
           const statFilter = item.stats.find((s) => s.stat === `${stat}`);
           return statFilter ? parseInt(statFilter.value) : 0;
@@ -221,7 +89,8 @@ export default function searchData() {
       } else {
         return 0;
       }
-    });
+    });*/
+  }
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
@@ -236,13 +105,17 @@ export default function searchData() {
   const resetX = {
     currentPage,
     search,
+    setSearch,
     type,
+    setType,
     element,
     equipmentType,
     stat,
     valueOperator,
-    value
+    value,
+    equipmentsType
   };
+
   useEffect(() => {
     setShow(false);
   }, [currentPage]);
@@ -255,18 +128,23 @@ export default function searchData() {
       setStat("");
       setValueOperator("");
       setValue("");
-    } else if (type === "Equipments") {
+    } else if (type === "equipments") {
       setElement("");
-      setBossType("");
     }
+    setEquipmentType("");
+      setStat("");
+      setValueOperator("");
+      setValue("");
+      setElement("");
   }, [search, type, element, equipmentType, stat, valueOperator, value]);
 
   return (
     <>
       <div id="up"></div>
       <h2>
-        Total Data {type === "normal" ? "normal monster" : type === "all" ? "all monster" : type} {filteredItems.length}
+        Total Data {type === "normal" ? "normal mobs" : type} {filteredItems.length}
       </h2>
+      {/*`TES : ${equipmentsType}`*/}
       <input
         className="input"
         type="search"
@@ -362,7 +240,7 @@ export default function searchData() {
       {/*
         data
         */}
-      {currentItem <= 0 ? (
+      {currentItem >= 0 ? (
         <p className="noteInfo">Tidak ada data</p>
       ) : (
         <>
@@ -378,7 +256,7 @@ export default function searchData() {
               title={
                 <>
                   {item.name}
-                  {equipmentsType.includes(item.type) ? ` [ ${item.type} ]` : bossType.includes(item.type) ? ` ${item.type}` : item.type === "-" ? "" : ` ${item.type}`}
+                  {equipmentsType.includes(item.type) ? ` [ ${item.type} ]` : bossTypes.includes(item.type) ? ` ${item.type}` : item.type === "-" ? "" : ` [${item.type || item.types}]`}
                   {item.element === "Unknown" ? "" : elements.includes(item.element) ? ` [ ${item.element} ]` : ""}
                   {item.obtained_from && item.obtained_from[0] && item.obtained_from[0].source.includes("[Player]")
                     ? ` [Player]`
@@ -389,8 +267,8 @@ export default function searchData() {
               }
               isOpen={show[index]}
               onToggle={() => handleCollapse(index)}
-              types={resetX}>
-              {renderCollapseContent(item)}
+              comp={resetX}>
+              {renderCollapseContent(item, resetX)}
             </CollapseMenu>
           ))}
 

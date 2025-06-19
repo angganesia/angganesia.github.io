@@ -1,22 +1,8 @@
-// import React, { useState } from "react";
 
-// export default function CollapseMenu({ title, children, isOpen, onToggle }) {
-//   return (
-//     <div className="collapse-container">
-//       <button
-//         className="collapse-button"
-//         onClick={onToggle}
-//         aria-expanded={onToggle}>
-//         {title}
-//       </button>
-//       {isOpen && <div className="collapse-content">{children}</div>}
-//     </div>
-//   );
-// }
 
 import React, { useState, useEffect } from "react";
 
-export default function CollapseMenu({ title, children, isOpen = false, onToggle, types }) {
+export default function CollapseMenu({ title, children, isOpen = false, onToggle, comp }) {
   const [show, setShow] = useState(isOpen);
 
   
@@ -26,7 +12,7 @@ export default function CollapseMenu({ title, children, isOpen = false, onToggle
     onToggle && onToggle(!show);
   };
 
-  const { currentPage, search, type, element, equipmentType, stat, valueOperator, value } = types;
+  const { currentPage, search, type, element, equipmentType, stat, valueOperator, value } = comp;
   useEffect(() => {
     setShow(false);
   }, [currentPage, search, type, element, equipmentType, stat, valueOperator, value]);

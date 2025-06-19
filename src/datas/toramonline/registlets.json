@@ -1,0 +1,1985 @@
+[
+  {
+    "name": "Physical Attack Boost",
+    "maxLevel": "30",
+    "effect": "Increases ATK by 1 per level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Magic Attack Boost",
+    "maxLevel": "30",
+    "effect": "Increases MATK by 1 per level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Max HP Boost",
+    "maxLevel": "100",
+    "effect": "Increases HP by 10 per level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Max MP Boost",
+    "maxLevel": "100",
+    "effect": "Increases MP by 1 per level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Physical Defense Boost",
+    "maxLevel": "50",
+    "effect": "Increases DEF by 1 per level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Magic Defense Boost",
+    "maxLevel": "50",
+    "effect": "Increases MDEF by 1 per level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Accuracy Boost",
+    "maxLevel": "10",
+    "effect": "Increases Accuracy by 1 per level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Dodge Boost",
+    "maxLevel": "10",
+    "effect": "Increases Dodge by 1 per level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Attack Speed Boost",
+    "maxLevel": "100",
+    "effect": "Increases ASPD by 1 per level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Magic Speed Boost",
+    "maxLevel": "100",
+    "effect": "Increases CSPD by 1 per level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Wayfarer",
+    "maxLevel": "10",
+    "effect": "Increases EXP Gain by 10% but lowers damage dealt by [15 - Registlet Level]%.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      }
+    ]
+  },
+  {
+    "name": "Sunbath",
+    "maxLevel": "4",
+    "effect": "When using Emotions that increase Natural Regen, an additional [25 × Registlet Level]% of MP will be restored.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv10)"
+      },
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      }
+    ]
+  },
+  {
+    "name": "Hard Hit Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the power of 'Hard Hit' by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Sonic Blade Extender",
+    "maxLevel": "20",
+    "effect": "Extends the time you must reuse 'Sonic Blade' to turn it into 'Super Sonic Blade' by 1 second per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Power Shot Boost",
+    "maxLevel": "20",
+    "effect": "Raises the power of 'Power Shot' by 15% per Registlet Level when Tumble is inflicted.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Bullseye Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the power of 'Bullseye' by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Magic: Arrows Enhancer",
+    "maxLevel": "4",
+    "effect": "Adds 1 shot per Registlet Level to the skill 'Magic: Arrows'.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Magic: Wall Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the power of 'Magic: Wall' by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Smash Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the power of 'Smash' by 5% per Registlet Level if used with knuckles.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Sonic Wave Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the power of 'Sonic Wave' by 5% per Registlet Level if used with knuckles.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Twin Slash Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the critical damage from 'Twin Slash' by 1% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Cross Parry Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the power of 'Cross Parry' by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Flash Stab Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the power of 'Flash Stab' by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Cannon Spear Enhancer",
+    "maxLevel": "10",
+    "effect": "Adds a [10 × Registlet Level]% chance of inflicting 'Flinch' to the first attack of the skill 'Cannon Spear'.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Issen Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the power of the second hit of 'Issen' by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Pommel Strike Enhancer",
+    "maxLevel": "5",
+    "effect": "Extends the duration of Paralysis caused by the skill 'Pommel Strike' by 1 second per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Poison Heal",
+    "maxLevel": "30",
+    "effect": "[1 × Registlet Level]% chance of having Poison status removed when taking damage inflicted by Poison.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv50)"
+      }
+    ]
+  },
+  {
+    "name": "Cat's Eye",
+    "maxLevel": "1",
+    "effect": "A MISS hit while you are Blind may be turned into a GRAZE hit when possible.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      }
+    ]
+  },
+  {
+    "name": "Emergency HP Heal",
+    "maxLevel": "10",
+    "effect": "Instantly restores [10 + Registlet Level]% of your HP when there is only 25% or less due to monster's attacks.Cooldown: 60 seconds",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv30)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Emergency MP Heal",
+    "maxLevel": "10",
+    "effect": "Immediately restores [10 × Registlet Level] MP if there is not enough MP.Cooldown: 60 seconds",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Neural Control",
+    "maxLevel": "30",
+    "effect": "Reduces the amount of ASPD lowered due to Paralysis by 2% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv70)"
+      }
+    ]
+  },
+  {
+    "name": "Final Resistance",
+    "maxLevel": "5",
+    "effect": "If you get knocked out last in the party, you will squeeze out every last bit of your strength to quickly revive for [5 + Registlet Level] seconds before becoming unable to battle again.∗ First Aid, Struggle, Revive Droplets Unavailable",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv50)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      }
+    ]
+  },
+  {
+    "name": "Elemental Trigger Slash",
+    "maxLevel": "1",
+    "effect": "Converts the element of 'Trigger Slash' from fire to that of the weapon equipped.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Spiral Air Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the power of 'Spiral Air' by 2% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Arrow Rain Enhancer",
+    "maxLevel": "2",
+    "effect": "An additional attack is added to the skill 'Arrow Rain' per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Paralysis Shot Extender",
+    "maxLevel": "10",
+    "effect": "Extends the duration of buff from the skill 'Paralysis Shot' by 1 second per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Magic: Lances Catalyst",
+    "maxLevel": "5",
+    "effect": "Shortens the interval between shots of the skill 'Magic: Lances' by 0.1 seconds per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Magic: Blast Catalyst",
+    "maxLevel": "5",
+    "effect": "Shortens the time to cast the skill 'Magic: Blast' by 0.2 seconds per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Power Wave Modifier",
+    "maxLevel": "10",
+    "effect": "Modifies the effect of 'Power Wave' so that it raises normal attack power by [⌈(Registlet Level + Power Wave Level) × 0.5⌉]% instead of extending the range.∗ The increment depends on the skill level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Shell Break Enhancer",
+    "maxLevel": "5",
+    "effect": "Raises the chance to inflict Armor Break with the skill 'Shell Break' by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Earthbind Enhancer",
+    "maxLevel": "10",
+    "effect": "Raises the power of 'Earthbind' by 5% per Registlet Level if used with knuckles.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Spinning Slash Compress",
+    "maxLevel": "10",
+    "effect": "Reduces the range of 'Spinning Slash' and removes the knock back effect, but raises its power by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Critical Charging Slash",
+    "maxLevel": "10",
+    "effect": "Lowers the power of 'Charging Slash' by [110 - (10 × Registlet Level)]% and guarantees a critical hit.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Dragon Tail Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the power of the second hit of 'Dragon Tail' by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Mega War Cry of Struggle",
+    "maxLevel": "10",
+    "effect": "Increases the aggro generated by the skill 'War Cry of Struggle' by 300 per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Static Triple Thrust",
+    "maxLevel": "1",
+    "effect": "You will remain in the same spot when using the skill 'Triple Thrust'.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Magadachi Amulet",
+    "maxLevel": "6",
+    "effect": "Raises magic damage reduction by the skill 'Magadachi' by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Meikyo Shisui Preserver",
+    "maxLevel": "1",
+    "effect": "The effect from 'Meikyo Shisui' remains when using a skill.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Steady Stance",
+    "maxLevel": "10",
+    "effect": "Reduces damage taken while afflicted with Stop by 3% per Registlet Level if you stand still.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv90)"
+      }
+    ]
+  },
+  {
+    "name": "Shared Destiny",
+    "maxLevel": "10",
+    "effect": "Each party member excluding you will raise ATK and MATK by 1%, but [110 - (10 × Registlet Level)]% of HP will be lost whenever a member gets knocked out.∗ This HP loss could knock player out.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv70)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      }
+    ]
+  },
+  {
+    "name": "Forty Winks",
+    "maxLevel": "5",
+    "effect": "Shortens Sleep duration by 10% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv90)"
+      }
+    ]
+  },
+  {
+    "name": "Tanker's Pet",
+    "maxLevel": "10",
+    "effect": "Lowers the damage received by pet by 3% per Registlet Level, but greatly increases the damage received by its owner.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv90)"
+      }
+    ]
+  },
+  {
+    "name": "Last Hero",
+    "maxLevel": "10",
+    "effect": "Restores [10 + Registlet Level]% of your HP and MP per knocked out party member when you are the only one left.Cooldown: 300 seconds",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      }
+    ]
+  },
+  {
+    "name": "Monophobia",
+    "maxLevel": "5",
+    "effect": "Restores 100 HP per 10 seconds when near a party member, but when not, 100 HP will be lost. Range is [3 + Registlet Level] meters.∗ This HP loss won't knock player out.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv90)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      }
+    ]
+  },
+  {
+    "name": "Pyrexia",
+    "maxLevel": "20",
+    "effect": "The chance of having Freeze status removed if you do a normal attack while frozen increases by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv110)"
+      }
+    ]
+  },
+  {
+    "name": "Impetus",
+    "maxLevel": "10",
+    "effect": "Reduces movement speed decline due to Slow by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv110)"
+      },
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Silent Recharge",
+    "maxLevel": "20",
+    "effect": "Increase amount of MP recovered by 5% per Registlet Level if 'MP Charge' is used while afflicted with Silence.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv110)"
+      }
+    ]
+  },
+  {
+    "name": "Attacker's Pet",
+    "maxLevel": "10",
+    "effect": "Raises the damage dealt by pet by 3% per Registlet Level, but greatly decreases its owner's.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv110)"
+      }
+    ]
+  },
+  {
+    "name": "Mana Thrash",
+    "maxLevel": "1",
+    "effect": "Raises normal attack power in exchange for Attack MP Recovery.∗ Power increases more with higher Attack MP Recovery.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv110)"
+      }
+    ]
+  },
+  {
+    "name": "Parsimony",
+    "maxLevel": "10",
+    "effect": "Instead of consuming a triggered auto-item, the item cooldown is doubled.Cooldown: [40 - Registlet Level] seconds.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv110)"
+      }
+    ]
+  },
+  {
+    "name": "Emergency Repair",
+    "maxLevel": "20",
+    "effect": "There is a [5 × Registlet Level]% chance of having Armor Break status removed when the damage taken increases because of it.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Mana Defuser",
+    "maxLevel": "1",
+    "effect": "Immediately restores 100 MP if you survive a Mana Explosion.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv130)"
+      },
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Coffee Break",
+    "maxLevel": "10",
+    "effect": "Restores 10% of your HP when you defeat a monster.Cooldown: [30 - Registlet Level] seconds.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Eagle Eye",
+    "maxLevel": "10",
+    "effect": "Reduces damage taken from behind (opposite camera direction) by 1% per Registlet Level. The damage will be further reduced when taken from directly behind.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Savior",
+    "maxLevel": "1",
+    "effect": "Grants a 10-second invincibility if you revive when all of your party members get knocked out.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv130)"
+      }
+    ]
+  },
+  {
+    "name": "Remedial Rampage",
+    "maxLevel": "10",
+    "effect": "Removes the finishing attack of the skill 'Rampage' and restores 50 HP per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Sword Tempest Extender",
+    "maxLevel": "1",
+    "effect": "Adds 1 hit to the skill 'Sword Tempest'.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Smoke Dust Extender",
+    "maxLevel": "10",
+    "effect": "Extends the duration of buff from the skill 'Smoke Dust' by 1 second per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Piercing Heavy Smash",
+    "maxLevel": "10",
+    "effect": "Adds [5 × Registlet Level]% Physical Pierce to the skill 'Heavy Smash' if used with knuckles.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Phantom Slash Enhancer",
+    "maxLevel": "20",
+    "effect": "Raises the power of 'Phantom Slash' by 5% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Focus Dive Impact",
+    "maxLevel": "5",
+    "effect": "Turns the skill 'Dive Impact' into an attack that pierces through a single target. Resistance to Dazzled is shortened by 2 seconds per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      },
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Pursuit Relief",
+    "maxLevel": "20",
+    "effect": "Reduces damage taken by 1% per Registlet Level when you can't move while afflicted with Flinch, Tumble, or Stun.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Burning Spirit",
+    "maxLevel": "10",
+    "effect": "Restores MP as much as [5 × Registlet Level]% of your Attack MP Recovery when taking damage inflicted by Ignite.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Warrior",
+    "maxLevel": "20",
+    "effect": "Raises normal attack power and Attack MP Recovery by 5% per Registlet Level while afflicted with Bleed.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Monster Hunter",
+    "maxLevel": "10",
+    "effect": "Restores 100 MP when you defeat a monster.Cooldown: [30 - Registlet Level] seconds.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Panic",
+    "maxLevel": "10",
+    "effect": "Restores [10 × Registlet Level] MP every 3 seconds, but all MP will be lost if you get aggro and this Registlet will be suspended for 30 seconds.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Transfer",
+    "maxLevel": "10",
+    "effect": "Lowers MaxMP by [1100 - (100 × Registlet Level)], but when you are knocked out, the remaining MP will be shared among your party members.∗ Players whose MP gets restored by this effect cannot enjoy the same effect for 180 seconds.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv150)"
+      }
+    ]
+  },
+  {
+    "name": "Dominant War Cry",
+    "maxLevel": "1",
+    "effect": "Activation of 'War Cry' will not be interrupted by Fear.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Berserk Control",
+    "maxLevel": "1",
+    "effect": "For each level of 'Berserk', 10% chance to prevent 'Rampage' from being cancelled.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Decoy Shot Compress",
+    "maxLevel": "10",
+    "effect": "Halves the duration of 'Decoy Shot' but increases the power by 10% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Frugal Shield Bash",
+    "maxLevel": "10",
+    "effect": "Restores [10 × Registlet Level] MP when 'Shield Bash' inflicts [Stun].",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      }
+    ]
+  },
+  {
+    "name": "Extra Recovery",
+    "maxLevel": "5",
+    "effect": "Adds a HP recovery effect to the skill 'Recovery'. The amount of HP restored is [10 × Registlet Level]% of the HP recovered by the Mini Heal learned.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Frugal Heal",
+    "maxLevel": "1",
+    "effect": "Reduces the MP Cost of the skill 'Heal' by 100.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Extreme Whack",
+    "maxLevel": "5",
+    "effect": "Increases the activation rate of 'Whack' by 1% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Extreme Concentrate",
+    "maxLevel": "5",
+    "effect": "Increases the activation rate of 'Concentrate' by 1% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Secret Chase ATK Boost",
+    "maxLevel": "1",
+    "effect": "Increases the activation rate of additional attack of 'Secret Chase Attack' by 1% per level of the skill acquired.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Power Resonance",
+    "maxLevel": "9",
+    "effect": "'Resonance' will only enhance stats that affect firepower, but the enhancement is reduced by [95 - (5 × Registlet Level)]%.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      }
+    ]
+  },
+  {
+    "name": "Universal Ether Flare",
+    "maxLevel": "1",
+    "effect": "'Ether Flare' will recover Attack MP even if the element is not the target's weakness.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Bite Enhancer",
+    "maxLevel": "10",
+    "effect": "Raises the power of 'Bloody Bite' by 10% per Registlet Level.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      },
+      {
+        "source": "Stoodie (Lv190)"
+      },
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Full Power Qi Charge",
+    "maxLevel": "10",
+    "effect": "When 'Qi Charge' gives no effect, qi will increase by [10 × Registlet Level]% if the skill is activated using 2000 MP.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      }
+    ]
+  },
+  {
+    "name": "Single Meteor Strike",
+    "maxLevel": "1",
+    "effect": "Reduces the number of meteorites dropped from 'Meteor Strike' to 1, but the drop point will no longer be random. It will no longer inflict status ailments either.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      }
+    ]
+  },
+  {
+    "name": "Start Dash",
+    "maxLevel": "5",
+    "effect": "Normal attack has 0 second cooldown for [5 + Registlet Level] seconds when getting aggro from the target monster for the first time. Cooldown: 60 seconds",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      }
+    ]
+  },
+  {
+    "name": "Secret Combo",
+    "maxLevel": "10",
+    "effect": "Reduces aggro by [Registlet Level]% per 1 combo. Better effect with longer combo.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      }
+    ]
+  },
+  {
+    "name": "Zero Stance",
+    "maxLevel": "10",
+    "effect": "Damage dealt with skill activated without using a combo is multiplied by [1 + (0.01 × Registlet Level)]. \n* Does not apply to some skills such as charge skills.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv170)"
+      }
+    ]
+  },
+  {
+    "name": "Express Assault Attack",
+    "maxLevel": "10",
+    "effect": "Removes [Knock Back] and [Slow] from 'Assault Attack' and increases its power by 10% per Registlet Level",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv190)"
+      }
+    ]
+  },
+  {
+    "name": "Rage Sword Enhancer",
+    "maxLevel": "10",
+    "effect": "Raises the power of 'Rage Sword' by 10% per Registlet Level. Aggro doubles if the target is hostile towards you.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv190)"
+      }
+    ]
+  },
+  {
+    "name": "Mega Royal Heal",
+    "maxLevel": "8",
+    "effect": "The range of 'Royal Heal' effect is increased by 1m per Registlet Level, but the amount of HP restores is halved.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv190)"
+      }
+    ]
+  },
+  {
+    "name": "Tricky Shadow Walk",
+    "maxLevel": "1",
+    "effect": "Additional attack of 'Shadow Walk' will no longer cause proration.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv190)"
+      }
+    ]
+  },
+  {
+    "name": "Comrade Familia",
+    "maxLevel": "1",
+    "effect": "The chance of the familiar summoned with 'Familia' fleeing is reduced by 1%. Movement becomes 1 second faster for Advanced Familiar.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv190)"
+      }
+    ]
+  },
+  {
+    "name": "Speed Resonance",
+    "maxLevel": "9",
+    "effect": "'Resonance' will only enhance stats that affect acceleration, but the enhancement is reduced by [95 - (5 × Registlet Level)]%.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv190)"
+      }
+    ]
+  },
+  {
+    "name": "Short Performance",
+    "maxLevel": "1",
+    "effect": "Shortens the duration of dance skill effect by 5 seconds.\n* Does not apply to Spirited Dance.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv190)"
+      }
+    ]
+  },
+  {
+    "name": "Silent P. Defense",
+    "maxLevel": "10",
+    "effect": "Reduces the aggro generated when P. Defense is successful by [10 × Registlet Level]%",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Binding Strike Modifier",
+    "maxLevel": "1",
+    "effect": "Modifies 'Binding Strike' so that it inflicts [Stun] to the target only and the [Stop] effect is removed.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Holy Light Retribution",
+    "maxLevel": "10",
+    "effect": "There is a 1% chance that Lv[Registlet Level] light element Magic: Finale will activate when 'Holy Light' hits the target.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Assassin Stab Enhancer",
+    "maxLevel": "10",
+    "effect": "Raises the power of 'Assassin Stab' by [Registlet Level]%. Furthermore, the accuracy is raised by [10 × Registlet Level]% if it is Back Stab.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Mana Crystal Catalyst",
+    "maxLevel": "5",
+    "effect": "Reduces the casting time of 'Mana Crystal' by [10 × Registlet Level]%, but the amount of MP recovered gets reduced by 100.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Chancy Trap",
+    "maxLevel": "1",
+    "effect": "Enables a trap skill to be set at the target's feet, but if it activates immediately, you will also be affected.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Focus Demon Claw",
+    "maxLevel": "1",
+    "effect": "The power of 'Demon Claw' is reduced by 100% but the skill will focus on attacking a single target",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Focus Resonance",
+    "maxLevel": "9",
+    "effect": "'Resonance' will only enhance stats that affect concentration and precision, but the enhancement is reduced by [95 - (5 × Registlet Level)]%.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Heal Bank",
+    "maxLevel": "10",
+    "effect": "The amount of HP recovered by 'Mini Heal' and 'Heal' is halved.Accumulates up to [Registlet Level] stacks of buff every 3 sec. When using the skill to heal an ally, the buff is consumed instead of MP to activate it.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  },
+  {
+    "name": "Guitarist",
+    "maxLevel": "6",
+    "effect": "Shortens the time for song effect to increase when used continuously by [Registlet Level] sec, but aggro and damage received while singing increase by 10%.\n* Does not apply to Fantasy Song.",
+    "obtained_from": [
+      {
+        "source": "Stoodie (Lv210)"
+      }
+    ]
+  }
+]

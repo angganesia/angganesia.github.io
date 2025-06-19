@@ -6,17 +6,17 @@
 }
 
 :root {
-  --primary-color: #3498db;
-  --secondary-color: #f1c40f;
-  --background-color: #f9f9f9;
-  --text-color: #333;
+  --primary-color: rgba(52, 152, 219, 1);
+  --secondary-color: rgba(241, 196, 15, 1);
+  --background-color: rgba(249, 249, 249, 1);
+  --text-color: rgba(51, 51, 51, 1);
 }
 
 .dark-mode {
-  --primary-color: #2c3e50;
-  --secondary-color: #8e44ad;
-  --background-color: #333;
-  --text-color: #f9f9f9;
+  --primary-color: rgba(44, 62, 80, 1);
+  --secondary-color: rgba(142, 68, 173, 1);
+  --background-color: rgba(51, 51, 51, 1);
+  --text-color: rgba(249, 249, 249, 1);
 }
 
 body {
@@ -30,7 +30,7 @@ body {
   transition:
     background-color 0.3s,
     color 0.3s;
-  background-image: url(/src/assets/img/bg2.jpg);
+  background-image: url(/src/assets/img/bg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -172,13 +172,12 @@ section footer p a {
 }
 
 .navbar-nav li {
-  padding: 10px;
   margin-right: 20px;
 }
 
 .navbar-nav a {
   color: var(--background-color);
-  font-size: 16px;
+  font-size: 12px;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -214,7 +213,7 @@ section footer p a {
 
   .navbar-nav li {
     margin-right: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 
@@ -227,12 +226,14 @@ section footer p a {
   color: #fff;
   font-size: 18px;
   cursor: pointer;
-  padding: 5px 10px; /* Memberikan padding untuk membuat tombol lebih besar */
-  border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .close-button:hover {
-  background-color: #cc0000; /* Warna merah yang lebih gelap saat hover */
+  background-color: #cc0000;
 }
 
 @media (min-width: 769px) {
@@ -298,6 +299,71 @@ section footer p a {
   border-radius: 5px;
   gap: 10px;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.boxMqCalCont {
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid var(--text-color);
+  border-radius: 5px;
+}
+
+.boxMqCalCont h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.boxMqCal {
+  align-items: center;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.boxMqCal label,
+.boxMqCalCont label {
+  font-weight: 600;
+}
+
+.boxMqCalRadio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.boxMqCalRadio label,
+.boxMqCalChecked label {
+  justify-content: center;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.boxMqCalChecked {
+  margin-top: 20px;
+}
+
+.boxMqCalRadio input[type="radio"],
+.boxMqCalChecked input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #007bff; /* warna accent untuk input radio */
+}
+
+.boxMqCalRadio label:hover,
+.boxMqCalChecked label:hover {
+  color: #007bff; /* warna teks label saat dihover */
+}
+
+.boxMqCalSelect {
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .resultCbc {
@@ -472,6 +538,47 @@ th {
   margin-bottom: 20px;
 }
 
-.mt {
+.mt-1 {
+  margin-top: 10px;
+}
+.mt-2 {
   margin-top: 20px;
+}
+
+.quest-info {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  gap: 20px;
+  text-shadow:
+    0 0 1px transparent,
+    0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.mq-xp {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mq-eval {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.mq-start-from {
+  color: rgba(174, 0, 0, 1);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.mq-stopAt {
+  color: rgba(29, 95, 0, 1);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.mq-or {
+  font-size: 14px;
+  font-weight: 800;
 }

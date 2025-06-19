@@ -9,8 +9,8 @@
     "tamable": "No",
     "spawn_at": "Event",
     "drops": [
-      "[Usable] Bride Box",
-      "[Usable] Groom Box"
+      "[Usable] Groom Box",
+      "[Usable] Bride Box"
     ]
   },
   {
@@ -23,12 +23,12 @@
     "tamable": "No",
     "spawn_at": "Rakau Plains",
     "drops": [
-      "[Usable] Baked Sweet Potato",
-      "[Usable] Mashed Sweet Potato",
-      "[Usable] Ginkgo Nut Rice",
       "[Usable] Dried Persimon",
       "[Usable] Salt-Grilled Saury",
       "[Usable] Matsutake Soup",
+      "[Usable] Baked Sweet Potato",
+      "[Usable] Mashed Sweet Potato",
+      "[Usable] Ginkgo Nut Rice",
       "[Armor] Adventurer's Garb 38 B C",
       "[Armor] Adventurer's Garb A 38 C",
       "[Armor] Adventurer's Garb A B 38",
@@ -78,9 +78,9 @@
       "[Usable] Revita I",
       "[Additional] Colon Met",
       "[Armor] Adventurer's Garb 2 B C",
+      "[Material] Colon Skin",
       "[Material] Bundled Leaves",
       "[Material] Split Wooden Helm",
-      "[Material] Colon Skin",
       "[Armor Crysta] Colon Commander"
     ]
   },
@@ -110,8 +110,8 @@
     "spawn_at": "Icule Lake",
     "drops": [
       "[Armor] Adventurer's Garb A B C",
-      "[Material] Lizard Skin",
       "[Material] Turtle Shell",
+      "[Material] Lizard Skin",
       "[Ore] Damascus Ore",
       "[Shield] Shell Shield",
       "[Armor Crysta] Tortuga"
@@ -129,8 +129,8 @@
     "drops": [
       "[Additional] Crystal Earrings",
       "[Armor] Adventurer's Garb A B 1",
-      "[Material] Bead Fragment",
       "[Material] Fairy Feather",
+      "[Material] Bead Fragment",
       "[Normal Crysta] Silver Roar"
     ]
   },
@@ -144,12 +144,28 @@
     "tamable": "No",
     "spawn_at": "Ruined Temple: Area 2",
     "drops": [
-      "[Usable] Save Point",
       "[Usable] Hard Apple",
+      "[Usable] Save Point",
       "[Armor] Adventurer's Garb A B C",
       "[Material] Potum Nail",
       "[Staff] Morning Star",
       "[Weapon Crysta] Miracle Potum"
+    ]
+  },
+  {
+    "name": "Sand Mole",
+    "level": "50",
+    "type": "-",
+    "hp": "20000",
+    "element": "Earth",
+    "exp": "380",
+    "tamable": "No",
+    "spawn_at": "Centerio Highlands",
+    "drops": [
+      "[Usable] Sand Mole Meat",
+      "[Additional] Mole Eyes",
+      "[Material] Sand Mole Skin",
+      "[Material] Sand Crystal"
     ]
   },
   {
@@ -162,12 +178,12 @@
     "tamable": "No",
     "spawn_at": "Yorl Highlands",
     "drops": [
-      "[Usable] Baked Sweet Potato",
-      "[Usable] Mashed Sweet Potato",
-      "[Usable] Ginkgo Nut Rice",
       "[Usable] Dried Persimon",
       "[Usable] Salt-Grilled Saury",
       "[Usable] Matsutake Soup",
+      "[Usable] Baked Sweet Potato",
+      "[Usable] Mashed Sweet Potato",
+      "[Usable] Ginkgo Nut Rice",
       "[Armor] Adventurer's Garb 38 B C",
       "[Armor] Adventurer's Garb A 38 C",
       "[Armor] Adventurer's Garb A B 38",
@@ -198,25 +214,9 @@
     "drops": [
       "[Usable] Hard Apple",
       "[Additional] Hair Band",
-      "[Material] Bead Fragment",
       "[Material] Potum Nail",
+      "[Material] Bead Fragment",
       "[Normal Crysta] King Potum"
-    ]
-  },
-  {
-    "name": "Sand Mole",
-    "level": "50",
-    "type": "-",
-    "hp": "20000",
-    "element": "Earth",
-    "exp": "380",
-    "tamable": "No",
-    "spawn_at": "Centerio Highlands",
-    "drops": [
-      "[Usable] Sand Mole Meat",
-      "[Additional] Mole Eyes",
-      "[Material] Sand Crystal",
-      "[Material] Sand Mole Skin"
     ]
   },
   {
@@ -230,8 +230,8 @@
     "spawn_at": "Nisel Mountain",
     "drops": [
       "[Armor] Adventurer's Garb A B C",
-      "[Material] Animal Skin",
       "[Material] Sturdy Fur",
+      "[Material] Animal Skin",
       "[Additional Crysta] Giant Boar"
     ]
   },
@@ -246,9 +246,9 @@
     "spawn_at": "Zoktzda Ruins",
     "drops": [
       "[Armor] Adventurer's Garb 26 B C",
+      "[Material] Skeleton Bone",
       "[Material] Ancient Gold Coin",
       "[Material] Wandering Spirit",
-      "[Material] Skeleton Bone",
       "[Additional Crysta] Golden Skeleton"
     ]
   },
@@ -263,9 +263,9 @@
     "spawn_at": "Aulada Ancient Tower",
     "drops": [
       "[Additional] Vampire Cape",
+      "[Material] Little Wyvern Wing",
       "[Material] Crimson Claw",
       "[Material] Red Crystal Stone Fragment",
-      "[Material] Little Wyvern Wing",
       "[Additional Crysta] Seltirios"
     ]
   },
@@ -283,8 +283,8 @@
       "[Refinement Support] Magic Hammer",
       "[Additional] Flower Headband",
       "[Armor] Adventurer's Garb A B C",
-      "[Material] Young Branch",
       "[Material] Plant Skin",
+      "[Material] Young Branch",
       "[Normal Crysta] Big Coryn"
     ]
   },
@@ -299,26 +299,10 @@
     "spawn_at": "Zoktzda Ruins : Abnormal Space",
     "drops": [
       "[Armor] Adventurer's Garb A B C",
-      "[Material] Pebble",
       "[Material] Zoktzda Stone",
+      "[Material] Pebble",
       "[Shield] Mirror Shield",
       "[Special Crysta] Stone Mercenary"
-    ]
-  },
-  {
-    "name": "Big Mask",
-    "level": "70",
-    "type": "-",
-    "hp": "Unknown",
-    "element": "Wind",
-    "exp": "2400",
-    "tamable": "No",
-    "spawn_at": "Haotas Ravine",
-    "drops": [
-      "[Additional] Stier",
-      "[Material] Ravine Dew",
-      "[Material] Strong Vine",
-      "[Material] Steel Seed Coat"
     ]
   },
   {
@@ -333,9 +317,9 @@
     "drops": [
       "[Additional] Feather Cape",
       "[Armor] Adventurer's Garb 22 27 46",
+      "[Material] Bird Wing",
       "[Material] Bead Fragment",
       "[Material] Rainbow Feather",
-      "[Material] Bird Wing",
       "[Armor Crysta] Arcoiris"
     ]
   },
@@ -350,9 +334,9 @@
     "spawn_at": "Gate to Another World: Area 2",
     "drops": [
       "[Armor] Oracle Robe A B C",
-      "[Material] Space Wolf Horn",
       "[Material] Space Wolf Fur",
-      "[Material] Space Wolf Claw"
+      "[Material] Space Wolf Claw",
+      "[Material] Space Wolf Horn"
     ]
   },
   {
@@ -366,9 +350,25 @@
     "spawn_at": "Gate to Another World: Area 1",
     "drops": [
       "[Armor] Oracle Robe A B C",
-      "[Material] Space Wolf Horn",
       "[Material] Space Wolf Fur",
-      "[Material] Space Wolf Claw"
+      "[Material] Space Wolf Claw",
+      "[Material] Space Wolf Horn"
+    ]
+  },
+  {
+    "name": "Big Mask",
+    "level": "70",
+    "type": "-",
+    "hp": "Unknown",
+    "element": "Wind",
+    "exp": "2400",
+    "tamable": "No",
+    "spawn_at": "Haotas Ravine",
+    "drops": [
+      "[Additional] Stier",
+      "[Material] Steel Seed Coat",
+      "[Material] Ravine Dew",
+      "[Material] Strong Vine"
     ]
   },
   {
@@ -384,8 +384,8 @@
       "[Usable] Apple",
       "[Armor] Adventurer's Garb A B C",
       "[Knuckles] Drills",
-      "[Material] Moonlight Flower",
       "[Material] Potum Nail",
+      "[Material] Moonlight Flower",
       "[Weapon Crysta] Moonlight Potum"
     ]
   },
@@ -399,12 +399,12 @@
     "tamable": "No",
     "spawn_at": "Darkanon Plain",
     "drops": [
-      "[Usable] Baked Sweet Potato",
-      "[Usable] Mashed Sweet Potato",
-      "[Usable] Ginkgo Nut Rice",
       "[Usable] Dried Persimon",
       "[Usable] Salt-Grilled Saury",
       "[Usable] Matsutake Soup",
+      "[Usable] Baked Sweet Potato",
+      "[Usable] Mashed Sweet Potato",
+      "[Usable] Ginkgo Nut Rice",
       "[Armor] Adventurer's Garb 38 B C",
       "[Armor] Adventurer's Garb A 38 C",
       "[Armor] Adventurer's Garb A B 38",
@@ -467,41 +467,9 @@
     "drops": [
       "[Usable] Flower Nectar",
       "[Additional] Hero Scarf",
-      "[Material] Bear Fur",
       "[Material] Sharp Bear Claw",
+      "[Material] Bear Fur",
       "[Special Crysta] Violaccoon"
-    ]
-  },
-  {
-    "name": "Metal Stinger",
-    "level": "82",
-    "type": "-",
-    "hp": "Unknown",
-    "element": "Earth",
-    "exp": "4050",
-    "tamable": "No",
-    "spawn_at": "Akaku Desert: Area 2",
-    "drops": [
-      "[Material] Scorpion Tail",
-      "[Material] Hard Scissor",
-      "[Material] Sand Pyroxene",
-      "[Normal Crysta] Metal Stinger"
-    ]
-  },
-  {
-    "name": "Metal Stinger",
-    "level": "82",
-    "type": "-",
-    "hp": "Unknown",
-    "element": "Earth",
-    "exp": "4050",
-    "tamable": "No",
-    "spawn_at": "Akaku Desert: Area 1",
-    "drops": [
-      "[Material] Scorpion Tail",
-      "[Material] Hard Scissor",
-      "[Material] Sand Pyroxene",
-      "[Normal Crysta] Metal Stinger"
     ]
   },
   {
@@ -516,9 +484,41 @@
     "drops": [
       "[Armor] Adventurer's Garb A B C",
       "[Bowgun] Revolver",
-      "[Material] Lost Footstep",
       "[Material] Polyester Cloth",
+      "[Material] Lost Footstep",
       "[Special Crysta] Shining Gentleman"
+    ]
+  },
+  {
+    "name": "Metal Stinger",
+    "level": "82",
+    "type": "-",
+    "hp": "Unknown",
+    "element": "Earth",
+    "exp": "4050",
+    "tamable": "No",
+    "spawn_at": "Akaku Desert: Area 2",
+    "drops": [
+      "[Material] Hard Scissor",
+      "[Material] Sand Pyroxene",
+      "[Material] Scorpion Tail",
+      "[Normal Crysta] Metal Stinger"
+    ]
+  },
+  {
+    "name": "Metal Stinger",
+    "level": "82",
+    "type": "-",
+    "hp": "Unknown",
+    "element": "Earth",
+    "exp": "4050",
+    "tamable": "No",
+    "spawn_at": "Akaku Desert: Area 1",
+    "drops": [
+      "[Material] Hard Scissor",
+      "[Material] Sand Pyroxene",
+      "[Material] Scorpion Tail",
+      "[Normal Crysta] Metal Stinger"
     ]
   },
   {
@@ -533,9 +533,9 @@
     "drops": [
       "[Additional] Afro Wig",
       "[Armor] Adventurer's Garb A B 54",
+      "[Material] Rotten Colon Skin",
       "[Material] Decayed Branch",
       "[Material] Withered Leaf",
-      "[Material] Rotten Colon Skin",
       "[Ore] Mithril Ore",
       "[Weapon Crysta] Death Colon"
     ]
@@ -550,9 +550,9 @@
     "tamable": "No",
     "spawn_at": "Abyss of No Return: Area 3",
     "drops": [
+      "[Material] Tree Spirit Soul",
       "[Material] Magic Charged Branch",
       "[Material] Ancient Big Tree",
-      "[Material] Tree Spirit Soul",
       "[Staff] Bloom of Peace",
       "[Special Crysta] Granny"
     ]
@@ -570,326 +570,6 @@
       "[Additional] Eyepatch (Cat)",
       "[Material] Strengthened Armor",
       "[Additional Crysta] Grylle"
-    ]
-  },
-  {
-    "name": "Golden Coryn (2017)",
-    "level": "100",
-    "type": "-",
-    "hp": "10000",
-    "element": "Neutral",
-    "exp": "20",
-    "tamable": "No",
-    "spawn_at": "Wanderer's Plain",
-    "drops": [
-      "[Armor] Adventurer's Garb 5 B C",
-      "[Armor] Adventurer's Garb A B C",
-      "[Armor] Adventurer's Garb A 1 C"
-    ]
-  },
-  {
-    "name": "Golden Potum (7M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Yorl Highlands",
-    "drops": [
-      "[Usable] Revita III",
-      "[Refinement Support] Refinement Powder",
-      "[Refinement Support] Super Refinement Powder",
-      "[Refinement Support] Hyper Refinement Powder",
-      "[Additional] Potum Hat A B 5",
-      "[Additional] Potum Hat 82 B C",
-      "[Additional] Potum Hat 71 B C",
-      "[Additional] Potum Hat 1 B C",
-      "[Armor] Adventurer's Garb A B 5",
-      "[Armor] Adventurer's Garb A B 64",
-      "[Armor] Adventurer's Garb A 84 C",
-      "[Armor] Adventurer's Garb A B 54",
-      "[Armor] Adventurer's Garb 18 B C",
-      "[Armor] Adventurer's Garb A B 38",
-      "[Armor] Adventurer's Garb A 37 C",
-      "[Armor] Adventurer's Garb A 1 C",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (M)"
-    ]
-  },
-  {
-    "name": "Silver Coryn (2021)",
-    "level": "100",
-    "type": "-",
-    "hp": "100",
-    "element": "Neutral",
-    "exp": "1",
-    "tamable": "No",
-    "spawn_at": "Tolbas GrassLand",
-    "drops": [
-      "[Usable] Apple",
-      "[Additional] Warrior Helm 5 B C",
-      "[Additional] Mage Hat A 5 C",
-      "[Additional] Scholar's Glasses A B 5",
-      "[Additional] Warrior Helm 74 B C",
-      "[Additional] Mage Hat A 74 C",
-      "[Additional] Scholar's Glasses A B 74",
-      "[Armor] Plate Armor 2 3 4",
-      "[Material] Silver Apple"
-    ]
-  },
-  {
-    "name": "Golden Potum (6M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Wanderer's Plain",
-    "drops": [
-      "[Additional] Potum Hat 54 B C",
-      "[Additional] Potum Hat A 54 C",
-      "[Additional] Potum Hat A B 2",
-      "[Additional] Potum Hat A 53 C",
-      "[Armor] Adventurer's Garb A 50 C",
-      "[Armor] Adventurer's Garb A B 50",
-      "[Armor] Adventurer's Garb A B 51",
-      "[Armor] Adventurer's Garb 3 B C",
-      "[Armor] Adventurer's Garb A 54 C",
-      "[Armor] Adventurer's Garb 20 B C",
-      "[Armor] Adventurer's Garb A B 20",
-      "[Armor] Adventurer's Garb A B 42",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
-    ]
-  },
-  {
-    "name": "Golden Potum (5M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Wanderer's Plain",
-    "drops": [
-      "[Additional] Potum Hat A B 5",
-      "[Additional] Potum Hat 19 B C",
-      "[Additional] Potum Hat A 38 C",
-      "[Additional] Potum Hat 1 B C",
-      "[Armor] Adventurer's Garb A 49 C",
-      "[Armor] Adventurer's Garb A B 47",
-      "[Armor] Adventurer's Garb A B C",
-      "[Armor] Adventurer's Garb A B 12",
-      "[Armor] Adventurer's Garb A B 2",
-      "[Armor] Adventurer's Garb A B 40",
-      "[Armor] Adventurer's Garb 6 B C",
-      "[Armor] Adventurer's Garb A B 21",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
-    ]
-  },
-  {
-    "name": "Golden Potum (9M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Yorl Highlands",
-    "drops": [
-      "[Additional] Potum Hat A B 5",
-      "[Additional] Potum Hat A 81 C",
-      "[Additional] Potum Hat A B 38",
-      "[Armor] Adventurer's Garb A 5 C",
-      "[Armor] Adventurer's Garb A 44 C",
-      "[Armor] Adventurer's Garb A 21 C",
-      "[Armor] Adventurer's Garb 1 B C",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (M)"
-    ]
-  },
-  {
-    "name": "Golden Potum (11M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Rakau Plains",
-    "drops": [
-      "[Usable] Revita II",
-      "[Refinement Support] Refinement Powder",
-      "[Refinement Support] Super Refinement Powder",
-      "[Refinement Support] Hyper Refinement Powder",
-      "[Additional] Potum Hat 50 51 83",
-      "[Additional] Potum Hat 2 49 48",
-      "[Additional] Potum Hat 19 16 19",
-      "[Additional] Potum Hat 5 35 6",
-      "[Armor] Adventurer's Garb 48 50 49",
-      "[Armor] Adventurer's Garb 67 6 64",
-      "[Armor] Adventurer's Garb 6 4 84",
-      "[Armor] Adventurer's Garb 54 1 5",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)"
-    ]
-  },
-  {
-    "name": "Golden Coryn (2018)",
-    "level": "100",
-    "type": "-",
-    "hp": "10000",
-    "element": "Neutral",
-    "exp": "20",
-    "tamable": "No",
-    "spawn_at": "Yorl Highlands",
-    "drops": [
-      "[Usable] Apple",
-      "[Additional] Ribbon A 5 C",
-      "[Additional] Ribbon A 38 C",
-      "[Additional] Ribbon 42 B C",
-      "[Armor] Adventurer's Garb A B 5",
-      "[Armor] Adventurer's Garb 38 B C",
-      "[Armor] Adventurer's Garb A B 1",
-      "[Material] Golden Apple"
-    ]
-  },
-  {
-    "name": "Golden Coryn (2017)",
-    "level": "100",
-    "type": "-",
-    "hp": "10000",
-    "element": "Neutral",
-    "exp": "20",
-    "tamable": "No",
-    "spawn_at": "Rakau Plains",
-    "drops": [
-      "[Armor] Adventurer's Garb A 5 C",
-      "[Armor] Adventurer's Garb 38 B C",
-      "[Armor] Adventurer's Garb A B 1"
-    ]
-  },
-  {
-    "name": "Golden Potum (7M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Darkanon Plain",
-    "drops": [
-      "[Usable] Revita IV",
-      "[Refinement Support] Refinement Powder",
-      "[Refinement Support] Super Refinement Powder",
-      "[Refinement Support] Hyper Refinement Powder",
-      "[Additional] Potum Hat A 5 C",
-      "[Additional] Potum Hat A 54 C",
-      "[Additional] Potum Hat A B 54",
-      "[Additional] Potum Hat 37 B C",
-      "[Armor] Adventurer's Garb A 5 C",
-      "[Armor] Adventurer's Garb A B 80",
-      "[Armor] Adventurer's Garb A 64 C",
-      "[Armor] Adventurer's Garb A 54 C",
-      "[Armor] Adventurer's Garb A 2 C",
-      "[Armor] Adventurer's Garb A B 2",
-      "[Armor] Adventurer's Garb A B 6",
-      "[Armor] Adventurer's Garb A B 21",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)"
     ]
   },
   {
@@ -914,48 +594,6 @@
     ]
   },
   {
-    "name": "Golden Potum (6M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Darkanon Plain",
-    "drops": [
-      "[Additional] Potum Hat A 4 C",
-      "[Additional] Potum Hat 3 B C",
-      "[Additional] Potum Hat 2 B C",
-      "[Additional] Potum Hat A 2 C",
-      "[Armor] Adventurer's Garb 82 B C",
-      "[Armor] Adventurer's Garb A 82 C",
-      "[Armor] Adventurer's Garb 4 B C",
-      "[Armor] Adventurer's Garb A B 19",
-      "[Armor] Adventurer's Garb 38 B C",
-      "[Armor] Adventurer's Garb A 20 C",
-      "[Armor] Adventurer's Garb 42 B C",
-      "[Armor] Adventurer's Garb A 42 C",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
-    ]
-  },
-  {
     "name": "Golden Coryn (2019)",
     "level": "100",
     "type": "-",
@@ -976,29 +614,40 @@
     ]
   },
   {
-    "name": "Golden Potum (9M DL)",
+    "name": "Golden Coryn (2017)",
+    "level": "100",
+    "type": "-",
+    "hp": "10000",
+    "element": "Neutral",
+    "exp": "20",
+    "tamable": "No",
+    "spawn_at": "Yorl Highlands",
+    "drops": [
+      "[Armor] Adventurer's Garb A B 5",
+      "[Armor] Adventurer's Garb A B C",
+      "[Armor] Adventurer's Garb A B C"
+    ]
+  },
+  {
+    "name": "Golden Potum (3M DL)",
     "level": "100",
     "type": "-",
     "hp": "30",
     "element": "Light",
     "exp": "100",
     "tamable": "No",
-    "spawn_at": "Rakau Plains",
+    "spawn_at": "Event",
     "drops": [
-      "[Additional] Potum Hat A 5 C",
-      "[Additional] Potum Hat A 82 C",
-      "[Additional] Potum Hat A B 82",
-      "[Additional] Potum Hat A B 81",
-      "[Additional] Potum Hat 4 B C",
-      "[Additional] Potum Hat 18 B C",
-      "[Additional] Potum Hat 1 B C",
+      "[Additional] Ribbon 5 B C",
+      "[Additional] Ribbon A 50 C",
+      "[Additional] Ribbon A B 50",
+      "[Additional] Ribbon A 1 C",
       "[Armor] Adventurer's Garb 5 B C",
-      "[Armor] Adventurer's Garb A 82 C",
-      "[Armor] Adventurer's Garb 4 B C",
-      "[Armor] Adventurer's Garb A B 51",
+      "[Armor] Adventurer's Garb A 50 C",
+      "[Armor] Adventurer's Garb A B 50",
+      "[Armor] Adventurer's Garb A B 4",
       "[Armor] Adventurer's Garb 38 B C",
-      "[Armor] Adventurer's Garb A 38 C",
-      "[Armor] Adventurer's Garb A B 36",
+      "[Armor] Adventurer's Garb A 1 C",
       "[Material] Potum Silver Coin",
       "[Material] Medicine Pack (S)",
       "[Material] Medicine Pack (L)",
@@ -1006,7 +655,8 @@
       "[Material] Wood Pack (S)",
       "[Material] Wood Pack (L)",
       "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Medicine Pack (M)",
@@ -1015,8 +665,7 @@
       "[Material] Wood Pack (M)",
       "[Material] Metal Pack (S)",
       "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
+      "[Material] Beast Pack (M)"
     ]
   },
   {
@@ -1029,12 +678,12 @@
     "tamable": "No",
     "spawn_at": "Wanderer's Plain",
     "drops": [
-      "[Usable] Baked Sweet Potato",
-      "[Usable] Mashed Sweet Potato",
-      "[Usable] Ginkgo Nut Rice",
       "[Usable] Dried Persimon",
       "[Usable] Salt-Grilled Saury",
       "[Usable] Matsutake Soup",
+      "[Usable] Baked Sweet Potato",
+      "[Usable] Mashed Sweet Potato",
+      "[Usable] Ginkgo Nut Rice",
       "[Armor] Adventurer's Garb 38 B C",
       "[Armor] Adventurer's Garb A 38 C",
       "[Armor] Adventurer's Garb A B 38",
@@ -1074,6 +723,52 @@
     ]
   },
   {
+    "name": "Golden Potum (10M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Darkanon Plain",
+    "drops": [
+      "[Additional] Potum Hat A 50 C",
+      "[Additional] Potum Hat A B 50",
+      "[Additional] Potum Hat A B 62",
+      "[Additional] Potum Hat A 47 C",
+      "[Additional] Potum Hat A B 47",
+      "[Additional] Potum Hat 85 B C",
+      "[Additional] Potum Hat 38 B C",
+      "[Additional] Potum Hat 6 B C",
+      "[Additional] Potum Hat A 1 C",
+      "[Armor] Adventurer's Garb A B 5",
+      "[Armor] Adventurer's Garb A 32 C",
+      "[Armor] Adventurer's Garb A B 16",
+      "[Armor] Adventurer's Garb 38 B C",
+      "[Armor] Adventurer's Garb A 6 C",
+      "[Armor] Adventurer's Garb 20 B C",
+      "[Armor] Adventurer's Garb A 1 C",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (M)"
+    ]
+  },
+  {
     "name": "Golden Potum (12M DL)",
     "level": "100",
     "type": "-",
@@ -1094,11 +789,11 @@
     "element": "Neutral",
     "exp": "20",
     "tamable": "No",
-    "spawn_at": "Darkanon Plain",
+    "spawn_at": "Rakau Plains",
     "drops": [
       "[Usable] Apple",
-      "[Additional] Ribbon A B C",
-      "[Additional] Mage Hat A B 1",
+      "[Additional] Headband A B C",
+      "[Armor] Adventurer's Garb 5 B C",
       "[Armor] Adventurer's Garb A B C"
     ]
   },
@@ -1113,9 +808,9 @@
     "spawn_at": "Tolbas GrassLand",
     "drops": [
       "[Usable] Revita VI",
+      "[Refinement Support] Super Refinement Powder",
       "[Refinement Support] Refinement Powder",
       "[Refinement Support] Hyper Refinement Powder",
-      "[Refinement Support] Super Refinement Powder",
       "[Additional] Potum Hat 84 48 34",
       "[Additional] Potum Hat 52 81 37",
       "[Additional] Potum Hat 35 6 54",
@@ -1124,18 +819,18 @@
       "[Armor] Adventurer's Garb 4 84 67",
       "[Armor] Adventurer's Garb 52 64 34",
       "[Armor] Adventurer's Garb 1 5 48",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Medicine Pack (M)",
       "[Material] Fabric Pack (S)",
       "[Material] Fabric Pack (L)",
-      "[Material] Metal Pack (M)"
+      "[Material] Metal Pack (M)",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)"
     ]
   },
   {
@@ -1167,29 +862,20 @@
     "element": "Light",
     "exp": "100",
     "tamable": "No",
-    "spawn_at": "Yorl Highlands",
+    "spawn_at": "Rakau Plains",
     "drops": [
-      "[Additional] Potum Hat 4 B C",
-      "[Additional] Potum Hat A B 4",
-      "[Additional] Potum Hat A B 3",
-      "[Additional] Potum Hat A B 38",
-      "[Armor] Adventurer's Garb 50 B C",
-      "[Armor] Adventurer's Garb A B 4",
-      "[Armor] Adventurer's Garb A 51 C",
-      "[Armor] Adventurer's Garb 54 B C",
-      "[Armor] Adventurer's Garb 2 B C",
-      "[Armor] Adventurer's Garb A B 2",
-      "[Armor] Adventurer's Garb A 38 C",
-      "[Armor] Adventurer's Garb A B 52",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)",
+      "[Additional] Potum Hat A 3 C",
+      "[Additional] Potum Hat A B 54",
+      "[Additional] Potum Hat 38 B C",
+      "[Additional] Potum Hat A 38 C",
+      "[Armor] Adventurer's Garb 51 B C",
+      "[Armor] Adventurer's Garb A 3 C",
+      "[Armor] Adventurer's Garb A B 3",
+      "[Armor] Adventurer's Garb A B 54",
+      "[Armor] Adventurer's Garb A 2 C",
+      "[Armor] Adventurer's Garb A B 38",
+      "[Armor] Adventurer's Garb 52 B C",
+      "[Armor] Adventurer's Garb A 52 C",
       "[Material] Potum Silver Coin",
       "[Material] Medicine Pack (S)",
       "[Material] Medicine Pack (L)",
@@ -1198,7 +884,16 @@
       "[Material] Wood Pack (L)",
       "[Material] Metal Pack (M)",
       "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (M)"
     ]
   },
   {
@@ -1222,15 +917,6 @@
       "[Armor] Adventurer's Garb A 20 C",
       "[Armor] Adventurer's Garb A 9 C",
       "[Armor] Adventurer's Garb A 1 C",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)",
       "[Material] Potum Silver Coin",
       "[Material] Medicine Pack (S)",
       "[Material] Medicine Pack (L)",
@@ -1239,25 +925,16 @@
       "[Material] Wood Pack (L)",
       "[Material] Metal Pack (M)",
       "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
-    ]
-  },
-  {
-    "name": "Silver Coryn (2015)",
-    "level": "100",
-    "type": "-",
-    "hp": "Unknown",
-    "element": "Light",
-    "exp": "Unknown",
-    "tamable": "No",
-    "spawn_at": "Event",
-    "drops": [
-      "[Additional] Ribbon",
-      "[Additional] Ribbon A B C",
-      "[Armor] Adventurer's Garb 5 B C",
-      "[Armor] Adventurer's Garb 49 B C",
-      "[Armor] Adventurer's Garb 40 B C",
-      "[Armor] Adventurer's Garb 1 B C"
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (M)"
     ]
   },
   {
@@ -1279,15 +956,6 @@
       "[Armor] Adventurer's Garb A B 67",
       "[Armor] Adventurer's Garb 56 B C",
       "[Armor] Adventurer's Garb A B 19",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Medicine Pack (M)",
@@ -1296,7 +964,75 @@
       "[Material] Wood Pack (M)",
       "[Material] Metal Pack (S)",
       "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (M)",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)"
+    ]
+  },
+  {
+    "name": "Golden Potum (10M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Yorl Highlands",
+    "drops": [
+      "[Additional] Potum Hat A 62 C",
+      "[Additional] Potum Hat A 84 C",
+      "[Additional] Potum Hat 54 B C",
+      "[Additional] Potum Hat A B 54",
+      "[Additional] Potum Hat A 11 C",
+      "[Additional] Potum Hat A B 38",
+      "[Additional] Potum Hat 53 B C",
+      "[Additional] Potum Hat A B 20",
+      "[Additional] Potum Hat 1 B C",
+      "[Armor] Adventurer's Garb A 5 C",
+      "[Armor] Adventurer's Garb 48 B C",
+      "[Armor] Adventurer's Garb A 16 C",
+      "[Armor] Adventurer's Garb A B 37",
+      "[Armor] Adventurer's Garb 6 B C",
+      "[Armor] Adventurer's Garb A B 20",
+      "[Armor] Adventurer's Garb 1 B C",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
       "[Material] Beast Pack (M)"
+    ]
+  },
+  {
+    "name": "Golden Potum (12M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Wanderer's Plain",
+    "drops": [
+      "[Armor] Iris Armor"
     ]
   },
   {
@@ -1325,14 +1061,6 @@
       "[Armor] Adventurer's Garb A B 38",
       "[Armor] Adventurer's Garb 37 B C",
       "[Armor] Adventurer's Garb A B 6",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (M)",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Medicine Pack (M)",
@@ -1342,11 +1070,19 @@
       "[Material] Metal Pack (S)",
       "[Material] Metal Pack (L)",
       "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (M)"
     ]
   },
   {
-    "name": "Golden Potum (12M DL)",
+    "name": "Golden Potum (9M DL)",
     "level": "100",
     "type": "-",
     "hp": "30",
@@ -1355,23 +1091,34 @@
     "tamable": "No",
     "spawn_at": "Wanderer's Plain",
     "drops": [
-      "[Armor] Iris Armor"
-    ]
-  },
-  {
-    "name": "Golden Coryn (2016)",
-    "level": "100",
-    "type": "-",
-    "hp": "10000",
-    "element": "Neutral",
-    "exp": "20",
-    "tamable": "No",
-    "spawn_at": "Yorl Highlands",
-    "drops": [
-      "[Usable] Apple",
-      "[Additional] Mage Hat A B 5",
-      "[Additional] Ribbon A B C",
-      "[Armor] Adventurer's Garb 1 B C"
+      "[Additional] Potum Hat 5 B C",
+      "[Additional] Potum Hat 82 B C",
+      "[Additional] Potum Hat A 4 C",
+      "[Additional] Potum Hat A 38 C",
+      "[Armor] Adventurer's Garb 44 B C",
+      "[Armor] Adventurer's Garb A 4 C",
+      "[Armor] Adventurer's Garb A B 38",
+      "[Armor] Adventurer's Garb A B 37",
+      "[Armor] Adventurer's Garb A 36 C",
+      "[Armor] Adventurer's Garb A B 1",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (M)"
     ]
   },
   {
@@ -1385,9 +1132,9 @@
     "spawn_at": "Wanderer's Plain",
     "drops": [
       "[Usable] Revita V",
+      "[Refinement Support] Hyper Refinement Powder",
       "[Refinement Support] Refinement Powder",
       "[Refinement Support] Super Refinement Powder",
-      "[Refinement Support] Hyper Refinement Powder",
       "[Additional] Potum Hat A 46 C",
       "[Additional] Potum Hat 54 B C",
       "[Additional] Potum Hat A B 21",
@@ -1400,14 +1147,6 @@
       "[Armor] Adventurer's Garb 21 B C",
       "[Armor] Adventurer's Garb A 21 C",
       "[Armor] Adventurer's Garb A B 1",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (M)",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Medicine Pack (M)",
@@ -1417,7 +1156,15 @@
       "[Material] Metal Pack (S)",
       "[Material] Metal Pack (L)",
       "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (M)"
     ]
   },
   {
@@ -1449,11 +1196,11 @@
     "element": "Neutral",
     "exp": "20",
     "tamable": "No",
-    "spawn_at": "Yorl Highlands",
+    "spawn_at": "Darkanon Plain",
     "drops": [
-      "[Armor] Adventurer's Garb A B 5",
       "[Armor] Adventurer's Garb A B C",
-      "[Armor] Adventurer's Garb A B C"
+      "[Armor] Adventurer's Garb A B C",
+      "[Armor] Adventurer's Garb 1 B C"
     ]
   },
   {
@@ -1478,15 +1225,6 @@
       "[Armor] Adventurer's Garb A B C",
       "[Armor] Adventurer's Garb A B C",
       "[Armor] Adventurer's Garb A B C",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)",
       "[Material] Potum Silver Coin",
       "[Material] Medicine Pack (S)",
       "[Material] Medicine Pack (L)",
@@ -1495,29 +1233,7 @@
       "[Material] Wood Pack (L)",
       "[Material] Metal Pack (M)",
       "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
-    ]
-  },
-  {
-    "name": "Golden Potum (3M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Event",
-    "drops": [
-      "[Additional] Ribbon 5 B C",
-      "[Additional] Ribbon A 50 C",
-      "[Additional] Ribbon A B 50",
-      "[Additional] Ribbon A 1 C",
-      "[Armor] Adventurer's Garb 5 B C",
-      "[Armor] Adventurer's Garb A 50 C",
-      "[Armor] Adventurer's Garb A B 50",
-      "[Armor] Adventurer's Garb A B 4",
-      "[Armor] Adventurer's Garb 38 B C",
-      "[Armor] Adventurer's Garb A 1 C",
+      "[Material] Beast Pack (L)",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Medicine Pack (M)",
@@ -1526,16 +1242,7 @@
       "[Material] Wood Pack (M)",
       "[Material] Metal Pack (S)",
       "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
+      "[Material] Beast Pack (M)"
     ]
   },
   {
@@ -1557,15 +1264,6 @@
       "[Armor] Adventurer's Garb A 3 C",
       "[Armor] Adventurer's Garb 55 B C",
       "[Armor] Adventurer's Garb 20 B C",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Medicine Pack (M)",
@@ -1574,7 +1272,75 @@
       "[Material] Wood Pack (M)",
       "[Material] Metal Pack (S)",
       "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (M)",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)"
+    ]
+  },
+  {
+    "name": "Golden Potum (10M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Rakau Plains",
+    "drops": [
+      "[Additional] Potum Hat A B 5",
+      "[Additional] Potum Hat A B 63",
+      "[Additional] Potum Hat 62 B C",
+      "[Additional] Potum Hat 47 B C",
+      "[Additional] Potum Hat A 85 C",
+      "[Additional] Potum Hat 28 B C",
+      "[Additional] Potum Hat A 54 C",
+      "[Additional] Potum Hat A 38 C",
+      "[Additional] Potum Hat A B 8",
+      "[Armor] Adventurer's Garb 5 B C",
+      "[Armor] Adventurer's Garb A B 47",
+      "[Armor] Adventurer's Garb A B 46",
+      "[Armor] Adventurer's Garb 16 B C",
+      "[Armor] Adventurer's Garb A 14 C",
+      "[Armor] Adventurer's Garb A 37 C",
+      "[Armor] Adventurer's Garb A B 21",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
       "[Material] Beast Pack (M)"
+    ]
+  },
+  {
+    "name": "Golden Potum (12M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Darkanon Plain",
+    "drops": [
+      "[Armor] Iris Armor"
     ]
   },
   {
@@ -1604,52 +1370,6 @@
       "[Armor] Adventurer's Garb 18 B C",
       "[Armor] Adventurer's Garb A 38 C",
       "[Armor] Adventurer's Garb A B 1",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (M)"
-    ]
-  },
-  {
-    "name": "Golden Potum (10M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Darkanon Plain",
-    "drops": [
-      "[Additional] Potum Hat A 50 C",
-      "[Additional] Potum Hat A B 50",
-      "[Additional] Potum Hat A B 62",
-      "[Additional] Potum Hat A 47 C",
-      "[Additional] Potum Hat A B 47",
-      "[Additional] Potum Hat 85 B C",
-      "[Additional] Potum Hat 38 B C",
-      "[Additional] Potum Hat 6 B C",
-      "[Additional] Potum Hat A 1 C",
-      "[Armor] Adventurer's Garb A B 5",
-      "[Armor] Adventurer's Garb A 32 C",
-      "[Armor] Adventurer's Garb A B 16",
-      "[Armor] Adventurer's Garb 38 B C",
-      "[Armor] Adventurer's Garb A 6 C",
-      "[Armor] Adventurer's Garb 20 B C",
-      "[Armor] Adventurer's Garb A 1 C",
       "[Material] Potum Silver Coin",
       "[Material] Medicine Pack (S)",
       "[Material] Medicine Pack (L)",
@@ -1671,7 +1391,7 @@
     ]
   },
   {
-    "name": "Golden Potum (12M DL)",
+    "name": "Golden Potum (9M DL)",
     "level": "100",
     "type": "-",
     "hp": "30",
@@ -1680,23 +1400,36 @@
     "tamable": "No",
     "spawn_at": "Darkanon Plain",
     "drops": [
-      "[Armor] Iris Armor"
-    ]
-  },
-  {
-    "name": "Golden Coryn (2016)",
-    "level": "100",
-    "type": "-",
-    "hp": "10000",
-    "element": "Neutral",
-    "exp": "20",
-    "tamable": "No",
-    "spawn_at": "Rakau Plains",
-    "drops": [
-      "[Usable] Apple",
-      "[Additional] Headband A B C",
-      "[Armor] Adventurer's Garb 5 B C",
-      "[Armor] Adventurer's Garb A B C"
+      "[Additional] Potum Hat A 80 C",
+      "[Additional] Potum Hat A 54 C",
+      "[Additional] Potum Hat A B 18",
+      "[Additional] Potum Hat 38 B C",
+      "[Additional] Potum Hat A 40 C",
+      "[Additional] Potum Hat A B 1",
+      "[Armor] Adventurer's Garb A B 5",
+      "[Armor] Adventurer's Garb A B 82",
+      "[Armor] Adventurer's Garb A B 4",
+      "[Armor] Adventurer's Garb 51 B C",
+      "[Armor] Adventurer's Garb 36 B C",
+      "[Armor] Adventurer's Garb A 1 C",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (M)"
     ]
   },
   {
@@ -1710,9 +1443,9 @@
     "spawn_at": "Wanderer's Plain",
     "drops": [
       "[Usable] Revita V",
+      "[Refinement Support] Hyper Refinement Powder",
       "[Refinement Support] Refinement Powder",
       "[Refinement Support] Super Refinement Powder",
-      "[Refinement Support] Hyper Refinement Powder",
       "[Additional] Potum Hat 48 46 84",
       "[Additional] Potum Hat 49 34 18",
       "[Additional] Potum Hat 38 83 38",
@@ -1721,18 +1454,18 @@
       "[Armor] Adventurer's Garb 38 81 82",
       "[Armor] Adventurer's Garb 5 53 53",
       "[Armor] Adventurer's Garb 51 3 6",
-      "[Material] Potum Silver Coin",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (M)",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Fabric Pack (M)",
       "[Material] Metal Pack (S)",
       "[Material] Metal Pack (L)",
       "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Silver Coin",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (M)"
     ]
   },
   {
@@ -1757,45 +1490,18 @@
     ]
   },
   {
-    "name": "Golden Potum (6M DL)",
+    "name": "Golden Coryn (2017)",
     "level": "100",
     "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
+    "hp": "10000",
+    "element": "Neutral",
+    "exp": "20",
     "tamable": "No",
-    "spawn_at": "Rakau Plains",
+    "spawn_at": "Wanderer's Plain",
     "drops": [
-      "[Additional] Potum Hat A 3 C",
-      "[Additional] Potum Hat A B 54",
-      "[Additional] Potum Hat 38 B C",
-      "[Additional] Potum Hat A 38 C",
-      "[Armor] Adventurer's Garb 51 B C",
-      "[Armor] Adventurer's Garb A 3 C",
-      "[Armor] Adventurer's Garb A B 3",
-      "[Armor] Adventurer's Garb A B 54",
-      "[Armor] Adventurer's Garb A 2 C",
-      "[Armor] Adventurer's Garb A B 38",
-      "[Armor] Adventurer's Garb 52 B C",
-      "[Armor] Adventurer's Garb A 52 C",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)"
+      "[Armor] Adventurer's Garb 5 B C",
+      "[Armor] Adventurer's Garb A B C",
+      "[Armor] Adventurer's Garb A 1 C"
     ]
   },
   {
@@ -1821,15 +1527,6 @@
       "[Armor] Adventurer's Garb 21 B C",
       "[Armor] Adventurer's Garb 9 B C",
       "[Armor] Adventurer's Garb 1 B C",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Medicine Pack (M)",
@@ -1838,7 +1535,16 @@
       "[Material] Wood Pack (M)",
       "[Material] Metal Pack (S)",
       "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)"
+      "[Material] Beast Pack (M)",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)"
     ]
   },
   {
@@ -1860,52 +1566,6 @@
       "[Armor] Adventurer's Garb A B 56",
       "[Armor] Adventurer's Garb A 58 C",
       "[Armor] Adventurer's Garb 11 B C",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (M)"
-    ]
-  },
-  {
-    "name": "Golden Potum (10M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Yorl Highlands",
-    "drops": [
-      "[Additional] Potum Hat A 62 C",
-      "[Additional] Potum Hat A 84 C",
-      "[Additional] Potum Hat 54 B C",
-      "[Additional] Potum Hat A B 54",
-      "[Additional] Potum Hat A 11 C",
-      "[Additional] Potum Hat A B 38",
-      "[Additional] Potum Hat 53 B C",
-      "[Additional] Potum Hat A B 20",
-      "[Additional] Potum Hat 1 B C",
-      "[Armor] Adventurer's Garb A 5 C",
-      "[Armor] Adventurer's Garb 48 B C",
-      "[Armor] Adventurer's Garb A 16 C",
-      "[Armor] Adventurer's Garb A B 37",
-      "[Armor] Adventurer's Garb 6 B C",
-      "[Armor] Adventurer's Garb A B 20",
-      "[Armor] Adventurer's Garb 1 B C",
       "[Material] Potum Silver Coin",
       "[Material] Medicine Pack (S)",
       "[Material] Medicine Pack (L)",
@@ -1940,7 +1600,7 @@
     ]
   },
   {
-    "name": "Golden Potum (9M DL)",
+    "name": "Golden Potum (6M DL)",
     "level": "100",
     "type": "-",
     "hp": "30",
@@ -1949,16 +1609,27 @@
     "tamable": "No",
     "spawn_at": "Wanderer's Plain",
     "drops": [
-      "[Additional] Potum Hat 5 B C",
-      "[Additional] Potum Hat 82 B C",
-      "[Additional] Potum Hat A 4 C",
-      "[Additional] Potum Hat A 38 C",
-      "[Armor] Adventurer's Garb 44 B C",
-      "[Armor] Adventurer's Garb A 4 C",
-      "[Armor] Adventurer's Garb A B 38",
-      "[Armor] Adventurer's Garb A B 37",
-      "[Armor] Adventurer's Garb A 36 C",
-      "[Armor] Adventurer's Garb A B 1",
+      "[Additional] Potum Hat 54 B C",
+      "[Additional] Potum Hat A 54 C",
+      "[Additional] Potum Hat A B 2",
+      "[Additional] Potum Hat A 53 C",
+      "[Armor] Adventurer's Garb A 50 C",
+      "[Armor] Adventurer's Garb A B 50",
+      "[Armor] Adventurer's Garb A B 51",
+      "[Armor] Adventurer's Garb 3 B C",
+      "[Armor] Adventurer's Garb A 54 C",
+      "[Armor] Adventurer's Garb 20 B C",
+      "[Armor] Adventurer's Garb A B 20",
+      "[Armor] Adventurer's Garb A B 42",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Medicine Pack (M)",
@@ -1967,7 +1638,26 @@
       "[Material] Wood Pack (M)",
       "[Material] Metal Pack (S)",
       "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)",
+      "[Material] Beast Pack (M)"
+    ]
+  },
+  {
+    "name": "Golden Potum (9M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Yorl Highlands",
+    "drops": [
+      "[Additional] Potum Hat A B 5",
+      "[Additional] Potum Hat A 81 C",
+      "[Additional] Potum Hat A B 38",
+      "[Armor] Adventurer's Garb A 5 C",
+      "[Armor] Adventurer's Garb A 44 C",
+      "[Armor] Adventurer's Garb A 21 C",
+      "[Armor] Adventurer's Garb 1 B C",
       "[Material] Potum Silver Coin",
       "[Material] Medicine Pack (S)",
       "[Material] Medicine Pack (L)",
@@ -1975,6 +1665,15 @@
       "[Material] Wood Pack (S)",
       "[Material] Wood Pack (L)",
       "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (M)",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
       "[Material] Beast Pack (S)",
       "[Material] Beast Pack (L)"
     ]
@@ -1990,9 +1689,9 @@
     "spawn_at": "Darkanon Plain",
     "drops": [
       "[Usable] Revita IV",
-      "[Refinement Support] Refinement Powder",
       "[Refinement Support] Super Refinement Powder",
       "[Refinement Support] Hyper Refinement Powder",
+      "[Refinement Support] Refinement Powder",
       "[Additional] Potum Hat 34 18 2",
       "[Additional] Potum Hat 46 37 49",
       "[Additional] Potum Hat 21 38 50",
@@ -2001,18 +1700,18 @@
       "[Armor] Adventurer's Garb 3 83 35",
       "[Armor] Adventurer's Garb 81 82 38",
       "[Armor] Adventurer's Garb 53 49 54",
-      "[Material] Potum Silver Coin",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Fabric Pack (M)",
       "[Material] Wood Pack (S)",
       "[Material] Wood Pack (L)",
-      "[Material] Beast Pack (M)"
+      "[Material] Beast Pack (M)",
+      "[Material] Potum Silver Coin",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)"
     ]
   },
   {
@@ -2043,11 +1742,11 @@
     "element": "Neutral",
     "exp": "20",
     "tamable": "No",
-    "spawn_at": "Darkanon Plain",
+    "spawn_at": "Rakau Plains",
     "drops": [
-      "[Armor] Adventurer's Garb A B C",
-      "[Armor] Adventurer's Garb A B C",
-      "[Armor] Adventurer's Garb 1 B C"
+      "[Armor] Adventurer's Garb A 5 C",
+      "[Armor] Adventurer's Garb 38 B C",
+      "[Armor] Adventurer's Garb A B 1"
     ]
   },
   {
@@ -2061,9 +1760,9 @@
     "spawn_at": "Rakau Plains",
     "drops": [
       "[Usable] Revita II",
-      "[Refinement Support] Refinement Powder",
       "[Refinement Support] Super Refinement Powder",
       "[Refinement Support] Hyper Refinement Powder",
+      "[Refinement Support] Refinement Powder",
       "[Additional] Potum Hat 5 B C",
       "[Additional] Potum Hat 21 B C",
       "[Additional] Potum Hat A 21 C",
@@ -2076,91 +1775,6 @@
       "[Armor] Adventurer's Garb A 38 C",
       "[Armor] Adventurer's Garb A 6 C",
       "[Armor] Adventurer's Garb 1 B C",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (M)"
-    ]
-  },
-  {
-    "name": "Golden Potum (8M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Rakau Plains",
-    "drops": [
-      "[Additional] Potum Hat 82 B C",
-      "[Additional] Potum Hat 48 B C",
-      "[Additional] Potum Hat A 83 C",
-      "[Additional] Potum Hat A B 84",
-      "[Armor] Adventurer's Garb A B 63",
-      "[Armor] Adventurer's Garb A B 55",
-      "[Armor] Adventurer's Garb A 56 C",
-      "[Armor] Adventurer's Garb A 37 C",
-      "[Armor] Adventurer's Garb 36 B C",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Fabric Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Metal Pack (M)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Fabric Pack (S)",
-      "[Material] Fabric Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Metal Pack (S)",
-      "[Material] Metal Pack (L)",
-      "[Material] Beast Pack (M)"
-    ]
-  },
-  {
-    "name": "Golden Potum (10M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Rakau Plains",
-    "drops": [
-      "[Additional] Potum Hat A B 5",
-      "[Additional] Potum Hat A B 63",
-      "[Additional] Potum Hat 62 B C",
-      "[Additional] Potum Hat 47 B C",
-      "[Additional] Potum Hat A 85 C",
-      "[Additional] Potum Hat 28 B C",
-      "[Additional] Potum Hat A 54 C",
-      "[Additional] Potum Hat A 38 C",
-      "[Additional] Potum Hat A B 8",
-      "[Armor] Adventurer's Garb 5 B C",
-      "[Armor] Adventurer's Garb A B 47",
-      "[Armor] Adventurer's Garb A B 46",
-      "[Armor] Adventurer's Garb 16 B C",
-      "[Armor] Adventurer's Garb A 14 C",
-      "[Armor] Adventurer's Garb A 37 C",
-      "[Armor] Adventurer's Garb A B 21",
       "[Material] Potum Silver Coin",
       "[Material] Medicine Pack (S)",
       "[Material] Medicine Pack (L)",
@@ -2182,7 +1796,7 @@
     ]
   },
   {
-    "name": "Golden Potum (12M DL)",
+    "name": "Golden Potum (8M DL)",
     "level": "100",
     "type": "-",
     "hp": "30",
@@ -2191,68 +1805,15 @@
     "tamable": "No",
     "spawn_at": "Rakau Plains",
     "drops": [
-      "[Armor] Iris Armor",
-      "[Armor] Iris Armor 7 7 7"
-    ]
-  },
-  {
-    "name": "Golden Potum (11M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Yorl Highlands",
-    "drops": [
-      "[Usable] Revita III",
-      "[Refinement Support] Refinement Powder",
-      "[Refinement Support] Super Refinement Powder",
-      "[Refinement Support] Hyper Refinement Powder",
-      "[Additional] Potum Hat 83 50 51",
-      "[Additional] Potum Hat 54 5 35",
-      "[Additional] Potum Hat 18 2 46",
-      "[Additional] Potum Hat 37 84 82",
-      "[Armor] Adventurer's Garb 34 46 4",
-      "[Armor] Adventurer's Garb 82 38 50",
-      "[Armor] Adventurer's Garb 83 34 21",
-      "[Armor] Adventurer's Garb 49 54 1",
-      "[Material] Potum Bronze Coin",
-      "[Material] Potum Gold Coin",
-      "[Material] Medicine Pack (M)",
-      "[Material] Wood Pack (S)",
-      "[Material] Wood Pack (L)",
-      "[Material] Beast Pack (S)",
-      "[Material] Beast Pack (L)",
-      "[Material] Potum Silver Coin",
-      "[Material] Medicine Pack (S)",
-      "[Material] Medicine Pack (L)",
-      "[Material] Wood Pack (M)",
-      "[Material] Beast Pack (M)"
-    ]
-  },
-  {
-    "name": "Golden Potum (9M DL)",
-    "level": "100",
-    "type": "-",
-    "hp": "30",
-    "element": "Light",
-    "exp": "100",
-    "tamable": "No",
-    "spawn_at": "Darkanon Plain",
-    "drops": [
-      "[Additional] Potum Hat A 80 C",
-      "[Additional] Potum Hat A 54 C",
-      "[Additional] Potum Hat A B 18",
-      "[Additional] Potum Hat 38 B C",
-      "[Additional] Potum Hat A 40 C",
-      "[Additional] Potum Hat A B 1",
-      "[Armor] Adventurer's Garb A B 5",
-      "[Armor] Adventurer's Garb A B 82",
-      "[Armor] Adventurer's Garb A B 4",
-      "[Armor] Adventurer's Garb 51 B C",
+      "[Additional] Potum Hat 82 B C",
+      "[Additional] Potum Hat 48 B C",
+      "[Additional] Potum Hat A 83 C",
+      "[Additional] Potum Hat A B 84",
+      "[Armor] Adventurer's Garb A B 63",
+      "[Armor] Adventurer's Garb A B 55",
+      "[Armor] Adventurer's Garb A 56 C",
+      "[Armor] Adventurer's Garb A 37 C",
       "[Armor] Adventurer's Garb 36 B C",
-      "[Armor] Adventurer's Garb A 1 C",
       "[Material] Potum Bronze Coin",
       "[Material] Potum Gold Coin",
       "[Material] Medicine Pack (M)",
@@ -2269,6 +1830,142 @@
       "[Material] Wood Pack (S)",
       "[Material] Wood Pack (L)",
       "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)"
+    ]
+  },
+  {
+    "name": "Golden Potum (12M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Rakau Plains",
+    "drops": [
+      "[Armor] Iris Armor",
+      "[Armor] Iris Armor 7 7 7"
+    ]
+  },
+  {
+    "name": "Golden Potum (6M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Darkanon Plain",
+    "drops": [
+      "[Additional] Potum Hat A 4 C",
+      "[Additional] Potum Hat 3 B C",
+      "[Additional] Potum Hat 2 B C",
+      "[Additional] Potum Hat A 2 C",
+      "[Armor] Adventurer's Garb 82 B C",
+      "[Armor] Adventurer's Garb A 82 C",
+      "[Armor] Adventurer's Garb 4 B C",
+      "[Armor] Adventurer's Garb A B 19",
+      "[Armor] Adventurer's Garb 38 B C",
+      "[Armor] Adventurer's Garb A 20 C",
+      "[Armor] Adventurer's Garb 42 B C",
+      "[Armor] Adventurer's Garb A 42 C",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (M)"
+    ]
+  },
+  {
+    "name": "Golden Potum (9M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Rakau Plains",
+    "drops": [
+      "[Additional] Potum Hat A 5 C",
+      "[Additional] Potum Hat A 82 C",
+      "[Additional] Potum Hat A B 82",
+      "[Additional] Potum Hat A B 81",
+      "[Additional] Potum Hat 4 B C",
+      "[Additional] Potum Hat 18 B C",
+      "[Additional] Potum Hat 1 B C",
+      "[Armor] Adventurer's Garb 5 B C",
+      "[Armor] Adventurer's Garb A 82 C",
+      "[Armor] Adventurer's Garb 4 B C",
+      "[Armor] Adventurer's Garb A B 51",
+      "[Armor] Adventurer's Garb 38 B C",
+      "[Armor] Adventurer's Garb A 38 C",
+      "[Armor] Adventurer's Garb A B 36",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (M)"
+    ]
+  },
+  {
+    "name": "Golden Potum (11M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Yorl Highlands",
+    "drops": [
+      "[Usable] Revita III",
+      "[Refinement Support] Super Refinement Powder",
+      "[Refinement Support] Hyper Refinement Powder",
+      "[Refinement Support] Refinement Powder",
+      "[Additional] Potum Hat 83 50 51",
+      "[Additional] Potum Hat 54 5 35",
+      "[Additional] Potum Hat 18 2 46",
+      "[Additional] Potum Hat 37 84 82",
+      "[Armor] Adventurer's Garb 34 46 4",
+      "[Armor] Adventurer's Garb 82 38 50",
+      "[Armor] Adventurer's Garb 83 34 21",
+      "[Armor] Adventurer's Garb 49 54 1",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Beast Pack (M)",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
       "[Material] Beast Pack (S)",
       "[Material] Beast Pack (L)"
     ]
@@ -2291,6 +1988,309 @@
       "[Armor] Adventurer's Garb 54 B C",
       "[Armor] Adventurer's Garb A B 54",
       "[Material] Golden Apple"
+    ]
+  },
+  {
+    "name": "Golden Coryn (2016)",
+    "level": "100",
+    "type": "-",
+    "hp": "10000",
+    "element": "Neutral",
+    "exp": "20",
+    "tamable": "No",
+    "spawn_at": "Darkanon Plain",
+    "drops": [
+      "[Usable] Apple",
+      "[Additional] Ribbon A B C",
+      "[Additional] Mage Hat A B 1",
+      "[Armor] Adventurer's Garb A B C"
+    ]
+  },
+  {
+    "name": "Golden Potum (7M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Yorl Highlands",
+    "drops": [
+      "[Usable] Revita III",
+      "[Refinement Support] Super Refinement Powder",
+      "[Refinement Support] Hyper Refinement Powder",
+      "[Refinement Support] Refinement Powder",
+      "[Additional] Potum Hat A B 5",
+      "[Additional] Potum Hat 82 B C",
+      "[Additional] Potum Hat 71 B C",
+      "[Additional] Potum Hat 1 B C",
+      "[Armor] Adventurer's Garb A B 5",
+      "[Armor] Adventurer's Garb A B 64",
+      "[Armor] Adventurer's Garb A 84 C",
+      "[Armor] Adventurer's Garb A B 54",
+      "[Armor] Adventurer's Garb 18 B C",
+      "[Armor] Adventurer's Garb A B 38",
+      "[Armor] Adventurer's Garb A 37 C",
+      "[Armor] Adventurer's Garb A 1 C",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (M)",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)"
+    ]
+  },
+  {
+    "name": "Silver Coryn (2021)",
+    "level": "100",
+    "type": "-",
+    "hp": "100",
+    "element": "Neutral",
+    "exp": "1",
+    "tamable": "No",
+    "spawn_at": "Tolbas GrassLand",
+    "drops": [
+      "[Usable] Apple",
+      "[Additional] Warrior Helm 5 B C",
+      "[Additional] Mage Hat A 5 C",
+      "[Additional] Scholar's Glasses A B 5",
+      "[Additional] Warrior Helm 74 B C",
+      "[Additional] Mage Hat A 74 C",
+      "[Additional] Scholar's Glasses A B 74",
+      "[Armor] Plate Armor 2 3 4",
+      "[Material] Silver Apple"
+    ]
+  },
+  {
+    "name": "Golden Potum (5M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Wanderer's Plain",
+    "drops": [
+      "[Additional] Potum Hat A B 5",
+      "[Additional] Potum Hat 19 B C",
+      "[Additional] Potum Hat A 38 C",
+      "[Additional] Potum Hat 1 B C",
+      "[Armor] Adventurer's Garb A 49 C",
+      "[Armor] Adventurer's Garb A B 47",
+      "[Armor] Adventurer's Garb A B C",
+      "[Armor] Adventurer's Garb A B 12",
+      "[Armor] Adventurer's Garb A B 2",
+      "[Armor] Adventurer's Garb A B 40",
+      "[Armor] Adventurer's Garb 6 B C",
+      "[Armor] Adventurer's Garb A B 21",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (M)"
+    ]
+  },
+  {
+    "name": "Golden Potum (6M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Yorl Highlands",
+    "drops": [
+      "[Additional] Potum Hat 4 B C",
+      "[Additional] Potum Hat A B 4",
+      "[Additional] Potum Hat A B 3",
+      "[Additional] Potum Hat A B 38",
+      "[Armor] Adventurer's Garb 50 B C",
+      "[Armor] Adventurer's Garb A B 4",
+      "[Armor] Adventurer's Garb A 51 C",
+      "[Armor] Adventurer's Garb 54 B C",
+      "[Armor] Adventurer's Garb 2 B C",
+      "[Armor] Adventurer's Garb A B 2",
+      "[Armor] Adventurer's Garb A 38 C",
+      "[Armor] Adventurer's Garb A B 52",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (M)"
+    ]
+  },
+  {
+    "name": "Silver Coryn (2015)",
+    "level": "100",
+    "type": "-",
+    "hp": "Unknown",
+    "element": "Light",
+    "exp": "Unknown",
+    "tamable": "No",
+    "spawn_at": "Event",
+    "drops": [
+      "[Additional] Ribbon",
+      "[Additional] Ribbon A B C",
+      "[Armor] Adventurer's Garb 5 B C",
+      "[Armor] Adventurer's Garb 49 B C",
+      "[Armor] Adventurer's Garb 40 B C",
+      "[Armor] Adventurer's Garb 1 B C"
+    ]
+  },
+  {
+    "name": "Golden Potum (11M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Rakau Plains",
+    "drops": [
+      "[Usable] Revita II",
+      "[Refinement Support] Hyper Refinement Powder",
+      "[Refinement Support] Refinement Powder",
+      "[Refinement Support] Super Refinement Powder",
+      "[Additional] Potum Hat 50 51 83",
+      "[Additional] Potum Hat 2 49 48",
+      "[Additional] Potum Hat 19 16 19",
+      "[Additional] Potum Hat 5 35 6",
+      "[Armor] Adventurer's Garb 48 50 49",
+      "[Armor] Adventurer's Garb 67 6 64",
+      "[Armor] Adventurer's Garb 6 4 84",
+      "[Armor] Adventurer's Garb 54 1 5",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)"
+    ]
+  },
+  {
+    "name": "Golden Coryn (2018)",
+    "level": "100",
+    "type": "-",
+    "hp": "10000",
+    "element": "Neutral",
+    "exp": "20",
+    "tamable": "No",
+    "spawn_at": "Yorl Highlands",
+    "drops": [
+      "[Usable] Apple",
+      "[Additional] Ribbon A 5 C",
+      "[Additional] Ribbon A 38 C",
+      "[Additional] Ribbon 42 B C",
+      "[Armor] Adventurer's Garb A B 5",
+      "[Armor] Adventurer's Garb 38 B C",
+      "[Armor] Adventurer's Garb A B 1",
+      "[Material] Golden Apple"
+    ]
+  },
+  {
+    "name": "Golden Coryn (2016)",
+    "level": "100",
+    "type": "-",
+    "hp": "10000",
+    "element": "Neutral",
+    "exp": "20",
+    "tamable": "No",
+    "spawn_at": "Yorl Highlands",
+    "drops": [
+      "[Usable] Apple",
+      "[Additional] Mage Hat A B 5",
+      "[Additional] Ribbon A B C",
+      "[Armor] Adventurer's Garb 1 B C"
+    ]
+  },
+  {
+    "name": "Golden Potum (7M DL)",
+    "level": "100",
+    "type": "-",
+    "hp": "30",
+    "element": "Light",
+    "exp": "100",
+    "tamable": "No",
+    "spawn_at": "Darkanon Plain",
+    "drops": [
+      "[Usable] Revita IV",
+      "[Refinement Support] Super Refinement Powder",
+      "[Refinement Support] Hyper Refinement Powder",
+      "[Refinement Support] Refinement Powder",
+      "[Additional] Potum Hat A 5 C",
+      "[Additional] Potum Hat A 54 C",
+      "[Additional] Potum Hat A B 54",
+      "[Additional] Potum Hat 37 B C",
+      "[Armor] Adventurer's Garb A 5 C",
+      "[Armor] Adventurer's Garb A B 80",
+      "[Armor] Adventurer's Garb A 64 C",
+      "[Armor] Adventurer's Garb A 54 C",
+      "[Armor] Adventurer's Garb A 2 C",
+      "[Armor] Adventurer's Garb A B 2",
+      "[Armor] Adventurer's Garb A B 6",
+      "[Armor] Adventurer's Garb A B 21",
+      "[Material] Potum Bronze Coin",
+      "[Material] Potum Gold Coin",
+      "[Material] Medicine Pack (M)",
+      "[Material] Fabric Pack (S)",
+      "[Material] Fabric Pack (L)",
+      "[Material] Wood Pack (M)",
+      "[Material] Metal Pack (S)",
+      "[Material] Metal Pack (L)",
+      "[Material] Beast Pack (M)",
+      "[Material] Potum Silver Coin",
+      "[Material] Medicine Pack (S)",
+      "[Material] Medicine Pack (L)",
+      "[Material] Fabric Pack (M)",
+      "[Material] Wood Pack (S)",
+      "[Material] Wood Pack (L)",
+      "[Material] Metal Pack (M)",
+      "[Material] Beast Pack (S)",
+      "[Material] Beast Pack (L)"
     ]
   },
   {
@@ -2365,9 +2365,9 @@
     "drops": [
       "[Additional] Ear Muff",
       "[Armor] Adventurer's Garb A B C",
-      "[Material] Thick Fur",
       "[Material] Cold Wood Stick",
       "[Material] Cracked Big Axe",
+      "[Material] Thick Fur",
       "[Special Crysta] Don Yeti"
     ]
   },
@@ -2503,9 +2503,9 @@
     "drops": [
       "[1 Handed Sword] Toy Hammer",
       "[Armor] Adventurer's Garb A B C",
-      "[Material] Filthy Bandage",
       "[Material] Purification Salt",
       "[Material] Potum's Soul",
+      "[Material] Filthy Bandage",
       "[Ore] Mithril Ore"
     ]
   },
@@ -2520,9 +2520,9 @@
     "spawn_at": "Spring of Rebirth: Middle",
     "drops": [
       "[Armor] Adventurer's Garb 12 29 C",
+      "[Material] Yellow Beak",
       "[Material] Clean Water",
       "[Material] Daddy Soul",
-      "[Material] Yellow Beak",
       "[Enhancer Crysta (Green)] Daddy Finpen"
     ]
   },
@@ -2538,10 +2538,10 @@
     "drops": [
       "[Additional] Necromancer Hood",
       "[Armor] Adventurer's Garb 77 B C",
-      "[Material] Soft Paw",
       "[Material] Torn Robe",
       "[Material] Cracked Skull",
       "[Material] Lapin's Soul",
+      "[Material] Soft Paw",
       "[Weapon Crysta] Lapin The Necromancer"
     ]
   },
@@ -2555,12 +2555,12 @@
     "tamable": "No",
     "spawn_at": "Tolbas GrassLand",
     "drops": [
-      "[Usable] Dried Persimon",
-      "[Usable] Salt-Grilled Saury",
-      "[Usable] Matsutake Soup",
       "[Usable] Baked Sweet Potato",
       "[Usable] Mashed Sweet Potato",
       "[Usable] Ginkgo Nut Rice",
+      "[Usable] Dried Persimon",
+      "[Usable] Salt-Grilled Saury",
+      "[Usable] Matsutake Soup",
       "[Additional] Market Hat 38 B C",
       "[Additional] Market Hat A B 38",
       "[Additional] Market Hat 39 B C",
@@ -2616,9 +2616,9 @@
     "tamable": "No",
     "spawn_at": "Singolare Ruins: 2nd Floor",
     "drops": [
-      "[Material] Crooked Blade",
       "[Material] Evil Blade",
       "[Material] Greatly Evil Blade",
+      "[Material] Crooked Blade",
       "[Weapon Crysta] Evil Magic Sword"
     ]
   },
@@ -2633,9 +2633,9 @@
     "spawn_at": "Huge Crysta Factory: 3rd Floor",
     "drops": [
       "[Usable] Strange Tool Box",
-      "[Material] Rusted Iron Plate",
       "[Material] Cracked Lense",
       "[Material] Mysterious Magic Lantern",
+      "[Material] Rusted Iron Plate",
       "[Enhancer Crysta (Red)] Builder Golem"
     ]
   },
@@ -2649,9 +2649,9 @@
     "tamable": "No",
     "spawn_at": "Small Demi Machina Factory: Area 2",
     "drops": [
+      "[Material] Giant Hand Print",
       "[Material] Monster's Big Arm",
       "[Material] Crimson Huge Bone",
-      "[Material] Giant Hand Print",
       "[Additional Crysta] Dusk Machina"
     ]
   },
@@ -2666,10 +2666,10 @@
     "spawn_at": "Large Demi Machina Factory: Area 2",
     "drops": [
       "[2 Handed Sword] Lezvie",
+      "[Material] Tough Tentacle",
       "[Material] Strange Skin",
       "[Material] Huge Eyeball",
       "[Material] Magic Lens",
-      "[Material] Tough Tentacle",
       "[Normal Crysta] Odelon Machina"
     ]
   },
@@ -2702,9 +2702,9 @@
     "spawn_at": "Lufenas Mansion: Entrance",
     "drops": [
       "[Armor] Adventurer's Garb A 22 38",
-      "[Material] Hard Glass",
       "[Material] Crimson Loincloth",
       "[Material] Command Radar",
+      "[Material] Hard Glass",
       "[Weapon Crysta] Commander Golem"
     ]
   },
@@ -2735,9 +2735,9 @@
     "spawn_at": "Ultimea Sewer: Southeast",
     "drops": [
       "[Knuckles] Master's Tonfa",
+      "[Material] Mysterious Cube",
       "[Material] Soft Swollen Nail",
       "[Material] Crooked Nucleic Acid",
-      "[Material] Mysterious Cube",
       "[Enhancer Crysta (Blue)] Amoeba Machina"
     ]
   },
@@ -2752,9 +2752,9 @@
     "spawn_at": "Suburb of Droma Square: Area 3",
     "drops": [
       "[Additional] Devil Circlet",
+      "[Material] Biting Head",
       "[Material] Spiky Fang",
       "[Material] Cursed Secret Soul",
-      "[Material] Biting Head",
       "[Enhancer Crysta (Blue)] Volotur"
     ]
   },
@@ -2769,9 +2769,9 @@
     "spawn_at": "Ultimea Palace: Demi Machina Storage",
     "drops": [
       "[Armor] Adventurer's Garb 83 B 69",
-      "[Material] Sticky Wax",
       "[Material] Heavy Wheel",
       "[Material] Magic Engine",
+      "[Material] Sticky Wax",
       "[Enhancer Crysta (Yellow)] Wandering Wheel"
     ]
   },
@@ -2785,9 +2785,9 @@
     "tamable": "No",
     "spawn_at": "Buried Tower: Inside",
     "drops": [
+      "[Material] Light Emitting Cloth",
       "[Material] Broken Magic Device",
       "[Material] Angel Heart",
-      "[Material] Light Emitting Cloth",
       "[Magic Device] Angel Halo",
       "[Enhancer Crysta (Blue)] Seraph Machina"
     ]
@@ -2802,9 +2802,9 @@
     "tamable": "No",
     "spawn_at": "Turnus Mine: Area 3",
     "drops": [
-      "[Material] Tasty Mushroom",
       "[Material] Tweed Fabric",
       "[Material] Turnus Crystal",
+      "[Material] Tasty Mushroom",
       "[Special] Hallucination Spore",
       "[Enhancer Crysta (Yellow)] Solopy"
     ]
@@ -2836,9 +2836,9 @@
     "spawn_at": "Rokoko Plains",
     "drops": [
       "[Bowgun] Double Barrel",
+      "[Material] Cracked Hunting Horn",
       "[Material] Vocal Sac",
       "[Material] Squawker Horn",
-      "[Material] Cracked Hunting Horn",
       "[Additional Crysta] Altoblepas"
     ]
   },
@@ -2853,9 +2853,9 @@
     "spawn_at": "Ruins of Mt. Mithurna: Stylobate",
     "drops": [
       "[Additional] White Eyepatch",
+      "[Material] Lucid White Spirit Stone",
       "[Material] Lucid White Fur",
       "[Material] Cat Claw",
-      "[Material] Lucid White Spirit Stone",
       "[Normal Crysta] Mithurna Lynx"
     ]
   },
@@ -2886,10 +2886,10 @@
     "tamable": "Yes",
     "spawn_at": "Pom Taming Land",
     "drops": [
+      "[Usable] Hard Apple",
       "[Usable] Apple",
       "[Usable] Sweet Apple",
       "[Usable] Yellow Apple",
-      "[Usable] Hard Apple",
       "[Material] Green Apple"
     ]
   },
@@ -2904,9 +2904,9 @@
     "spawn_at": "Hall of Construction Gods",
     "drops": [
       "[2 Handed Sword] Carbuncle Edge",
+      "[Material] Carbuncle Claw",
       "[Material] Carbuncle Fur",
       "[Material] Shining Mirror",
-      "[Material] Carbuncle Claw",
       "[Normal Crysta] Carbuncle"
     ]
   },
@@ -2920,9 +2920,9 @@
     "tamable": "No",
     "spawn_at": "Elf Mountains: Area 3",
     "drops": [
+      "[Material] Spiky Horns",
       "[Material] Glossy Black Leather",
       "[Material] Golden Stinging Hair",
-      "[Material] Spiky Horns",
       "[Additional Crysta] Goldenia"
     ]
   },
@@ -2936,9 +2936,9 @@
     "tamable": "No",
     "spawn_at": "Dark Dragon Shrine: Middle",
     "drops": [
+      "[Material] Shining Monoeye",
       "[Material] Ancient Ingot",
       "[Material] Pancake Ice Flower",
-      "[Material] Shining Monoeye",
       "[Armor Crysta] Thug Golem"
     ]
   },
@@ -2953,8 +2953,8 @@
     "spawn_at": "Wazeero Street",
     "drops": [
       "[Knuckles] Mortal Katar",
-      "[Material] Wazeero Stone",
       "[Material] Weird Blob",
+      "[Material] Wazeero Stone",
       "[Ore] Mithril Ore",
       "[Special Crysta] Grimuckus"
     ]
@@ -2969,32 +2969,10 @@
     "tamable": "No",
     "spawn_at": "Morthell Swell: Area 3",
     "drops": [
-      "[Material] Mysterious Skull",
       "[Material] Temptation Flower",
       "[Material] Dark Red Fluid",
+      "[Material] Mysterious Skull",
       "[Special Crysta] Frenzy Viola"
-    ]
-  },
-  {
-    "name": "Teertocrit",
-    "level": "200",
-    "type": "-",
-    "hp": "7050000",
-    "element": "Fire",
-    "exp": "46200",
-    "tamable": "No",
-    "spawn_at": "Manor of Surprises",
-    "drops": [
-      "[Usable] Flower Nectar (Bouquet)",
-      "[Usable] Ginger Cake",
-      "[Usable] Barmbrack",
-      "[Usable] Zombie Cake",
-      "[Usable] Pumpkin Cookie",
-      "[Usable] Jack Pudding",
-      "[Usable] Pumpkin Candy",
-      "[Usable] Pumpkin Soup",
-      "[Additional] Potum Ghost Behind U",
-      "[Enhancer Crysta (Purple)] Teertocrit"
     ]
   },
   {
@@ -3007,16 +2985,38 @@
     "tamable": "No",
     "spawn_at": "Zarth's Mansion: Study",
     "drops": [
-      "[Usable] Flower Nectar (Bouquet)",
-      "[Usable] Ginger Cake",
-      "[Usable] Barmbrack",
-      "[Usable] Zombie Cake",
       "[Usable] Pumpkin Cookie",
       "[Usable] Jack Pudding",
       "[Usable] Pumpkin Candy",
       "[Usable] Pumpkin Soup",
+      "[Usable] Flower Nectar (Bouquet)",
+      "[Usable] Ginger Cake",
+      "[Usable] Barmbrack",
+      "[Usable] Zombie Cake",
       "[Additional] Magical Skirt",
       "[Normal Crysta] Radibat"
+    ]
+  },
+  {
+    "name": "Teertocrit",
+    "level": "200",
+    "type": "-",
+    "hp": "7050000",
+    "element": "Fire",
+    "exp": "46200",
+    "tamable": "No",
+    "spawn_at": "Manor of Surprises",
+    "drops": [
+      "[Usable] Pumpkin Cookie",
+      "[Usable] Jack Pudding",
+      "[Usable] Pumpkin Candy",
+      "[Usable] Pumpkin Soup",
+      "[Usable] Flower Nectar (Bouquet)",
+      "[Usable] Ginger Cake",
+      "[Usable] Barmbrack",
+      "[Usable] Zombie Cake",
+      "[Additional] Potum Ghost Behind U",
+      "[Enhancer Crysta (Purple)] Teertocrit"
     ]
   },
   {
@@ -3029,9 +3029,9 @@
     "tamable": "No",
     "spawn_at": "Fractum Sector: Area 1",
     "drops": [
+      "[Material] Corroded Stem",
       "[Material] Mutated Plant Thorn",
       "[Material] Amethyst Flower",
-      "[Material] Corroded Stem",
       "[Weapon Crysta] Armasite"
     ]
   },
@@ -3046,8 +3046,8 @@
     "spawn_at": "Labilans Sector: Area 3",
     "drops": [
       "[Additional] Fur Collar",
-      "[Material] Alpoca Fur",
       "[Material] Smooth Fine Hair",
+      "[Material] Alpoca Fur",
       "[Ore] Mithril Ore",
       "[Enhancer Crysta (Yellow)] Mega Alpoca"
     ]
@@ -3062,9 +3062,9 @@
     "tamable": "No",
     "spawn_at": "Avant Plastida: Area 1",
     "drops": [
+      "[Material] Blood Red Gemstone",
       "[Material] Perilous Essence",
       "[Material] Blood Crystal",
-      "[Material] Blood Red Gemstone",
       "[Enhancer Crysta (Red)] Blood Smeared Crystal"
     ]
   },
@@ -3095,9 +3095,9 @@
     "spawn_at": "Recetacula Sector: Area 1",
     "drops": [
       "[Bowgun] Acid Gun",
+      "[Material] Sharp Fish Fang",
       "[Material] Strong Copper Scale",
       "[Material] Crystal Pouch",
-      "[Material] Sharp Fish Fang",
       "[Armor Crysta] Canemofish"
     ]
   },
@@ -3111,9 +3111,9 @@
     "tamable": "No",
     "spawn_at": "Dea Ruinea",
     "drops": [
+      "[Material] Cursed Evil Eye",
       "[Material] Bizarre Skin",
       "[Material] Demon Serum",
-      "[Material] Cursed Evil Eye",
       "[Enhancer Crysta (Green)] Demonic Eye"
     ]
   },
@@ -3127,9 +3127,9 @@
     "tamable": "No",
     "spawn_at": "Old Lufenas Mansion Ruins",
     "drops": [
+      "[Material] Corroded Tail Thorn",
       "[Material] Tardigrande Skin",
       "[Material] Chitinous Crimson Sphere",
-      "[Material] Corroded Tail Thorn",
       "[Enhancer Crysta (Yellow)] Tardigrademon"
     ]
   },
@@ -3144,9 +3144,9 @@
     "spawn_at": "Geist Desert: Area 3",
     "drops": [
       "[Additional] Sand Bandit Mask",
+      "[Material] Blood Stained Billhook",
       "[Material] Sand Bandits Bandage",
       "[Material] Leader's Hair Accessory",
-      "[Material] Blood Stained Billhook",
       "[Enhancer Crysta (Purple)] Sand Bandits Leader"
     ]
   },
@@ -3161,9 +3161,9 @@
     "spawn_at": "Ducia Coast: Area 1",
     "drops": [
       "[Armor] Savage Mail",
+      "[Material] Raging Soul",
       "[Material] Evil Spirit Horns",
       "[Material] Flame of Misfortune",
-      "[Material] Raging Soul",
       "[Enhancer Crysta (Blue)] Ageladanios"
     ]
   },
@@ -3177,9 +3177,9 @@
     "tamable": "No",
     "spawn_at": "Ruins of Urban Elban",
     "drops": [
+      "[Material] Geometric Metal Bit",
       "[Material] Strange Dust",
       "[Material] Glow Pebble",
-      "[Material] Geometric Metal Bit",
       "[Enhancer Crysta (Blue)] Tappler"
     ]
   },
@@ -3193,9 +3193,9 @@
     "tamable": "No",
     "spawn_at": "Arche Valley: Area 1",
     "drops": [
+      "[Material] Skull Mask Fragment",
       "[Material] Metal Shackles",
       "[Material] Vengeful Soul",
-      "[Material] Skull Mask Fragment",
       "[Enhancer Crysta (Purple)] Espectro"
     ]
   },
@@ -3210,9 +3210,9 @@
     "spawn_at": "Witch's Woods Area 2",
     "drops": [
       "[Additional] Tattered Cloak",
-      "[Material] Sturdy Core",
       "[Material] Crow Feather",
       "[Material] Scarecrow's Emotion",
+      "[Material] Sturdy Core",
       "[Armor Crysta] Grim Reaper Scarecrow"
     ]
   },
@@ -3243,9 +3243,9 @@
     "spawn_at": "Nezim Wetlands",
     "drops": [
       "[Additional] Crystal Horns",
-      "[Material] Powerful Jagged Tooth",
       "[Material] Slimy Hide",
       "[Material] Charred Salamander Meat",
+      "[Material] Powerful Jagged Tooth",
       "[Additional Crysta] Lord of Nezim"
     ]
   },
@@ -3291,9 +3291,9 @@
     "tamable": "No",
     "spawn_at": "Fugitive Lake Swamp: Area 3",
     "drops": [
+      "[Material] Bold Gaze",
       "[Material] Hard Armor Skin",
       "[Material] Adamantite Horn",
-      "[Material] Bold Gaze",
       "[Halberd] Drill Shaft",
       "[Enhancer Crysta (Blue)] Rhinosaur"
     ]
@@ -3327,8 +3327,8 @@
     "drops": [
       "[Usable] Monkey Energy",
       "[Knuckles] Ferocious Beast Claws",
-      "[Material] Sharp Monkey Horn",
       "[Material] Monkey Fang",
+      "[Material] Sharp Monkey Horn",
       "[Enhancer Crysta (Blue)] Bullamius"
     ]
   },
@@ -3342,9 +3342,9 @@
     "tamable": "No",
     "spawn_at": "Eumano Glade",
     "drops": [
-      "[Material] Cracked Acorn Hat",
       "[Material] Huge Acorn",
       "[Material] Dream Fragment",
+      "[Material] Cracked Acorn Hat",
       "[Enhancer Crysta (Yellow)] Gordo"
     ]
   },
@@ -3359,9 +3359,9 @@
     "spawn_at": "Divido Valley: Area 3",
     "drops": [
       "[Additional] Fire Bandana",
+      "[Material] Blazing Mane",
       "[Material] Red Claw",
       "[Material] Bloody Stone",
-      "[Material] Blazing Mane",
       "[Enhancer Crysta (Blue)] Blazingur"
     ]
   },
@@ -3375,9 +3375,9 @@
     "tamable": "No",
     "spawn_at": "Arstida: Area 2",
     "drops": [
+      "[Material] Dangerous Cnidoblast",
       "[Material] Strange Claw",
       "[Material] Mutated Sphere Core",
-      "[Material] Dangerous Cnidoblast",
       "[Enhancer Crysta (Green)] Glaucius"
     ]
   },
@@ -3391,8 +3391,8 @@
     "tamable": "No",
     "spawn_at": "Illuminare City: Route 1 (210-230)",
     "drops": [
-      "[Material] Silver Star Ornament",
       "[Material] Cold Scrap",
+      "[Material] Silver Star Ornament",
       "[Ore] Mithril Ore",
       "[Normal Crysta] Illuminitor"
     ]
@@ -3407,8 +3407,8 @@
     "tamable": "No",
     "spawn_at": "Risus Valley: Area 2",
     "drops": [
-      "[Usable] Bat Candy",
       "[Usable] Battie Scone",
+      "[Usable] Bat Candy",
       "[Material] Poison Blood",
       "[Enhancer Crysta (Blue)] Kuffania"
     ]
@@ -3423,9 +3423,9 @@
     "tamable": "No",
     "spawn_at": "Vulcani Crater Base",
     "drops": [
+      "[Material] Rhyolite",
       "[Material] Vulcani Stone",
       "[Material] Burning Desire",
-      "[Material] Rhyolite",
       "[Special Crysta] Ignitrus",
       "[Katana] Combat Knife"
     ]
@@ -3440,9 +3440,9 @@
     "tamable": "No",
     "spawn_at": "Milcaska Falls: Army Base",
     "drops": [
+      "[Material] Poison Crystal Tail",
       "[Material] Bone Scissors",
       "[Material] Devil's Skull",
-      "[Material] Poison Crystal Tail",
       "[Normal Crysta] Rampion"
     ]
   },
@@ -3457,9 +3457,9 @@
     "spawn_at": "Weredragon's Throat",
     "drops": [
       "[Bowgun] Holy Script gun",
+      "[Material] Fleecy Cloud",
       "[Material] Cloud Cat Horn",
       "[Material] Cloudbow Light",
-      "[Material] Fleecy Cloud",
       "[Special Crysta] Wolkissa"
     ]
   },
@@ -3473,9 +3473,9 @@
     "tamable": "No",
     "spawn_at": "Boma Moja: Area 3",
     "drops": [
+      "[Material] Flying Dragon Heart",
       "[Material] Flying Dragon Wing",
       "[Material] Endless Storm",
-      "[Material] Flying Dragon Heart",
       "[Enhancer Crysta (Green)] Galegon"
     ]
   },
@@ -3490,8 +3490,8 @@
     "spawn_at": "Operation Zone: Climate Control Area",
     "drops": [
       "[Bow] Red-Winged Dragon Bow",
-      "[Material] Brassozard Claw",
       "[Material] Wyvern Horn",
+      "[Material] Brassozard Claw",
       "[Ore] Damascus Ore",
       "[Enhancer Crysta (Blue)] Brassozard"
     ]
@@ -3506,9 +3506,9 @@
     "tamable": "No",
     "spawn_at": "Stairway to Vital Point",
     "drops": [
+      "[Material] Stairway Pebble",
       "[Material] Solid Vertebra",
       "[Material] Strange Eye",
-      "[Material] Stairway Pebble",
       "[Enhancer Crysta (Yellow)] Exdocus"
     ]
   },
@@ -3522,9 +3522,9 @@
     "tamable": "No",
     "spawn_at": "Propulsion System Zone: Power Tank",
     "drops": [
+      "[Material] Hot Glass",
       "[Material] Small Wing",
       "[Material] Scorching Core",
-      "[Material] Hot Glass",
       "[Special Crysta] Trus"
     ]
   },
@@ -3549,9 +3549,9 @@
     "tamable": "No",
     "spawn_at": "Kabla Jabali",
     "drops": [
+      "[Material] Deadly Claw",
       "[Material] Growing Ore",
       "[Material] Stone Sternal Bone",
-      "[Material] Deadly Claw",
       "[Enhancer Crysta (Blue)] Orictoceras"
     ]
   },
@@ -3566,9 +3566,9 @@
     "spawn_at": "Boma Konda: Underground Area",
     "drops": [
       "[2 Handed Sword] Dragon Slasher",
+      "[Material] Burnt Wood Board",
       "[Material] Hot Dragon Scale",
       "[Material] Inferno Sac",
-      "[Material] Burnt Wood Board",
       "[Enhancer Crysta (Blue)] Charugon"
     ]
   },
@@ -3582,9 +3582,9 @@
     "tamable": "No",
     "spawn_at": "Frozen Falls: Area 1",
     "drops": [
+      "[Material] Strange Needle Arm",
       "[Material] Geometric Petal",
       "[Material] Hexagonal Crystal",
-      "[Material] Strange Needle Arm",
       "[Enhancer Crysta (Blue)] Lilicarolla"
     ]
   },
@@ -3598,9 +3598,9 @@
     "tamable": "No",
     "spawn_at": "Puerta Islands: Area 2",
     "drops": [
+      "[Material] Moist Thin Wing",
       "[Material] Moist Thin Fin",
       "[Material] Aquamarine Pearl",
-      "[Material] Moist Thin Wing",
       "[Special Crysta] Vodre"
     ]
   },
@@ -3614,9 +3614,9 @@
     "tamable": "No",
     "spawn_at": "Espuma Dome: Area 2",
     "drops": [
+      "[Material] Coral Rock",
       "[Material] Seahorse Herbal Medicine",
       "[Material] Circular Plate",
-      "[Material] Coral Rock",
       "[Enhancer Crysta (Yellow)] Fantica"
     ]
   },
@@ -3631,9 +3631,9 @@
     "spawn_at": "Abandoned District: Area 3",
     "drops": [
       "[1 Handed Sword] Mace Sword",
+      "[Material] Abyssal Kelp",
       "[Material] Sharp Caudal Fin",
       "[Material] Abyssal Creature Fang",
-      "[Material] Abyssal Kelp",
       "[Enhancer Crysta (Green)] Capo Profundo"
     ]
   },
@@ -3647,9 +3647,9 @@
     "tamable": "No",
     "spawn_at": "Deep Sea: Zone 2",
     "drops": [
-      "[Material] Luminous Bacteria",
       "[Material] Cute Marine Wing",
       "[Material] Seabed Serenity",
+      "[Material] Luminous Bacteria",
       "[Enhancer Crysta (Blue)] Limacina"
     ]
   },
@@ -3664,9 +3664,9 @@
     "spawn_at": "Menabra Plains",
     "drops": [
       "[1 Handed Sword] Meteor Sword",
-      "[Material] Tektite",
       "[Material] Meteoric Iron",
       "[Material] Abyssal Light",
+      "[Material] Tektite",
       "[Enhancer Crysta (Green)] Meteora"
     ]
   },
@@ -3681,9 +3681,9 @@
     "spawn_at": "Eumano Village Ruins: Area 2",
     "drops": [
       "[Bow] Lyre Bow",
+      "[Material] Spiral Tree Bark",
       "[Material] Tangled Roots",
       "[Material] Old Tree Sap",
-      "[Material] Spiral Tree Bark",
       "[Enhancer Crysta (Blue)] Wiltileaf"
     ]
   },
@@ -3713,9 +3713,9 @@
     "tamable": "No",
     "spawn_at": "Aquastida Inner Ward",
     "drops": [
+      "[Material] Gelatinous Umbrella",
       "[Material] Seashell Palm",
       "[Material] Flourescent Tentacle",
-      "[Material] Gelatinous Umbrella",
       "[Enhancer Crysta (Red)] Meduso"
     ]
   }

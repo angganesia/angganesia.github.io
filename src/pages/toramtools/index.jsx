@@ -10,6 +10,10 @@ export default function ToramHome() {
         text="Search Data"
       />
       <TombolMenu
+        to="mqcal"
+        text="Main Quest Calculator"
+      />
+      <TombolMenu
         to="kodebuff"
         text="Kode Buff"
       />

@@ -8,9 +8,8 @@ import Home from "@pages/home.jsx";
 import ToramHome from "@pages/toramtools";
 import Cbc from "@pages/toramtools/cbc";
 import KodeBuff from "@pages/toramtools/kodebuff";
-import Equipments from "@pages/toramtools/equipments";
-import MonstersTo from "@pages/toramtools/monsters";
 import SearchData from "@pages/toramtools/searchdata";
+import MqCal from "@pages/toramtools/mq_cal";
 import OsrsHome from "@pages/osrs";
 import NotFound from "@pages/pageNotFound.jsx";
 
@@ -19,14 +18,13 @@ const routes = [
   { path: "/toramtools", element: <ToramHome /> },
   { path: "/toramtools/cbc", element: <Cbc /> },
   { path: "/toramtools/kodebuff", element: <KodeBuff /> },
-  { path: "/toramtools/equipments", element: <Equipments /> },
-  { path: "/toramtools/monsters", element: <MonstersTo /> },
   { path: "/toramtools/searchdata", element: <SearchData /> },
+  { path: "/toramtools/mqcal", element: <MqCal /> },
   { path: "/osrs", element: <OsrsHome /> },
   { path: "*", element: <NotFound /> }
 ];
 
-function App() {
+export default function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {

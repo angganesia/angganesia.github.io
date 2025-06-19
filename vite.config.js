@@ -11,6 +11,7 @@ export default defineConfig({
       "@css": "/src/assets/css",
       "@pages": "/src/pages",
       "@datas": "/src/datas",
+      "@libs": "/src/libs",
       "@img": "/src/assets/img",
       "@": "/src"
     }

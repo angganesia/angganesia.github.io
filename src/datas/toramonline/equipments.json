@@ -186151,6 +186151,72 @@
     }
   },
   {
+    "name": "Maple\\'s Shield",
+    "type": "Shield",
+    "sell": "1 Spina",
+    "process": "1000 Mana",
+    "stats": [
+      {
+        "statOnly": "",
+        "stat": "Base DEF",
+        "value": "300"
+      },
+      {
+        "statOnly": "",
+        "stat": "VIT %",
+        "value": "10"
+      },
+      {
+        "statOnly": "",
+        "stat": "MaxMP",
+        "value": "-100"
+      },
+      {
+        "statOnly": "",
+        "stat": "Physical Resistance %",
+        "value": "20"
+      },
+      {
+        "statOnly": "",
+        "stat": "Magic Resistance %",
+        "value": "20"
+      },
+      {
+        "statOnly": "",
+        "stat": "Dodge %",
+        "value": "-100"
+      },
+      {
+        "statOnly": "",
+        "stat": "Ailment Resistance %",
+        "value": "10"
+      },
+      {
+        "statOnly": "",
+        "stat": "Guard Power %",
+        "value": "40"
+      },
+      {
+        "statOnly": "",
+        "stat": "Guard Recharge %",
+        "value": "40"
+      },
+      {
+        "statOnly": "",
+        "stat": "Reduce Explosion %",
+        "value": "50"
+      }
+    ],
+    "obtained_from": [],
+    "recipe": {
+      "fee": null,
+      "set": null,
+      "level": null,
+      "difficulty": null,
+      "materials": []
+    }
+  },
+  {
     "name": "Marble Shield",
     "type": "Shield",
     "sell": "70 Spina",
