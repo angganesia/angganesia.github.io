@@ -30,7 +30,7 @@ body {
   transition:
     background-color 0.3s,
     color 0.3s;
-  background-image: url(/src/assets/img/bg.jpg);
+  background-image: url(./bg.jpg);
   background-size: cover;
   background-position: center;
 }
