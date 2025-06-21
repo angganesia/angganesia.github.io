@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: rgba(52, 152, 219, 1);
+  --secondary-color: rgba(241, 196, 15, 1);
+  --background-color: rgba(249, 249, 249, 1);
+  --text-color: rgba(51, 51, 51, 1);
+}
+
+.dark-mode {
+  --primary-color: rgba(44, 62, 80, 1);
+  --secondary-color: rgba(142, 68, 173, 1);
+  --background-color: rgba(51, 51, 51, 1);
+  --text-color: rgba(249, 249, 249, 1);
+}
+
+body {
+  font-size: 12px;
+  height: 100vh;
+  font-family: "Space Grotesk", serif;
+  font-optical-sizing: auto;
+  position: relative;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  background-image: url(/src/assets/img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+}
+
+section main {
+  padding: 100px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+section main img {
+  width: 100px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  box-shadow: 0 0 5px 1px var(--text-color);
+}
+
+section main h2 {
+  font-weight: 600;
+  text-align: center;
+  color: var(--text-color);
+  text-shadow:
+    0 0 1px transparent,
+    0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+
+.menuHome {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--text-color);
+  padding: 10px;
+  color: var(--text-color);
+  text-decoration: none;
+  border-radius: 5px;
+  gap: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.menuHome:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.menuHome i {
+  font-size: 1.2em;
+}
+
+section footer {
+  margin-top: 100px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.4);
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+section footer p {
+  color: var(--text-color);
+  text-shadow:
+    0 0 1px transparent,
+    0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+section footer p a {
+  font-weight: 600;
+  color: var(--primary-color);
+  text-decoration: none;
+}
