@@ -130,12 +130,12 @@ export default function searchData() {
       setValue("");
     } else if (type === "equipments") {
       setElement("");
-    }
+    } else {
     setEquipmentType("");
       setStat("");
       setValueOperator("");
       setValue("");
-      setElement("");
+      setElement("");}
   }, [search, type, element, equipmentType, stat, valueOperator, value]);
 
   return (
