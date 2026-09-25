@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    
+    <!-- Meta refresh fallback (jika JS dinonaktifkan) -->
+    <meta http-equiv="refresh" content="2; url=https://angganesia.vercel.app">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0f172a; /* Dark theme elegan */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;
+            color: #f8fafc;
+        }
+
+        .container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* Container avatar dengan bayangan glowing */
+      .avatar-wrapper {
+            position: relative;
+            width: 140px;
+            height: 140px;
+        }
+
+        .avatar-wrapper::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 15%;
+            width: 70%;
+            height: 12px;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 50%;
+            filter: blur(4px);
+            animation: shadow-scale 1.2s infinite ease-in-out alternate;
+        }
+
+        .avatar {
+            width: 100%;
+            height: 100%;
+            /* Mengubah cover menjadi contain agar gambar tidak terpotong */
+            object-fit: contain; 
+            border-radius: 50%;
+            border: 4px solid #38bdf8;
+            background-color: #ffffff; /* Latar putih dalam lingkaran agar transparansi rapi */
+            padding: 8px; /* Jarak aman agar gambar tidak menempel garis border */
+            box-shadow: 0 0 25px rgba(56, 189, 248, 0.5);
+            animation: bounce 1.2s infinite ease-in-out alternate;
+        }
+
+        /* Teks Loading dengan animasi memudar */
+        .loading-text {
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #e2e8f0;
+            animation: pulse 1.5s infinite ease-in-out;
+        }
+
+        .dots::after {
+            content: '';
+            animation: dots 1.5s steps(4, end) infinite;
+        }
+
+        /* Animasi Bouncing Gambar */
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-20px);
+            }
+        }
+
+        /* Animasi Skala Bayangan */
+        @keyframes shadow-scale {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            100% {
+                transform: scale(0.6);
+                opacity: 0.3;
+            }
+        }
+
+        /* Animasi Teks Glowing */
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Animasi Titik Tiga (. . .) */
+        @keyframes dots {
+            0% { content: ''; }
+            25% { content: '.'; }
+            50% { content: '..'; }
+            75% { content: '...'; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="avatar-wrapper">
+            <img 
+                src="https://angganesia.vercel.app/yuna-kuma.png" 
+                alt="Yuna Kuma" 
+                class="avatar"
+                onerror="this.src='https://via.placeholder.com/140?text=Yuna+Kuma'"
+            />
+        </div>
+        <div class="loading-text">
+            Mengalihkan ke server<span class="dots"></span>
+        </div>
+    </div>
+
+    <script>
+        // Redirect otomatis setelah jeda singkat agar animasi terlihat manis
+        setTimeout(() => {
+            window.location.href = "https://angganesia.vercel.app";
+        }, 1200); // 1.2 detik
+    </script>
+
+</body>
+</html>
